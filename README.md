@@ -23,3 +23,6 @@ de quien entrega el trabajo.
 
 ## Equipo: ...
 * Ricardo Flores Mata - 422127808
+* Villegas Martínez Vania Victoria - 418003114
+* Matute Cantón Sara Lorena - 319331622
+* Norma Selene Sánchez Cruz - 320198508
