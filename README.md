@@ -25,7 +25,7 @@ Hola que tal :). En este repo se irán subiendo las tareas, prácticas y el proy
 de quien entrega el trabajo.
 
 
-## Equipo: ...
+## Equipo: NAMEisNULL
 * Flores Mata Ricardo - 422127808
 * Villegas Martínez Vania Victoria - 418003114
 * Matute Cantón Sara Lorena - 319331622
