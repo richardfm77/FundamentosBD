@@ -9,9 +9,13 @@ Hola que tal :). En este repo se irán subiendo las tareas, prácticas y el proy
 * Les dejo una copia de estos en la carpeta raíz del repo.
 * Es muy importante que al entregar tareas, practicas y el proyecto **TODOS SUBAN** el archivo *_Readme_*, el cual encontrarán en la carpeta raiz del proyecto.
 * Al menos 3 integrantes del equpo tienen que asistir obligatoriamente al laboratorio.
-* Normalmente yo les estaré entregando un link de overlif junto con las indicaciones para poder realizar tareas, practicas y el proyecto.
+* Los links del overlif están en el archivo *Links.md*.
+* Las instrucciones o lo que nos toca a cada quien estarán siempre en un archivo llamado *instrucciones.md* en la carpeta de la Tarea/Práctica o proyecto en cuestión.
 * Cualquier cosa somos un equipo, y podemos decidirlo en conjunto.
 * Feliz semestre :).
+
+### Recursos:
+* Se encuntran en el archivo [Links.md](https://github.com/richardfm77/FundamentosBD/blob/main/Links.md)
 
 ### Notas adicionales importamtes de los lineamientos:
 
@@ -22,7 +26,7 @@ de quien entrega el trabajo.
 
 
 ## Equipo: ...
-* Ricardo Flores Mata - 422127808
+* Flores Mata Ricardo - 422127808
 * Villegas Martínez Vania Victoria - 418003114
 * Matute Cantón Sara Lorena - 319331622
 * Norma Selene Sánchez Cruz - 320198508
