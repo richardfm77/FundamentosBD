@@ -4,19 +4,17 @@
 
 * Nos tocan de a 2 preguntas.
 
-* Puedes sescogerlas o que sean al azar.
-
 * Reparto:
 
-Ricardo: 
+Ricardo: 1c, 1f
 
-Victoria:
+Victoria: 1i, 1j
 
-Loren:
+Loren: 1a, 1g
 
-Selena:
+Selena: 1b, 1e
 
-Daniel:
+Daniel: 1d, 1h
 
 
 ## Ejercicio 2a
@@ -25,7 +23,7 @@ Daniel:
 
 ## Ejercicio 2b
 
-* Todos tienen que hacer su propio ensaye.
+* Todos tienen que hacer su propio ensayo.
 
 ## Ejerciocio 2c
 
