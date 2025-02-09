@@ -6,9 +6,7 @@
 
 * Reparto:
 
-Ricardo: 1c, 1f
-
-Victoria: 1i, 1j
+Ricardo: 1c, 1f, 1i, 1j.
 
 Loren: 1a, 1g
 
@@ -27,6 +25,6 @@ Daniel: 1d, 1h
 
 ## Ejerciocio 2c
 
-* Aún no sé como repartirlo xd.
+* Lo hará Victoria.
 
 
