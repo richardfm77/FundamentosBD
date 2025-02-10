@@ -6,7 +6,9 @@
 
 * Reparto:
 
-Ricardo: 1c, 1f, 1i, 1j.
+Ricardo: 1c, 1f, 1i.
+
+Victoria: 1j.
 
 Loren: 1a, 1g
 
