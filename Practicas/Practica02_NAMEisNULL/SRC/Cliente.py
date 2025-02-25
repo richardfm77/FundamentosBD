@@ -1,4 +1,5 @@
-class Cliente:
+from serializable import Serializable
+class Cliente(Serializable):
     """
     Representa un cliente que asiste al bazar.
 
@@ -32,7 +33,32 @@ class Cliente:
         self.metodo_pago = metodo_pago
         self.domicilio_entrega = domicilio_entrega if domicilio_entrega is not None else {}
         self.informacion_tarjeta = informacion_tarjeta if informacion_tarjeta is not None else {}
+    
+    #Metodo get_nombre que regresa el nombre
+    def get_nombre(self) -> str:
+        return self.nombre
 
+    #Metodo get_apellido_paterno que regresa el apellido parterno
+    def get_apellido_paterno(self) -> str:
+        return self.apellido_paterno
+
+    #Metodo get_apellido_materno que regresa el apellido materno
+    def get_apellido_materno(self) -> str:
+        return self.apellido_materno
+
+    #Metodo get_metodo_pago que regresa el metodo de pago
+    def get_metodo_pago(self) -> str:
+        return self.metodo_pago
+
+    #Metodo get_domicilio que regresa el domicilio
+    def get_domicilio_entrega(self) -> dict:
+        return self.domicilio_entrega
+
+    #Metodo get_informacion_tarjeta que regresa la informacion de tarjeta
+    def get_informacion_tarjeta(self) -> dict:
+        return self.informacion_tarjeta
+    
+    
     def __repr__(self):
         """
         Devuelve una representación en cadena del objeto Cliente.
@@ -41,3 +67,25 @@ class Cliente:
             str: Representación en cadena del cliente.
         """
         return f"{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.metodo_pago},{self.domicilio_entrega},{self.informacion_tarjeta}\n"
+
+    def serializa(self) -> str:
+        """
+        Devuelve una representación en cadena del objeto Negocio.
+
+        Returns:
+            str: Representación en cadena del negocio.
+        """
+        return f"{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.metodo_pago},{self.domicilio_entrega},{self.informacion_tarjeta}\n"
+
+
+    @classmethod
+    def deserializa(cls, data: str) -> "Cliente":
+        array = data.split(",")
+        nombre = array[0]
+        apellido_paterno = array[1]
+        apellido_materno = array[2]
+        metodo_pago = array[3]
+        domicilio_entrega = array[4]
+        informacion_tarjeta = array[5]
+        return cls(nombre,apellido_paterno,apellido_materno,metodo_pago,domicilio_entrega,informacion_tarjeta)
+    
