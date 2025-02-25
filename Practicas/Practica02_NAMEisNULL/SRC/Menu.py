@@ -114,7 +114,7 @@ def agregar_informacion():
         datosCliente = datos_cliente()
         cliente = f"{datosCliente.get_nombre()},{datosCliente.get_apellido_paterno()},{datosCliente.get_apellido_materno()},{datosCliente.get_metodo_pago()},{datosCliente.get_domicilio_entrega()},{datosCliente.get_informacion_tarjeta()}"
         registrosC = gestor_cliente.agregar([], cliente, Cliente)
-        escritura("./negocio.csv", registrosC)
+        escritura("./cliente.csv", registrosC)
         #Funcion para agregar informacion a la tabla cliente
     regresar_menu()
 
