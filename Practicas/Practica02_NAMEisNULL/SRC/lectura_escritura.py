@@ -1,4 +1,5 @@
 import csv
+from typing import List
 
 def lectura(archivo):
     with open(archivo, newline="", encoding="utf-8") as archivo:

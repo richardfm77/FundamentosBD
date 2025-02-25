@@ -42,6 +42,42 @@ class Emprendedor(Serializable):
         self.fecha_nacimiento = fecha_nacimiento
         self.genero = genero
 
+    #Metodo get_rfc que regresa el rfc
+    def get_rfc(self) -> str:
+        return self.rfc
+
+    #Metodo get_nombre que regresa el nombre
+    def get_nombre(self) -> str:
+        return self.nombre
+
+    #Metodo get_apellido_paterno que regresa el apellido paterno
+    def get_apellido_paterno(self) -> str:
+        return self.apellido_paterno
+
+    #Metodo get_apellido_materno que regresa el apellido materno
+    def get_apellido_materno(self) -> str:
+        return self.apellido_materno
+
+    #Metodo get_domicilio que regresa el domicilio
+    def get_domicilio(self) -> str:
+        return self.domicilio
+
+    #Metodo get_telefono que regresa el telefono
+    def get_telefono(self) -> str:
+        return self.telefono
+
+    #Metodo get_correo que regresa el correo 
+    def get_correo(self) -> str:
+        return self.correo
+
+    #Metodo get_fecha_nacimiento que regresa la fecha de nacimiento
+    def get_fecha_nacimiento(self) -> str:
+        return self.fecha_nacimiento
+
+    #Metodo get_genero que regresa el genero
+    def get_genero(self) -> str:
+        return self.genero
+    
     def serializa(self) -> str:
         """
         Devuelve una representación en cadena del objeto Emprendedor.
