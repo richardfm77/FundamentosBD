@@ -8,10 +8,7 @@ from Negocio import Negocio
 from Cliente import Cliente
 from lectura_escritura import lectura, escritura
 
-# Aquí va estar el menú
-
-
-
+# Menú iteractivo.
 
 def menu():
     """
@@ -75,7 +72,7 @@ def regresar_menu():
     print("Presione enter para regresar al menu")
     input()
     limpiar_termianl()
-    main() 
+    menu()
 
 def limpiar_termianl():
     """
@@ -99,21 +96,21 @@ def agregar_informacion():
         gestor_emprendedor = Gestor[Emprendedor]
         datosEmprendedor = datos_emprendedor()
         emprendedor = f"{datosEmprendedor.get_rfc()},{datosEmprendedor.get_nombre()},{datosEmprendedor.get_apellido_paterno()},{datosEmprendedor.get_apellido_materno()},{datosEmprendedor.get_domicilio()},{datosEmprendedor.get_telefono()},{datosEmprendedor.get_correo()},{datosEmprendedor.get_fecha_nacimiento()}, {datosEmprendedor.get_genero()}"
-        registros = gestor_emprendedor.agregar([], emprendedor, Emprendedor)
+        registros = gestor_emprendedor.agregar("./emprendedor.csv", emprendedor, Emprendedor)
         escritura("./emprendedor.csv", registros)
         #Funcion para agregar informacion a la tabla emprendedor
     elif tabla == 2:
         gestor_negocio = Gestor[Negocio]
         datosNegocio = datos_negocio()
         negocio = f"{datosNegocio.get_nombre()},{datosNegocio.get_telefonos()},{datosNegocio.get_correos()},{datosNegocio.get_redes_sociales()},{datosNegocio.get_rango_precios()},{datosNegocio.get_descripcion()}"
-        registrosN = gestor_negocio.agregar([], negocio, Negocio)
+        registrosN = gestor_negocio.agregar("./negocio.csv", negocio, Negocio)
         escritura("./negocio.csv", registrosN)
         #Funcion para agregar informacion a la tabla negocio
     else:
         gestor_cliente = Gestor[Cliente]
         datosCliente = datos_cliente()
         cliente = f"{datosCliente.get_nombre()},{datosCliente.get_apellido_paterno()},{datosCliente.get_apellido_materno()},{datosCliente.get_metodo_pago()},{datosCliente.get_domicilio_entrega()},{datosCliente.get_informacion_tarjeta()}"
-        registrosC = gestor_cliente.agregar([], cliente, Cliente)
+        registrosC = gestor_cliente.agregar("./cliente.csv", cliente, Cliente)
         escritura("./cliente.csv", registrosC)
         #Funcion para agregar informacion a la tabla cliente
     regresar_menu()
@@ -243,22 +240,22 @@ def modificar_informacion():
         emprendedor = datos_emprendedor()
         #Funcion para modificar informacion de la tabla emprendedor
         gestorEmprendedor = Gestor[Emprendedor]
-        gestorEmprendedor.editar("./emprendedor.csv",respuesta, emprendedor, 0)
+        gestorEmprendedor.editar("./emprendedor.csv", respuesta, emprendedor)
     elif tabla == 2:
         respuesta = input("Ingrese el nombre del registro que desea modificar: ")
         print("Ingrese la nueva información")
         negocio = datos_negocio()
         #Funcion para modificar informacion de la tabla negocio
         gestorNegocio = Gestor[Negocio]
-        gestorNegocio.editar("./negocio.csv", respuesta, negocio, 0)
+        gestorNegocio.editar("./negocio.csv", respuesta, negocio)
     else:
-        respuesta = input("Ingrese el nombre del registro que desea modificar: ")
+        llave = input("Ingrese el nombre del registro que desea modificar: ")
         #respuesta_Apellido = input("Ingrese el apellido paterno del registro que desea modificar: ")
         print("Ingrese la nueva información")
         cliente = datos_cliente()
         #Funcion para modificar informacion de la tabla cliente
         gestorCliente = Gestor[Cliente]
-        gestorNegocio.editar("./cliente.csv", respuesta, cliente, 0)
+        gestorCliente.editar("./cliente.csv", llave, cliente)
     regresar_menu()
 
 def eliminar_informacion():
@@ -271,25 +268,16 @@ def eliminar_informacion():
         respuesta = input("rfc: ")
         #Funcion para eliminar registro de la tabla emprendedor
         gestorEmprendedor = Gestor[Emprendedor]
-        gestorEmprendedor.eliminar("./emprendedor.csv", respuesta, 0)
+        gestorEmprendedor.eliminar("./emprendedor.csv", respuesta)
     elif tabla == 2:
         respuesta = input("nombre: ")
         #Funcion para eliminar registro de la tabla negocio
         gestorNegocio = Gestor[Negocio]
-        gestorNegocio.eliminar("./negocio.csv", respuesta, 0)
+        gestorNegocio.eliminar("./negocio.csv", respuesta)
     else:
         respuesta = input("nombre: ")
         #input("apellido paterno: ")
         #Funcion para eliminar registro de la tabla cliente
         gestorCliente = Gestor[Cliente]
-        gestorCliente.eliminar("./cliente.csv", respuesta,0)
+        gestorCliente.eliminar("./cliente.csv", respuesta)
     regresar_menu()
-
-def main():
-    """
-    Funcion principal
-    """
-    menu()
-
-if __name__ == "__main__":
-    main() 

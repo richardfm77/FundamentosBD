@@ -12,8 +12,9 @@ T = TypeVar("T", bound=Serializable)
 class Gestor(Generic[T]):  
     
     #Metodo para agregar    
-    def agregar(registros: List[str], registro: str, tipo: T) -> List[str]:
+    def agregar(archivo: str, registro: str, tipo: T) -> List[str]:
         try:
+            registros = lectura(archivo)
             registro_objeto = tipo.deserializa(registro)
             registro = registro_objeto.serializa()
             registros.append(registro)
@@ -35,42 +36,50 @@ class Gestor(Generic[T]):
             return "Error durante la consulta"
 
     #Metodo para editar
-    def editar(archivo: str, llave: str, nuevos_datos: List[str], cllave: int) -> str:
+    def editar(archivo: str, llave: str, nuevoRegistro : T) -> str:
         try:
             registros = lectura(archivo)
-            indiceAeditar = -1
-
-            for i, registro in enumerate(registros):
-                if registro[cllave] == llave:
-                    indiceAeditar = i
+            
+            esEncontrado = False
+            indice = 0
+            for registro in registros:
+                llave_reg = registro.split(",")[0]
+                if llave_reg.strip() == llave:
+                    esEncontrado = True
                     break
-
-            if indiceAeditar != -1:
-                registros[indiceAeditar] = nuevos_datos
-                escritura(archivo, registros)
-                return f"La llave {llave} fue editada exitosamente"
-            else:
+                indice += 1
+            
+            if not esEncontrado:
                 return f"La llave {llave} no se encontro"
+
+            registros.pop(indice)
+
+            registros.append(nuevoRegistro.serializa())
+            escritura(archivo, registros)                     
         except Exception as e:
             print(f"Ocurrió un error: {e}")
             return "Error durante la edición"
         
     #Metodo para eliminar
-    def eliminar(archivo: str, llave: str, cllave: int) -> str:
+    def eliminar(archivo: str, llave: str) -> str:
         try:
             registros = lectura(archivo)
-            registros_actualizados = [registro for registro in registros if registro[cllave] != llave]
+            
+            esEncontrado = False
+            indice = 0
+            for registro in registros:
+                llave_reg = registro.split(",")[0]
+                if llave_reg.strip() == llave:
+                    esEncontrado = True
+                    break
+                indice += 1
+          
+            if not esEncontrado:
+                return f"La llave {llave} no se encontro"
 
-            if len(registros) != len(registros_actualizados):
-                escritura(archivo, registros_actualizados)
-                return f"Registro con llave {llave} eliminado exitosamente"
-            else:
-                return f"Registro con llave {llave} no encontrado"
+            registros.pop(indice)
+            
+            escritura(registros)
         except Exception as e:
             print(f"Ocurrió un error: {e}")
             return "Error durante la eliminación"
-
-        
-
-    
-    

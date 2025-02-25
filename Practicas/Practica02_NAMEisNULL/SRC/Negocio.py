@@ -74,7 +74,7 @@ class Negocio(Serializable):
         Returns:
             str: Representación en cadena del negocio.
         """
-        return f"{self.nombre},{self.telefonos},{self.correos},{self.redes_sociales},{self.rango_precios},{self.descripcion}\n"
+        return f"{self.nombre},{self.telefonos},{self.correos},{self.redes_sociales},{self.rango_precios},{self.descripcion}"
     
     @classmethod
     def deserializa(cls, data: str) -> "Negocio":

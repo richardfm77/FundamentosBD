@@ -75,7 +75,7 @@ class Cliente(Serializable):
         Returns:
             str: Representación en cadena del negocio.
         """
-        return f"{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.metodo_pago},{self.domicilio_entrega},{self.informacion_tarjeta}\n"
+        return f"{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.metodo_pago},{self.domicilio_entrega},{self.informacion_tarjeta}"
 
 
     @classmethod

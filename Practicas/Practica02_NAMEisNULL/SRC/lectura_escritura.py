@@ -1,13 +1,14 @@
 import csv
 from typing import List
 
-def lectura(archivo):
-    with open(archivo, newline="", encoding="utf-8") as archivo:
-        lector_csv = csv.reader(archivo)
-        lineas = [linea for linea in lector_csv]
-    return lineas
+def lectura(archivo: str) -> List[str]:
+    """Lee un archivo CSV."""
+    with open(archivo, "r", encoding="utf-8") as file:
+        lineas = file.readlines()
+    return [linea.strip() for linea in lineas]
 
-def escritura(archivo, datos):
-    with open(archivo, mode="w", newline="", encoding="utf-8") as archivo:
+def escritura(nombre_archivo, datos):
+    """Escribe un archivo CSV."""
+    with open(nombre_archivo, mode="w", newline="", encoding="utf-8") as archivo:
         for linea in datos:
-            archivo.write(linea)
+            archivo.write(linea + "\n")

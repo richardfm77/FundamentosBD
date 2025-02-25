@@ -85,7 +85,7 @@ class Emprendedor(Serializable):
         Returns:
             str: Representación en cadena del emprendedor.
         """
-        return f"{self.rfc},{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.domicilio},{self.telefono},{self.correo},{self.fecha_nacimiento},{self.genero}\n"
+        return f"{self.rfc},{self.nombre},{self.apellido_paterno},{self.apellido_materno},{self.domicilio},{self.telefono},{self.correo},{self.fecha_nacimiento},{self.genero}"
     
     @classmethod
     def deserializa(cls, data: str) -> "Emprendedor":
