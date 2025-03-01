@@ -2,6 +2,8 @@
 
 * Tarea 1: [https://es.overleaf.com/4215222952wvfbmshcpxwn#e07060](https://www.overleaf.com/4215222952wvfbmshcpxwn#e07060)
 
+* Tarea 2: [https://es.overleaf.com/3919442472krwvmtzfznkr#b080c4](https://es.overleaf.com/3919442472krwvmtzfznkr#b080c4)
+
 # Diagramas draw.io: 
 
 * Diagarma n: [https://www.ejemplo.com](https://www.ejemplo.com)
