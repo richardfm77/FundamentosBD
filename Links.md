@@ -12,7 +12,10 @@
 
 * Práctica 1: [https://www.overleaf.com/2792398335mnzghstnhhgm#c3b8fa](https://www.overleaf.com/2792398335mnzghstnhhgm#c3b8fa)
 * Práctica 1 plantilla para bitácora: [https://www.overleaf.com/3462499482jxmmdmyxqtys#2c316a](https://www.overleaf.com/3462499482jxmmdmyxqtys#2c316a)
+  
+* Práctica 2: [https://www.overleaf.com/7647316982nbnfxypxmnsg#70f43b](https://www.overleaf.com/7647316982nbnfxypxmnsg#70f43b)
 
+  
  # Proyecto 
 
 * overleaf: [https://www.ejemplo.com](https://www.ejemplo.com)
