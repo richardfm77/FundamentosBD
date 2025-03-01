@@ -6,7 +6,7 @@ https://es.overleaf.com/2187469262xmjkktpfddym#465f4c# Links Overleaf Tareas:
 
 # Diagramas draw.io: 
 
-* Diagarma n: [https://www.ejemplo.com](https://www.ejemplo.com)
+* Carpeta Drive Para los diagramas: [https://drive.google.com/drive/folders/1UzlJe14nPAFbCWT9lVNZ6EN2ApmzL8kR?usp=drive_link](https://drive.google.com/drive/folders/1UzlJe14nPAFbCWT9lVNZ6EN2ApmzL8kR?usp=drive_link)
 
 # Links Overleaf Prácticas:
 
