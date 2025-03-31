@@ -6,6 +6,8 @@
 
 * Tarea 3: [https://www.overleaf.com/3223593422krncqpymwxwg#ad7419](https://www.overleaf.com/3223593422krncqpymwxwg#ad7419)
 
+* Tarea 4: [https://www.overleaf.com/2267725361wvmxhgvwbswt#420dc3](https://www.overleaf.com/2267725361wvmxhgvwbswt#420dc3)
+
 # Diagramas draw.io: 
 
 * Carpeta Drive Para los diagramas: [https://drive.google.com/drive/folders/1UzlJe14nPAFbCWT9lVNZ6EN2ApmzL8kR?usp=drive_link](https://drive.google.com/drive/folders/1UzlJe14nPAFbCWT9lVNZ6EN2ApmzL8kR?usp=drive_link)
