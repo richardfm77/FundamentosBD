@@ -1,0 +1,21 @@
+-- Ejercicio 2.a
+r = σ orderdate ≥ date('2014-04-01') ∧ orderdate ≤ date('2014-06-30') orders 
+τ quantity (σ (city = 'Seattle' ∨ city = 'San Francisco') ∧ segment = 'Corporate' customer ⨝ r) 
+
+-- Ejercicio 2.b
+σ category = 'Office Supplies' ∧ price ≥ 300 ∧ price ≤ 600 products ⟕ orderid = null orders
+
+-- Ejercicio 2.c
+r =(σ region = 'West' customer) 
+s = σ (orderdate ≥ date('2016-01-01') ∧ orderdate ≤ date('2016-12-31')) ∧ shipmode = 'Standard Class' orders ⨝ r
+t = σ category = 'Technology' ∨ category = 'Furniture' products ⨝ s 
+-- π customername t
+π customername, region, orderdate, category, shipmode t
+
+-- Ejercicio 2.d 
+r = σ shipmode = 'First Class' orders 
+s = π shipmode r
+σ city ≠ 'California' ∧ segment = 'Corporate' customer ⨝ s
+
+-- Ejercicio 2.e
+σ orderid = null (π customerid, segment, state customer ⟕ π customerid, orderid orders)
