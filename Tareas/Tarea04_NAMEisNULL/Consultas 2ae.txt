@@ -32,6 +32,10 @@ clientes_filtrados = γ customer.customerid; count(customer.customerid) -> Num (
 
 γ customer.state, customer.region; count(customer.customerid) -> NumClientes (clientes_filtrados ⨝ customer)
 
+-- Ejercicio 2.g
+s = γshipmode,category; sum(quantity)→ ventas(orders⨝products)
+r = γ max(ventas)→ventas(s)
+s⨝r
 
 -- Ejercicio 2.j
 
