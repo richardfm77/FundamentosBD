@@ -31,3 +31,17 @@ Ordenes_filtradas_fechas_productos = σ orders.orderdate >= date('2014-01-01') �
 clientes_filtrados = γ customer.customerid; count(customer.customerid) -> Num (customer ⨝ Ordenes_filtradas_fechas_productos)
 
 γ customer.state, customer.region; count(customer.customerid) -> NumClientes (clientes_filtrados ⨝ customer)
+
+
+-- Ejercicio 2.j
+
+r= γ customerid;  COUNT(orderid) → ordenes (orders⨝customer)
+
+minOrdenes = γ MIN(ordenes) → minOrdenes (r)
+ 
+rConMin = r ⋈ minOrdenes
+ 
+ClientesMinOrdenes = σ ordenes = minOrdenes (rConMin)
+
+id = π customerid (ClientesMinOrdenes)
+customer⨝ id
