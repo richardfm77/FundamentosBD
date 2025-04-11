@@ -1,0 +1,44 @@
+ /* Ejercicio a) Borrar toda la información del cliente Paul Stevenson.*/
+ info = σcustomername='Paul Stevenson'customer
+ s = customer - info 
+ s
+ 
+ /* Ejercicio c) */
+-- πsubcategoryσcategory='Furniture'products 
+-- id = π customerid σcustomername='Lena Cacioppo'customer
+cBookShelf = {orderid:string,orderdate:date,shipdate:date,shipmode:string,customer.customerid:string,products.productid:string,quantity:number
+'US-2025-125210', 2025-04-10, 2025-04-12, 'Standard Class', 'LC-16870', 'FUR-BO-10001798', 1}
+s1= orders ∪ cBookShelf
+-- τ [1] desc s1
+-- σ subcategory='Chairs' products
+
+cChair = {orderid:string,orderdate:date,shipdate:date,shipmode:string,customer.customerid:string,products.productid:string,quantity:number
+'US-2025-125211', 2025-04-10, 2025-04-12, 'Standard Class', 'LC-16870', 'FUR-CH-10000454', 1}
+s2 = s1 ∪ cChair
+-- τ [1] desc s2
+-- σ subcategory='Tables' products
+
+cTable = {orderid:string,orderdate:date,shipdate:date,shipmode:string,customer.customerid:string,products.productid:string,quantity:number
+'US-2025-125212', 2025-04-10, 2025-04-12, 'Standard Class', 'LC-16870','FUR-TA-10000577', 1}
+s3 = s2 ∪ cTable
+
+-- σ subcategory='Furnishings' products
+cFur = {orderid:string,orderdate:date,shipdate:date,shipmode:string,customer.customerid:string,products.productid:string,quantity:number
+'US-2025-125213', 2025-04-10, 2025-04-12, 'Standard Class', 'LC-16870','FUR-FU-10004848', 3}
+s = s3 ∪ cFur
+τ [1] desc s
+
+/* Ejercicio e */
+/*Disminuir 8% los precios de los productos de la categoría Furniture cuyo precio sea de $600 a $900  */
+ productosOg= σ (price ≥ 600 ∧ price ≤ 900)∧category='Furniture'products
+ r1= products - productosOg 
+
+ productosN = π productid,category,subcategory,price ←(price-(price*0.08)) productosOg
+ s1 = r1 ∪ productosN
+ /* Aumentar en
+un 5% los precios de los productos de la categoría Technology y subcategoría Machines. */
+pO= σ category = 'Technology' ∨ subcategory = 'Machines' s1
+s2= s1 - pO
+pN= (π productid,category,subcategory, price ←(price+(price*0.05))(pO))
+s = s2 ∪ pN
+s
