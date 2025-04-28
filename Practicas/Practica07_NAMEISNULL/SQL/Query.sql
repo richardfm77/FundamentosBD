@@ -3,7 +3,6 @@ select * from gatitaemprendedora.emprendedor where nombreemprendedor like 'R%';
 
 
 /* ii. Servicios cuya duración sea mayor a 20 minutos. */
-
 SELECT *
 FROM GatitaEmprendedora.Servicio
 WHERE Duracion > '00:20:00';
@@ -26,4 +25,6 @@ WHERE per.fechacaducidad BETWEEN '2025-05-08' AND '2025-06-11';
 
 /* v. El nombre de todas las Amenidades de los bazares que se 
 tengan registradas. */
-
+SELECT B.NombreBazar, A.AmenidadBazar
+FROM GatitaEmprendedora.Bazar B
+JOIN GatitaEmprendedora.AmenidadBazar A ON B.IdBazar = A.IdBazar;
