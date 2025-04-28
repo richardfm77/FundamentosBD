@@ -1,0 +1,16 @@
+
+-- Ejercicio 2.f 
+
+Ordenes = γ orders.orderid, orders.orderdate; count(orders.productid) -> NumProducts (orders)
+
+Ordenes_filtradas_productos = σ NumProducts >= 6 (Ordenes)
+
+Ordenes_filtradas_fechas_productos = σ orders.orderdate >= date('2014-01-01') ∧ orders.orderdate < date('2016-01-01') Ordenes_filtradas_productos
+
+clientes_filtrados = γ customer.customerid; count(customer.customerid) -> Num (customer ⨝ Ordenes_filtradas_fechas_productos)
+
+γ customer.state, customer.region; count(customer.customerid) -> NumClientes (clientes_filtrados ⨝ customer)
+
+
+-- Ejercicio 2.h
+
