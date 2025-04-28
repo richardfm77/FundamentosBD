@@ -2,7 +2,19 @@
  info = σcustomername='Paul Stevenson'customer
  s = customer - info 
  s
- 
+
+/* Ejercicio b) */
+r = σ subcategory = 'Tables' (products)
+
+s = σ state = 'Utah' (customer)
+
+orders_elim = π orderid,orderdate,shipdate,shipmode,customerid,productid,quantity(orders ⨝ r ⨝ s) 
+
+orders_actu = orders - orders_elim
+
+orders_actu
+
+
  /* Ejercicio c) */
 -- πsubcategoryσcategory='Furniture'products 
 -- id = π customerid σcustomername='Lena Cacioppo'customer
@@ -27,6 +39,13 @@ cFur = {orderid:string,orderdate:date,shipdate:date,shipmode:string,customer.cus
 'US-2025-125213', 2025-04-10, 2025-04-12, 'Standard Class', 'LC-16870','FUR-FU-10004848', 3}
 s = s3 ∪ cFur
 τ [1] desc s
+
+/* Ejercicio d */
+p = σ subcategory = 'Phones' (products)
+
+precio_actu = π productid, category, subcategory, precionuevo←1.08*price (p ⨝ products)
+
+precio_actu
 
 /* Ejercicio e */
 /*Disminuir 8% los precios de los productos de la categoría Furniture cuyo precio sea de $600 a $900  */
