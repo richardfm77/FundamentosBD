@@ -486,6 +486,58 @@ INSERT INTO GatitaEmprendedora.Servicio (IdNegocio, NombreServicio, Descripcion,
 
 -- Tabla 4
 
+-- Tabla Producto:
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (1, 'Suplemento Energético', 'Aumenta el rendimiento físico', 'Suplementos', '$350.00', 'Frasco 60 cápsulas', 45);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (2, 'Jabón Artesanal', 'Jabón de glicerina con aceites esenciales', 'Cuidado Personal', '$85.00', 'Barra 100g', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (3, 'Collar para Mascotas', 'Collar ajustable con placa identificadora', 'Mascotas', '$120.00', 'Unidad', 25);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (4, 'Crema Hidratante', 'Crema facial con ácido hialurónico', 'Belleza', '$280.00', 'Tubo 50ml', 40);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (5, 'Kit de Jardinería', 'Incluye pala, rastrillo y trasplantador', 'Jardinería', '$450.00', 'Set de 3 piezas', 15);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (6, 'Vela Aromática', 'Vela de soya con aroma a lavanda', 'Hogar', '$150.00', 'Vela 200g', 50);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (7, 'Bolsa Ecológica', 'Bolsa de tela reutilizable', 'Accesorios', '$90.00', 'Unidad', 60);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (8, 'Libreta Artesanal', 'Libreta con cubierta de cuero', 'Papelería', '$180.00', 'Unidad 120 hojas', 35);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (9, 'Aceite Esencial', 'Aceite de eucalipto 100% puro', 'Aromaterapia', '$220.00', 'Frasco 10ml', 28);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (10, 'Set de Té', 'Infusor y taza de cerámica', 'Hogar', '$320.00', 'Set de 2 piezas', 20);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (11, 'Porta Celular', 'Soporte para auto con base adhesiva', 'Accesorios', '$75.00', 'Unidad', 55);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (12, 'Mascarilla Facial', 'Mascarilla de arcilla verde', 'Belleza', '$65.00', 'Paquete 5 unidades', 42);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (13, 'Cortador de Galletas', 'Set de cortadores metálicos', 'Repostería', '$130.00', 'Set de 6 piezas', 18);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (14, 'Organizador de Joyería', 'Caja con divisores acolchados', 'Organización', '$210.00', 'Unidad', 22);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (15, 'Difusor de Aroma', 'Difusor ultrasónico para aceites', 'Hogar', '$290.00', 'Unidad', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (16, 'Almohada Ortopédica', 'Almohada de memory foam', 'Bienestar', '$380.00', 'Unidad', 25);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (17, 'Kit de Pintura', 'Acuarelas profesionales en estuche', 'Arte', '$420.00', 'Set de 24 colores', 15);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (18, 'Reloj de Madera', 'Reloj de pared artesanal', 'Decoración', '$520.00', 'Unidad', 12);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (19, 'Cartera de Cuero', 'Cartera con múltiples compartimentos', 'Accesorios', '$480.00', 'Unidad', 20);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (20, 'Lámpara de Sal', 'Lámpara decorativa de cristal de sal', 'Hogar', '$350.00', 'Unidad', 18);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (21, 'Set de Cubiertos', 'Cubiertos de bambú ecológico', 'Hogar', '$240.00', 'Set de 4 piezas', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (22, 'Pulsera de Plata', 'Pulsera ajustable con dije', 'Joyeria', '$580.00', 'Unidad', 15);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (23, 'Porta Retratos', 'Marco de madera para fotos', 'Decoración', '$190.00', 'Unidad 10x15cm', 40);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (24, 'Shampoo Sólido', 'Shampoo natural libre de químicos', 'Cuidado Personal', '$95.00', 'Pastilla 80g', 35);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (25, 'Colgante de Árbol', 'Adorno para pared con diseño natural', 'Decoración', '$270.00', 'Unidad', 22);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (26, 'Caja Regalo', 'Caja decorada para regalos', 'Papelería', '$110.00', 'Unidad 20x20cm', 50);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (27, 'Termo de Acero', 'Termo para líquidos fríos/calientes', 'Hogar', '$310.00', 'Unidad 500ml', 28);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (28, 'Espejo de Mano', 'Espejo compacto con diseño', 'Belleza', '$75.00', 'Unidad', 45);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (29, 'Set de Brochas', 'Brochas profesionales para maquillaje', 'Belleza', '$230.00', 'Set de 5 piezas', 25);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (30, 'Organizador de Cable', 'Bandeja para ordenar cables', 'Organización', '$65.00', 'Unidad', 60);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (31, 'Colgante de Plata', 'Dije de plata esterlina 925', 'Joyeria', '$420.00', 'Unidad', 18);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (32, 'Soporte para Libros', 'Soporte metálico para estantería', 'Hogar', '$140.00', 'Par', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (33, 'Cinturón de Cuero', 'Cinturón ajustable para hombre', 'Moda', '$290.00', 'Unidad', 22);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (34, 'Set de Velas', 'Velas aromáticas surtidas', 'Hogar', '$180.00', 'Set de 3 velas', 35);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (35, 'Porta Llaves', 'Llavero de madera personalizable', 'Accesorios', '$60.00', 'Unidad', 50);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (36, 'Mochila Ecológica', 'Mochila de materiales reciclados', 'Moda', '$370.00', 'Unidad', 20);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (37, 'Taza Personalizada', 'Taza de cerámica con diseño', 'Hogar', '$120.00', 'Unidad 350ml', 40);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (38, 'Abanico de Madera', 'Abanico plegable artesanal', 'Accesorios', '$85.00', 'Unidad', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (39, 'Cojín Decorativo', 'Cojín con estampado étnico', 'Hogar', '$210.00', 'Unidad 40x40cm', 25);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (40, 'Set de Especias', 'Especias orgánicas seleccionadas', 'Alimentos', '$150.00', 'Set de 6 frascos', 28);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (41, 'Billetera Minimalista', 'Billetera delgada de cuero', 'Accesorios', '$190.00', 'Unidad', 35);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (42, 'Juego de Té', 'Tetera y dos tazas de porcelana', 'Hogar', '$450.00', 'Set de 3 piezas', 15);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (43, 'Colgante de Luz', 'Lámpara colgante de papel', 'Decoración', '$280.00', 'Unidad', 18);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (44, 'Set de Jardinería', 'Herramientas mini para plantas', 'Jardinería', '$170.00', 'Set de 5 piezas', 25);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (45, 'Reloj de Pulsera', 'Reloj analógico con correa de tela', 'Accesorios', '$320.00', 'Unidad', 20);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (46, 'Organizador de Maquillaje', 'Estuche con divisores', 'Belleza', '$240.00', 'Unidad', 30);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (47, 'Cuaderno Artesanal', 'Cuaderno con hojas recicladas', 'Papelería', '$130.00', 'Unidad 80 hojas', 40);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (48, 'Porta Vinos', 'Soporte para botellas de madera', 'Hogar', '$160.00', 'Unidad', 22);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (49, 'Set de Sellos', 'Sellos de caucho con diseños', 'Papelería', '$110.00', 'Set de 4 piezas', 35);
+INSERT INTO gatitaemprendedora.producto (idnegocio, nombreproducto, descripcion, tipo, precio, presentacion, stock) VALUES (50, 'Cesto de Mimbre', 'Cesto tejido a mano para almacenaje', 'Hogar', '$290.00', 'Unidad 30x20cm', 18);
+
 
 -- Tabla 5
 
