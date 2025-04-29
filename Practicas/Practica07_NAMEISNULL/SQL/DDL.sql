@@ -18,6 +18,38 @@ CREATE TABLE GatitaEmprendedora.Bazar (
 ALTER TABLE GatitaEmprendedora.Bazar 
 ADD CONSTRAINT pk_Bazar PRIMARY KEY (IdBazar);
 
+-- Restricciones de NOT NULL
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN NombreBazar SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN Calle SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN NumeroInterior SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN NumeroExterior SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN Colonia SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN Estado SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN Modalidad SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN FechaInicio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Bazar
+ALTER COLUMN FechaFin SET NOT NULL;
+
+-- Restricción para verificar que FechaFin > FechaInicio
+ALTER TABLE GatitaEmprendedora.Bazar
+ADD CONSTRAINT chk_fechas_bazar CHECK (FechaFin >= FechaInicio);
+
 COMMENT ON TABLE GatitaEmprendedora.Bazar IS 'Tabla que almacena la información de los bazares disponibles';
 COMMENT ON COLUMN GatitaEmprendedora.Bazar.IdBazar IS 'Identificador único del bazar';
 COMMENT ON COLUMN GatitaEmprendedora.Bazar.NombreBazar IS 'Nombre del bazar';
@@ -62,6 +94,17 @@ CREATE TABLE GatitaEmprendedora.Estand (
 ALTER TABLE GatitaEmprendedora.Estand 
 ADD CONSTRAINT pk_Estand PRIMARY KEY (NumeroEstand);
 
+-- Hacer atributos NOT NULL
+ALTER TABLE GatitaEmprendedora.Estand
+ALTER COLUMN Paquete SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Estand
+ALTER COLUMN Precio SET NOT NULL;
+
+-- Restricción CHECK para que Paquete sea 1, 2 o 3
+ALTER TABLE GatitaEmprendedora.Estand
+ADD CONSTRAINT chk_paquete_estand CHECK (Paquete IN ('1', '2', '3'));
+
 COMMENT ON TABLE GatitaEmprendedora.Estand IS 'Tabla que almacena los estands disponibles en el bazar';
 COMMENT ON COLUMN GatitaEmprendedora.Estand.NumeroEstand IS 'Identificador numérico del estand';
 COMMENT ON COLUMN GatitaEmprendedora.Estand.Paquete IS 'Tipo de paquete asignado al estand';
@@ -104,6 +147,22 @@ CREATE TABLE GatitaEmprendedora.Cliente (
 
 ALTER TABLE GatitaEmprendedora.Cliente 
 ADD CONSTRAINT pk_Cliente PRIMARY KEY (IdCliente);
+
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Cliente
+ALTER COLUMN NombreCliente SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Cliente
+ALTER COLUMN APaternoCliente SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Cliente
+ALTER COLUMN AMaternoCliente SET NOT NULL;
+
+-- Restricción para que al menos uno de EsFisico o EsVirtual sea TRUE
+ALTER TABLE GatitaEmprendedora.Cliente
+ADD CONSTRAINT chk_tipo_cliente CHECK (
+    (EsFisico IS TRUE) OR (EsVirtual IS TRUE)
+);
 
 COMMENT ON TABLE GatitaEmprendedora.Cliente IS 'Tabla que almacena la información de los clientes que participan en el bazar, ya sea de manera física o virtual.';
 COMMENT ON COLUMN GatitaEmprendedora.Cliente.IdCliente IS 'Identificador único y consecutivo de cada cliente dentro del sistema.';
@@ -153,6 +212,17 @@ ALTER TABLE GatitaEmprendedora.Tarjeta
 ADD CONSTRAINT fk_Tarjeta FOREIGN KEY (IdCliente) REFERENCES GatitaEmprendedora.Cliente(IdCliente)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- Hacer atributos NOT NULL
+ALTER TABLE GatitaEmprendedora.Tarjeta
+ALTER COLUMN Vencimiento SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Tarjeta
+ALTER COLUMN CVV SET NOT NULL;
+
+-- Validar que NumeroTarjeta tenga SOLO números
+ALTER TABLE GatitaEmprendedora.Tarjeta
+ADD CONSTRAINT chk_numero_tarjeta_numerico CHECK (NumeroTarjeta ~ '^[0-9]{16}$');
+
 COMMENT ON TABLE GatitaEmprendedora.Tarjeta IS 'Tabla que almacena las tarjetas asociadas a los clientes del bazar. Permite registrar la información de tarjetas utilizadas como método de pago.';
 COMMENT ON COLUMN GatitaEmprendedora.Tarjeta.NumeroTarjeta IS 'Número de la tarjeta bancaria del cliente. Es la llave primaria de la tabla y tiene una longitud fija de 16 caracteres.';
 COMMENT ON COLUMN GatitaEmprendedora.Tarjeta.Vencimiento IS 'Fecha de vencimiento de la tarjeta en formato DD/MM/YYYY.';
@@ -172,6 +242,23 @@ CREATE TABLE GatitaEmprendedora.Negocio (
 
 ALTER TABLE GatitaEmprendedora.Negocio 
 ADD CONSTRAINT pk_Negocio PRIMARY KEY (IdNegocio);
+
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Negocio
+ALTER COLUMN NombreNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Negocio
+ALTER COLUMN Descripcion SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Negocio
+ALTER COLUMN PrecioMinimo SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Negocio
+ALTER COLUMN PrecioMaximo SET NOT NULL;
+
+-- Restricción para que PrecioMinimo <= PrecioMaximo
+ALTER TABLE GatitaEmprendedora.Negocio
+ADD CONSTRAINT chk_precio_minimo_maximo CHECK (PrecioMinimo <= PrecioMaximo);
 
 COMMENT ON TABLE GatitaEmprendedora.Negocio IS 'Tabla que almacena la información de los negocios registrados en el bazar.';
 COMMENT ON COLUMN GatitaEmprendedora.Negocio.IdNegocio IS 'Identificador único y consecutivo de cada negocio registrado en el bazar.';
@@ -257,6 +344,32 @@ ALTER TABLE GatitaEmprendedora.Producto
 ADD CONSTRAINT fk_Producto FOREIGN KEY (IdNegocio) REFERENCES GatitaEmprendedora.Negocio(IdNegocio)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN NombreProducto SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN Descripcion SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN Tipo SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN Precio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN Presentacion SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Producto
+ALTER COLUMN Stock SET NOT NULL;
+
+-- Restricción para que Stock sea mayor o igual a 0
+ALTER TABLE GatitaEmprendedora.Producto
+ADD CONSTRAINT chk_stock_producto CHECK (Stock >= 0);
+
 COMMENT ON TABLE GatitaEmprendedora.Producto IS 'Tabla que almacena los productos que pertenecen a cada negocio registrado en el bazar.';
 COMMENT ON COLUMN GatitaEmprendedora.Producto.IdNegocio IS 'Identificador del negocio al que pertenece el producto. Es llave foránea que referencia a la tabla Negocio.';
 COMMENT ON COLUMN GatitaEmprendedora.Producto.IdProducto IS 'Identificador único y consecutivo de cada producto dentro de un mismo negocio.';
@@ -284,6 +397,19 @@ ALTER TABLE GatitaEmprendedora.Perecedero
 ADD CONSTRAINT fk_PerecederoProducto FOREIGN KEY (IdNegocio, IdProducto) REFERENCES GatitaEmprendedora.Producto(IdNegocio, IdProducto)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Perecedero
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Perecedero
+ALTER COLUMN IdProducto SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Perecedero
+ALTER COLUMN FechaPreparacion SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Perecedero
+ALTER COLUMN FechaCaducidad SET NOT NULL;
+
 COMMENT ON TABLE GatitaEmprendedora.Perecedero IS 'Tabla que almacena información específica de los productos perecederos pertenecientes a un negocio dentro del bazar.';
 COMMENT ON COLUMN GatitaEmprendedora.Perecedero.IdNegocio IS 'Identificador del negocio al que pertenece el producto perecedero. Es parte de la llave primaria y llave foránea que referencia a la tabla Producto.';
 COMMENT ON COLUMN GatitaEmprendedora.Perecedero.IdProducto IS 'Identificador del producto perecedero dentro del negocio. Es parte de la llave primaria y llave foránea que referencia a la tabla Producto.';
@@ -304,7 +430,8 @@ CREATE TABLE GatitaEmprendedora.Emprendedor (
     Colonia VARCHAR(100),
     Estado VARCHAR(100),
     Genero CHAR(1),
-    IdNegocio INT
+    IdNegocio INT,
+    FechaNacimiento DATE
 );
 
 ALTER TABLE GatitaEmprendedora.Emprendedor 
@@ -312,6 +439,20 @@ ADD CONSTRAINT pk_Emprendedor PRIMARY KEY (RFC);
 ALTER TABLE GatitaEmprendedora.Emprendedor 
 ADD CONSTRAINT fk_Emprendedor FOREIGN KEY (IdNegocio) REFERENCES GatitaEmprendedora.Negocio(IdNegocio)
 ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- Hacer sólo los atributos de nombre NOT NULL
+ALTER TABLE GatitaEmprendedora.Emprendedor
+ALTER COLUMN NombreEmprendedor SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Emprendedor
+ALTER COLUMN APaternoEmprendedor SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Emprendedor
+ALTER COLUMN AMaternoEmprendedor SET NOT NULL;
+
+-- Restricción para que Genero solo sea 'F', 'M' o 'B'
+ALTER TABLE GatitaEmprendedora.Emprendedor
+ADD CONSTRAINT chk_genero_emprendedor CHECK (Genero IN ('F', 'M', 'B'));
 
 COMMENT ON TABLE GatitaEmprendedora.Emprendedor IS 'Tabla que almacena la información de los emprendedores que participan en el bazar y que están asociados a un negocio.';
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.RFC IS 'Registro Federal de Contribuyentes (RFC) del emprendedor. Es la llave primaria de la tabla y tiene una longitud fija de 13 caracteres.';
@@ -324,6 +465,7 @@ COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.NumeroInterior IS 'Número inte
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.Colonia IS 'Colonia correspondiente al domicilio del emprendedor.';
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.Estado IS 'Estado correspondiente al domicilio del emprendedor.';
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.Genero IS 'Género del emprendedor. Representado con un carácter: M (masculino), F (femenino), u otro.';
+COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.FechaNacimiento IS 'La fecha en la que nació el emprendedor';
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.IdNegocio IS 'Identificador del negocio al que pertenece el emprendedor. Es llave foránea que referencia a la tabla Negocio.';
 COMMENT ON CONSTRAINT pk_Emprendedor ON GatitaEmprendedora.Emprendedor IS 'Llave primaria de la tabla Emprendedor que garantiza la unicidad de cada emprendedor mediante su RFC.';
 COMMENT ON CONSTRAINT fk_Emprendedor ON GatitaEmprendedora.Emprendedor IS 'Llave foránea que garantiza la integridad referencial con la tabla Negocio. Aplica las políticas ON DELETE CASCADE y ON UPDATE CASCADE para mantener consistencia al modificar o eliminar negocios.';
@@ -332,11 +474,10 @@ COMMENT ON CONSTRAINT fk_Emprendedor ON GatitaEmprendedora.Emprendedor IS 'Llave
 CREATE TABLE GatitaEmprendedora.TelefonoEmprendedor (
     TelefonoEmprendedor CHAR(10),
     RFC CHAR(13)
-    
 );
 
 ALTER TABLE GatitaEmprendedora.TelefonoEmprendedor 
-ADD CONSTRAINT pk_TelefonoEmprendedor PRIMARY KEY (TelefonoEmprendedor);
+ADD CONSTRAINT pk_TelefonoEmprendedor PRIMARY KEY (RFC, TelefonoEmprendedor);
 ALTER TABLE GatitaEmprendedora.TelefonoEmprendedor 
 ADD CONSTRAINT fk_TelefonoEmprendedor FOREIGN KEY (RFC) REFERENCES GatitaEmprendedora.Emprendedor(RFC)
 ON DELETE CASCADE ON UPDATE CASCADE;
@@ -375,7 +516,7 @@ CREATE TABLE GatitaEmprendedora.Servicio (
     Descripcion VARCHAR(200),
     Tipo VARCHAR(50),
     PrecioServicio MONEY,
-    Duracion TIME
+    Duracion TIME DEFAULT '00:00:00'
 );
 
 ALTER TABLE GatitaEmprendedora.Servicio 
@@ -383,6 +524,22 @@ ADD CONSTRAINT pk_Servicio PRIMARY KEY (IdNegocio, IdServicio);
 ALTER TABLE GatitaEmprendedora.Servicio 
 ADD CONSTRAINT fk_Servicio FOREIGN KEY (IdNegocio) REFERENCES GatitaEmprendedora.Negocio(IdNegocio)
 ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Servicio
+ALTER COLUMN NombreServicio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Servicio
+ALTER COLUMN Descripcion SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Servicio
+ALTER COLUMN Tipo SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Servicio
+ALTER COLUMN PrecioServicio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Servicio
+ALTER COLUMN Duracion SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.Servicio IS 'Tabla que almacena los servicios que ofrece cada negocio registrado en el bazar.';
 COMMENT ON COLUMN GatitaEmprendedora.Servicio.IdNegocio IS 'Identificador del negocio al que pertenece el servicio. Es llave foránea que referencia a la tabla Negocio.';
@@ -421,6 +578,22 @@ ALTER TABLE GatitaEmprendedora.Ticket
 ADD CONSTRAINT fk_TicketEmprendedor FOREIGN KEY (RFC) REFERENCES GatitaEmprendedora.Emprendedor(RFC)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- Hacer todas las columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Ticket
+ALTER COLUMN IdCliente SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Ticket
+ALTER COLUMN IdBazar SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Ticket
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Ticket
+ALTER COLUMN RFC SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Ticket
+ALTER COLUMN ComisionBazar SET NOT NULL;
+
 COMMENT ON TABLE GatitaEmprendedora.Ticket IS 'Tabla que almacena los tickets generados en el bazar, representando la compra de productos o servicios por parte de los clientes.';
 COMMENT ON COLUMN GatitaEmprendedora.Ticket.IdTicket IS 'Identificador único y consecutivo de cada ticket generado en el bazar. Es la llave primaria de la tabla.';
 COMMENT ON COLUMN GatitaEmprendedora.Ticket.IdCliente IS 'Identificador del cliente que realiza la compra. Es llave foránea que referencia a la tabla Cliente.';
@@ -450,6 +623,19 @@ ALTER TABLE GatitaEmprendedora.RegistrarProducto
 ADD CONSTRAINT fk_RegistrarProductoProducto FOREIGN KEY (IdNegocio, IdProducto) REFERENCES GatitaEmprendedora.Producto(IdNegocio, IdProducto)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
+-- Hacer todas las columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.RegistrarProducto
+ALTER COLUMN IdTicket SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarProducto
+ALTER COLUMN IdProducto SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarProducto
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarProducto
+ALTER COLUMN Cantidad SET NOT NULL;
+
 COMMENT ON TABLE GatitaEmprendedora.RegistrarProducto IS 'Tabla que almacena los productos que están asociados a un ticket, representando la compra de uno o varios productos por parte de un cliente.';
 COMMENT ON COLUMN GatitaEmprendedora.RegistrarProducto.IdTicket IS 'Identificador del ticket asociado a la compra del producto. Es llave foránea que referencia a la tabla Ticket.';
 COMMENT ON COLUMN GatitaEmprendedora.RegistrarProducto.IdProducto IS 'Identificador del producto comprado. Es parte de la llave foránea que referencia a la tabla Producto.';
@@ -473,6 +659,19 @@ ON DELETE CASCADE ON UPDATE CASCADE;
 ALTER TABLE GatitaEmprendedora.RegistrarServicio 
 ADD CONSTRAINT fk_RegistrarServicioServicio FOREIGN KEY (IdNegocio, IdServicio) REFERENCES GatitaEmprendedora.Servicio(IdNegocio, IdServicio)
 ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- Hacer todas las columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.RegistrarServicio
+ALTER COLUMN IdTicket SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarServicio
+ALTER COLUMN IdServicio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarServicio
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.RegistrarServicio
+ALTER COLUMN Duracion SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.RegistrarServicio IS 'Tabla que almacena los servicios que están asociados a un ticket, representando la compra o contratación de uno o varios servicios por parte de un cliente.';
 COMMENT ON COLUMN GatitaEmprendedora.RegistrarServicio.IdTicket IS 'Identificador del ticket asociado a la contratación del servicio. Es llave foránea que referencia a la tabla Ticket.';
@@ -502,6 +701,36 @@ CREATE TABLE GatitaEmprendedora.PersonalOrganizador (
 
 ALTER TABLE GatitaEmprendedora.PersonalOrganizador 
 ADD CONSTRAINT pk_PersonalOrganizador PRIMARY KEY (RFC);
+
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN NombrePersonalOrganizador SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN APaternoPersonalOrganizador SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN AMaternoPersonalOrganizador SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN Salario SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN EsSeguridad SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN EsLimpieza SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ALTER COLUMN EsMedico SET NOT NULL;
+
+-- Restricción CHECK para que exactamente uno de los tres campos sea TRUE
+ALTER TABLE GatitaEmprendedora.PersonalOrganizador
+ADD CONSTRAINT chk_un_solo_rol CHECK (
+    (CASE WHEN EsSeguridad THEN 1 ELSE 0 END +
+     CASE WHEN EsLimpieza THEN 1 ELSE 0 END +
+     CASE WHEN EsMedico THEN 1 ELSE 0 END) = 1
+);
 
 COMMENT ON TABLE GatitaEmprendedora.PersonalOrganizador IS 'Tabla que almacena la información del personal organizador que trabaja en el bazar, incluyendo sus datos personales, domicilio, salario y categoría laboral.';
 COMMENT ON COLUMN GatitaEmprendedora.PersonalOrganizador.RFC IS 'Registro Federal de Contribuyentes (RFC) del personal organizador. Es la llave primaria de la tabla y tiene una longitud fija de 13 caracteres.';
@@ -546,7 +775,7 @@ CREATE TABLE GatitaEmprendedora.TelefonoPersonalOrganizador (
 );
 
 ALTER TABLE GatitaEmprendedora.TelefonoPersonalOrganizador 
-ADD CONSTRAINT pk_TelefonoPersonalOrganizador PRIMARY KEY (TelefonoPersonalOrganizador);
+ADD CONSTRAINT pk_TelefonoPersonalOrganizador PRIMARY KEY (RFC, TelefonoPersonalOrganizador);
 ALTER TABLE GatitaEmprendedora.TelefonoPersonalOrganizador 
 ADD CONSTRAINT fk_TelefonoPersonalOrganizador1 FOREIGN KEY (RFC) REFERENCES GatitaEmprendedora.PersonalOrganizador(RFC)
 ON DELETE CASCADE ON UPDATE CASCADE;
@@ -565,7 +794,7 @@ CREATE TABLE GatitaEmprendedora.CorreoPersonalOrganizador (
 );
 
 ALTER TABLE GatitaEmprendedora.CorreoPersonalOrganizador 
-ADD CONSTRAINT pk_CorreoPersonalOrganizador PRIMARY KEY (CorreoPersonalOrganizador);
+ADD CONSTRAINT pk_CorreoPersonalOrganizador PRIMARY KEY (RFC, CorreoPersonalOrganizador);
 ALTER TABLE GatitaEmprendedora.CorreoPersonalOrganizador
 ADD CONSTRAINT fk_CorreoPersonalOrganizador1 FOREIGN KEY (RFC) 
 REFERENCES GatitaEmprendedora.PersonalOrganizador(RFC) ON DELETE CASCADE ON UPDATE CASCADE;
@@ -588,6 +817,16 @@ ALTER TABLE GatitaEmprendedora.Trabajar
 ADD CONSTRAINT fk_TrabajarBazar FOREIGN KEY (IdBazar) REFERENCES GatitaEmprendedora.Bazar(IdBazar) ON DELETE CASCADE ON UPDATE CASCADE;
 ALTER TABLE GatitaEmprendedora.Trabajar 
 ADD CONSTRAINT fk_TrabajarPersonalOrganizador FOREIGN KEY (RFC) REFERENCES GatitaEmprendedora.PersonalOrganizador(RFC) ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- Hacer todas las columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Trabajar
+ALTER COLUMN IdBazar SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Trabajar
+ALTER COLUMN RFC SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Trabajar
+ALTER COLUMN FechaAsistencia SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.Trabajar IS 'Tabla que almacena el registro de asistencia del personal organizador que labora en los distintos bazares. Representa la relación de trabajo entre un bazar y un miembro del personal organizador en una fecha específica.';
 COMMENT ON COLUMN GatitaEmprendedora.Trabajar.IdBazar IS 'Identificador del bazar donde el personal organizador prestó sus servicios. Es llave foránea que referencia a la tabla Bazar.';
@@ -613,6 +852,19 @@ ALTER TABLE GatitaEmprendedora.Agendar
 ADD CONSTRAINT fk_AgendarNegocio FOREIGN KEY (IdNegocio) REFERENCES GatitaEmprendedora.Negocio(IdNegocio) ON DELETE CASCADE ON UPDATE CASCADE;
 ALTER TABLE GatitaEmprendedora.Agendar 
 ADD CONSTRAINT fk_AgendarEstand FOREIGN KEY (NumeroEstand) REFERENCES GatitaEmprendedora.Estand(NumeroEstand) ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- Hacer columnas NOT NULL
+ALTER TABLE GatitaEmprendedora.Agendar
+ALTER COLUMN IdBazar SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Agendar
+ALTER COLUMN IdNegocio SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Agendar
+ALTER COLUMN NumeroEstand SET NOT NULL;
+
+ALTER TABLE GatitaEmprendedora.Agendar
+ALTER COLUMN FechaAsistencia SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.Agendar IS 'Tabla que almacena el registro de los negocios que reservan un estand en un bazar en una fecha específica. Representa la relación de agendado entre un negocio, un estand y un bazar.';
 COMMENT ON COLUMN GatitaEmprendedora.Agendar.IdBazar IS 'Identificador del bazar donde el negocio reserva un estand. Es llave foránea que referencia a la tabla Bazar.';
