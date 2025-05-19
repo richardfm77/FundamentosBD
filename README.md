@@ -31,4 +31,4 @@ de quien entrega el trabajo.
 * Matute Cantón Sara Lorena - 319331622
 * Sánchez Cruz Norma Selene - 320198508
 * Suárez Ortiz Joshua Daniel - 320151260
-* Villegas Martínez Vania Victoria - 428003114
+* Villegas Martínez Vania Victoria (Noviecita) - 428003114
