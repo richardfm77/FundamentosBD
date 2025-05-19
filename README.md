@@ -27,6 +27,7 @@ de quien entrega el trabajo.
 
 ## Equipo: NAMEisNULL
 * Flores Mata Ricardo - 422127808
+* Martínez Leal Jóse María - 317243970
 * Matute Cantón Sara Lorena - 319331622
 * Sánchez Cruz Norma Selene - 320198508
 * Suárez Ortiz Joshua Daniel - 320151260
