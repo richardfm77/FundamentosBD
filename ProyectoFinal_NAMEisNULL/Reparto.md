@@ -1,5 +1,20 @@
 # Reparto de actividades para el proyecto Final
 
+## Diagramas Drwaio del proyecto
+
+* [https://drive.google.com/drive/folders/1E9cKWIb_doJZVk2IIBZpqzLkIcqQ8bg1?usp=drive_link](https://drive.google.com/drive/folders/1E9cKWIb_doJZVk2IIBZpqzLkIcqQ8bg1?usp=drive_link)
+
+
+## Documentación oficial del modelo entidad relación:
+
+* [https://es.overleaf.com/project/67c32839e6e0cb48b16840bb](https://es.overleaf.com/project/67c32839e6e0cb48b16840bb)
+
+## Documentación oficial del modelo relacional:
+
+* [https://www.overleaf.com/project/67e8affa9377ad9fbbad27b5](https://www.overleaf.com/project/67e8affa9377ad9fbbad27b5)
+
+
+
 ## Documento del proyecto
 
 * Responsable: Selene
