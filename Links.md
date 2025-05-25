@@ -26,6 +26,10 @@
 * Práctica 5: [https://www.overleaf.com/read/fggjzqphqjsw#538a9f](https://www.overleaf.com/read/fggjzqphqjsw#538a9f)
 
 * Práctica 6: [https://www.overleaf.com/read/wctfcjcrnzdb#4137fa](https://www.overleaf.com/read/wctfcjcrnzdb#4137fa)
+
+
+# Tarea Examen Final 
+* overleaf: [https://www.overleaf.com/8543557288twmszdqdbgsd#34c58d](https://www.overleaf.com/8543557288twmszdqdbgsd#34c58d)
   
  # Proyecto 
 
