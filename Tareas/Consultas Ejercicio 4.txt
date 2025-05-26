@@ -1,0 +1,47 @@
+Consultas ejercicio 4
+1) π bebedor σ bar = 'The Bamboo Bar' ∧ (desde ≥ date('2021-04-01') ∨ desde ≤ date('2021-05-31')) Frecuenta
+   π bebedor σ bar = 'The Bamboo Bar' ∧ desde ≤ date('2021-05-31') Frecuenta 
+2)A = π bar σ cerveza = 'Dos Equis' Sirve
+  B = π bar σ cerveza = 'Corona' Sirve
+  A-B
+3)A = Frecuenta ⨝ Gusta
+  B = π Frecuenta.bar, Gusta.cerveza A
+  τ [1],[2] B
+4) A = γ bar; count(bebedor)→totalBebedor Frecuenta
+   τ [2] desc A
+5)A = γ cerveza; count(bebedor)→total Gusta
+  B = γ  MIN(total) → total A 
+  C = A⨝B
+  π Gusta.cerveza C
+6)A = Frecuenta ⨝ Gusta
+  B = π Frecuenta.bar, Gusta.cerveza A
+  C = B - Sirve
+  D = C ⨝ A
+  π bebedor D
+7)B = π cerveza Sirve
+  Sirve ÷ B
+8)A = π bar σ cerveza = 'Budweiser'Sirve
+  B = π bar σ cerveza = 'Stella Artois' Sirve
+  C = A∩B
+  D = C ⨝ Sirve
+  R = Sirve - D
+  R
+9)A = σ bar = 'The Dead Rabbit' Sirve
+  B = Sirve - A
+  C = {bar:string
+	'Bar Veider'}
+  D = C ⨯ (π cerveza A)
+  R = B ∪ D
+  R
+10)A = π cerveza σ bar = 'The Old Man' Sirve
+  C = {bar:string
+	'BBT Otra'}
+  D = C ⨯ A
+  E = {bar:string, cerveza:string
+	'BBT Otra', 'Negra Modelo'
+	'BBT Otra', 'Bohemia'}
+
+  F = D ∪ E
+  R = Sirve ∪ F
+  R
+
