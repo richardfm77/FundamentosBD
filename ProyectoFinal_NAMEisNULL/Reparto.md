@@ -35,14 +35,14 @@
 * Responsable: Selene
 * Descripción: Definir las dependencias funcionales y aplicar la normalización
 * Depedencia: Con la entrega definitiva de los modelos entidad relación y modelo relacional.
-* Fecha tentativa de entrega: 22/05/2025
+* Fecha tentativa de entrega: 26/05/2025
 
 ## Programación de BD (Script DDL)
 
 * Responsable: Daniel
 * Descripción: Realizar el Sript DDL conforme fue realizado a las prácticas, éste puede ser basado en las mismas.
 * Depedencia: La entrega del modelo relacional normalizado.
-* Fecha tentativa de entrega: 23/05/2025  
+* Fecha tentativa de entrega: 28/05/2025  
 
 ## Procedimientos Almacenados/Funciones y Disparadores
 
@@ -50,7 +50,7 @@
 * Descripción: Generar algunos Procedimientos Almacenados/Funciones y Disparadores para apoyar el trabajo
   y restricciones de tu base de datos.
 * Depedencia: Srcipt DDL.
-* Fecha tentativa de entrega: 25/05/2025  
+* Fecha tentativa de entrega: 01/06/2025  
   
 
 ## Poblar Base de Datos.
@@ -58,7 +58,7 @@
 * Responsable: Victoria
 * Descripción: Poblar algunas tablas en mokaroo y generar el archivo DML.sql correspondiente.
 * Depedencia: Con el Srcipt DDL y que tablas se necesitan pobladas para las consultas.
-* Fecha tentativa de entrega: 29/05/2025  
+* Fecha tentativa de entrega: 01/06/2025  
 
 ## Consultas
 
