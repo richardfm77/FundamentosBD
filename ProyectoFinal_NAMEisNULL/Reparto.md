@@ -13,7 +13,9 @@
 
 * [https://www.overleaf.com/project/67e8affa9377ad9fbbad27b5](https://www.overleaf.com/project/67e8affa9377ad9fbbad27b5)
 
+##Overleaf oficial del proyecto:
 
+* [https://www.overleaf.com/9145299595zcjcknwmhspg#764708](https://www.overleaf.com/9145299595zcjcknwmhspg#764708)
 
 ## Documento del proyecto
 
@@ -23,7 +25,7 @@
 * Depedencia: Ninguna.
 * Fecha tentativa de entrega: 02/06/2025
 
-## Revisión  y posibles correciones de Modelo Entidad-Relacion y Modelo relacional
+## Revisión y posibles correciones de Modelo Entidad-Relacion y Modelo relacional
 
 * Responsable: Ricardo
 * Descripción: Revisar los modelos y hacer posbles correciones.
@@ -42,7 +44,7 @@
 * Responsable: Daniel
 * Descripción: Realizar el Sript DDL conforme fue realizado a las prácticas, éste puede ser basado en las mismas.
 * Depedencia: La entrega del modelo relacional normalizado.
-* Fecha tentativa de entrega: 28/05/2025  
+* Fecha tentativa de entrega: 29/05/2025  
 
 ## Procedimientos Almacenados/Funciones y Disparadores
 
@@ -50,7 +52,7 @@
 * Descripción: Generar algunos Procedimientos Almacenados/Funciones y Disparadores para apoyar el trabajo
   y restricciones de tu base de datos.
 * Depedencia: Srcipt DDL.
-* Fecha tentativa de entrega: 01/06/2025  
+* Fecha tentativa de entrega: 04/06/2025  
   
 
 ## Poblar Base de Datos.
@@ -58,11 +60,11 @@
 * Responsable: Victoria
 * Descripción: Poblar algunas tablas en mokaroo y generar el archivo DML.sql correspondiente.
 * Depedencia: Con el Srcipt DDL y que tablas se necesitan pobladas para las consultas.
-* Fecha tentativa de entrega: 01/06/2025  
+* Fecha tentativa de entrega: 04/06/2025  
 
 ## Consultas
 
 * Responsable: Loren, Daniel y José
 * Descripción generar al menos 15 consultas comlplejas y ponerlas en su respectivo archi .sql.
 * Dependencia: Sript DDL.
-* 02/06/2025
+* Fecha tentativa de entrega: 06/06/2025
