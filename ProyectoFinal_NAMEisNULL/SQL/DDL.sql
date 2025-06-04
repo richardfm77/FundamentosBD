@@ -84,71 +84,65 @@ COMMENT ON CONSTRAINT pk_AmenidadBazar ON GatitaEmprendedora.AmenidadBazar IS 'L
 COMMENT ON CONSTRAINT fk_AmenidadBazar ON GatitaEmprendedora.AmenidadBazar IS 'Llave foránea que referencia a la tabla Bazar con políticas ON DELETE CASCADE y ON UPDATE CASCADE';
 
 
+CREATE TABLE GatitaEmprendedora.Paquete (
+    IdPaquete INT,
+    Paquete VARCHAR(20)
+);
+
+ALTER TABLE GatitaEmprendedora.Paquete 
+ADD CONSTRAINT pk_Paquete PRIMARY KEY (IdPaquete);
+
+-- Hacer atributos NOT NULL
+ALTER TABLE GatitaEmprendedora.
+ALTER COLUMN Paquete SET NOT NULL;
+
+COMMENT ON TABLE GatitaEmprendedora.Paquete IS 'Tabla que almacena los estands paquetes para un Estand';
+COMMENT ON COLUMN GatitaEmprendedora.Paquete.IdPaquete IS 'Identificador numérico del Paquete';
+COMMENT ON COLUMN GatitaEmprendedora.Paquete.Precio IS 'Descripción del paquete.';
+COMMENT ON CONSTRAINT pk_Paquete ON GatitaEmprendedora.Estand IS 'Llave primaria de la tabla Paquete';
+
+
 
 CREATE TABLE GatitaEmprendedora.Estand (
     NumeroEstand INT,
-    Precio MONEY
+    PrecioBase MONEY,
+    IdPaquete INT
 );
 
 ALTER TABLE GatitaEmprendedora.Estand 
 ADD CONSTRAINT pk_Estand PRIMARY KEY (NumeroEstand);
 
+ADD CONSTRAINT fk_PaqueteEstand FOREIGN KEY (IdPaquete) REFERENCES GatitaEmprendedora.Paquete(IdPaquete)
+ON DELETE CASCADE ON UPDATE CASCADE;
+
 -- Hacer atributos NOT NULL
 ALTER TABLE GatitaEmprendedora.Estand
-ALTER COLUMN Precio SET NOT NULL;
+ALTER COLUMN PrecioBase SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.Estand IS 'Tabla que almacena los estands disponibles en el bazar';
 COMMENT ON COLUMN GatitaEmprendedora.Estand.NumeroEstand IS 'Identificador numérico del estand';
-COMMENT ON COLUMN GatitaEmprendedora.Estand.Precio IS 'Precio base del estand.';
+COMMENT ON COLUMN GatitaEmprendedora.Estand.PrecioBase IS 'Precio base del estand.';
+COMMENT ON COLUMN GatitaEmprendedora.Estand.IdPaquete IS 'El paquete del Estand.';
 COMMENT ON CONSTRAINT pk_Estand ON GatitaEmprendedora.Estand IS 'Llave primaria de la tabla Estand';
 
 
 
-CREATE TABLE GatitaEmprendedora.PaqueteEstand (
-    NumeroEstand INT,
-    Paquete CHAR(1),
-    PrecioExtra MONEY
+CREATE TABLE GatitaEmprendedora.PaqueteAmenidad (
+    IdPaquete INT,
+    Amenidad VARCHAR(100)
 );
 
-ALTER TABLE GatitaEmprendedora.PaqueteEstand 
-ADD CONSTRAINT pk_PaqueteEstand PRIMARY KEY (NumeroEstand);
-ALTER TABLE GatitaEmprendedora.PaqueteEstand 
-ADD CONSTRAINT fk_PaqueteEstand_Estand FOREIGN KEY (NumeroEstand) REFERENCES GatitaEmprendedora.Estand(NumeroEstand)
+ALTER TABLE GatitaEmprendedora.PaqueteAmenidad 
+ADD CONSTRAINT pk_AmenidadEstand PRIMARY KEY (IdPaquete, Amenidad);
+ALTER TABLE GatitaEmprendedora.PaqueteAmenidad 
+ADD CONSTRAINT fk_PaqueteAmenidad FOREIGN KEY (IdPaquete) REFERENCES GatitaEmprendedora.Paquete(IdPaquete)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
--- Hacer atributos NOT NULL
-ALTER TABLE GatitaEmprendedora.PaqueteEstand
-ALTER COLUMN PrecioExtra SET NOT NULL;
-
--- Restricción CHECK para que Paquete sea 1, 2 o 3
-ALTER TABLE GatitaEmprendedora.PaqueteEstand
-ADD CONSTRAINT chk_paquete_estand CHECK (Paquete IN ('1', '2', '3'));
-
-COMMENT ON TABLE GatitaEmprendedora.PaqueteEstand IS 'Tabla que define los diferentes paquetes y sus precios extra para un estand.';
-COMMENT ON COLUMN GatitaEmprendedora.PaqueteEstand.NumeroEstand IS 'Número del estand al que se aplica el paquete. Es PK y FK de Estand.';
-COMMENT ON COLUMN GatitaEmprendedora.PaqueteEstand.Paquete IS 'Tipo de paquete (ej. "1", "2", "3").';
-COMMENT ON COLUMN GatitaEmprendedora.PaqueteEstand.PrecioExtra IS 'Precio adicional del paquete sobre el precio base del estand.';
-COMMENT ON CONSTRAINT pk_PaqueteEstand ON GatitaEmprendedora.PaqueteEstand IS 'Llave primaria NumeroEstand.';
-COMMENT ON CONSTRAINT fk_PaqueteEstand_Estand ON GatitaEmprendedora.PaqueteEstand IS 'Llave foránea que referencia a la tabla Estand.';
-
-
-
-CREATE TABLE GatitaEmprendedora.AmenidadEstand (
-    NumeroEstand INT,
-    AmenidadEstand VARCHAR(100)
-);
-
-ALTER TABLE GatitaEmprendedora.AmenidadEstand 
-ADD CONSTRAINT pk_AmenidadEstand PRIMARY KEY (NumeroEstand, AmenidadEstand);
-ALTER TABLE GatitaEmprendedora.AmenidadEstand 
-ADD CONSTRAINT fk_AmenidadEstand FOREIGN KEY (NumeroEstand) REFERENCES GatitaEmprendedora.Estand(NumeroEstand)
-ON DELETE CASCADE ON UPDATE CASCADE;
-
-COMMENT ON TABLE GatitaEmprendedora.AmenidadEstand IS 'Tabla que almacena las amenidades asociadas a cada estand disponible en el bazar. Relaciona las amenidades con el número de estand correspondiente.';
-COMMENT ON COLUMN GatitaEmprendedora.AmenidadEstand.NumeroEstand IS 'Identificador del estand al que pertenece la amenidad. Es llave foránea que referencia a la tabla Estand.';
-COMMENT ON COLUMN GatitaEmprendedora.AmenidadEstand.AmenidadEstand IS 'Descripción de la amenidad asociada al estand.';
-COMMENT ON CONSTRAINT pk_AmenidadEstand ON GatitaEmprendedora.AmenidadEstand IS 'Llave primaria compuesta por NumeroEstand y AmenidadEstand que asegura que no se repita una misma amenidad en un mismo estand.';
-COMMENT ON CONSTRAINT fk_AmenidadEstand ON GatitaEmprendedora.AmenidadEstand IS 'Llave foránea que garantiza la integridad referencial entre la tabla AmenidadEstand y la tabla Estand. Aplica las políticas ON DELETE CASCADE y ON UPDATE CASCADE para mantener consistencia al modificar o eliminar estands.';
+COMMENT ON TABLE GatitaEmprendedora.PaqueteAmenidad IS 'Tabla que almacena las amenidades asociadas a cada estand disponible en el bazar. Relaciona las amenidades con el número de paquete correspondiente.';
+COMMENT ON COLUMN GatitaEmprendedora.PaqueteAmenidad.IdPaquete IS 'Identificador del estand al que pertenece la amenidad. Es llave foránea que referencia a la tabla Estand.';
+COMMENT ON COLUMN GatitaEmprendedora.PaqueteAmenidad.Amenidad IS 'Descripción de la amenidad asociada al paquete.';
+COMMENT ON CONSTRAINT pk_PaqueteAmenidad ON GatitaEmprendedora.PaqueteAmenidad IS 'Llave primaria compuesta por IdPaquete y Amenidad que asegura que no se repita una misma amenidad en un mismo estand.';
+COMMENT ON CONSTRAINT fk_PaqueteAmenidad ON GatitaEmprendedora.PaqueteAmenidad IS 'Llave foránea que garantiza la integridad referencial entre la tabla PaqueteAmenidad y la tabla Paquete. Aplica las políticas ON DELETE CASCADE y ON UPDATE CASCADE para mantener consistencia al modificar o eliminar Paquetes.';
 
 
 
