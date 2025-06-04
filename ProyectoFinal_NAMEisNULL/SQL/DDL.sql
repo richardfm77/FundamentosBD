@@ -93,13 +93,12 @@ ALTER TABLE GatitaEmprendedora.Paquete
 ADD CONSTRAINT pk_Paquete PRIMARY KEY (IdPaquete);
 
 -- Hacer atributos NOT NULL
-ALTER TABLE GatitaEmprendedora.
+ALTER TABLE GatitaEmprendedora.Paquete
 ALTER COLUMN Paquete SET NOT NULL;
 
 COMMENT ON TABLE GatitaEmprendedora.Paquete IS 'Tabla que almacena los estands paquetes para un Estand';
 COMMENT ON COLUMN GatitaEmprendedora.Paquete.IdPaquete IS 'Identificador numérico del Paquete';
-COMMENT ON COLUMN GatitaEmprendedora.Paquete.Precio IS 'Descripción del paquete.';
-COMMENT ON CONSTRAINT pk_Paquete ON GatitaEmprendedora.Estand IS 'Llave primaria de la tabla Paquete';
+COMMENT ON CONSTRAINT pk_Paquete ON GatitaEmprendedora.Paquete IS 'Llave primaria de la tabla Paquete';
 
 
 
@@ -112,7 +111,8 @@ CREATE TABLE GatitaEmprendedora.Estand (
 ALTER TABLE GatitaEmprendedora.Estand 
 ADD CONSTRAINT pk_Estand PRIMARY KEY (NumeroEstand);
 
-ADD CONSTRAINT fk_PaqueteEstand FOREIGN KEY (IdPaquete) REFERENCES GatitaEmprendedora.Paquete(IdPaquete)
+ALTER TABLE GatitaEmprendedora.Estand 
+ADD CONSTRAINT fk_Estand FOREIGN KEY (IdPaquete) REFERENCES GatitaEmprendedora.Paquete(IdPaquete)
 ON DELETE CASCADE ON UPDATE CASCADE;
 
 -- Hacer atributos NOT NULL
@@ -133,7 +133,7 @@ CREATE TABLE GatitaEmprendedora.PaqueteAmenidad (
 );
 
 ALTER TABLE GatitaEmprendedora.PaqueteAmenidad 
-ADD CONSTRAINT pk_AmenidadEstand PRIMARY KEY (IdPaquete, Amenidad);
+ADD CONSTRAINT pk_PaqueteAmenidad PRIMARY KEY (IdPaquete, Amenidad);
 ALTER TABLE GatitaEmprendedora.PaqueteAmenidad 
 ADD CONSTRAINT fk_PaqueteAmenidad FOREIGN KEY (IdPaquete) REFERENCES GatitaEmprendedora.Paquete(IdPaquete)
 ON DELETE CASCADE ON UPDATE CASCADE;
