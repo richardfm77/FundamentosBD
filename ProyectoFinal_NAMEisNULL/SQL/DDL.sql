@@ -168,11 +168,6 @@ ALTER COLUMN APaternoCliente SET NOT NULL;
 ALTER TABLE GatitaEmprendedora.Cliente
 ALTER COLUMN AMaternoCliente SET NOT NULL;
 
--- Restricción para que al menos uno de EsFisico o EsVirtual sea TRUE
-ALTER TABLE GatitaEmprendedora.Cliente
-ADD CONSTRAINT chk_tipo_cliente CHECK (
-    (EsFisico IS TRUE) OR (EsVirtual IS TRUE)
-);
 
 COMMENT ON TABLE GatitaEmprendedora.Cliente IS 'Tabla que almacena la información de los clientes que participan en el bazar, ya sea de manera física o virtual.';
 COMMENT ON COLUMN GatitaEmprendedora.Cliente.IdCliente IS 'Identificador único y consecutivo de cada cliente dentro del sistema.';
@@ -520,9 +515,6 @@ ALTER COLUMN APaternoEmprendedor SET NOT NULL;
 ALTER TABLE GatitaEmprendedora.Emprendedor
 ALTER COLUMN AMaternoEmprendedor SET NOT NULL;
 
--- Restricción para que Genero solo sea 'F', 'M' o 'B'
-ALTER TABLE GatitaEmprendedora.Emprendedor
-ADD CONSTRAINT chk_genero_emprendedor CHECK (Genero IN ('F', 'M', 'B'));
 
 COMMENT ON TABLE GatitaEmprendedora.Emprendedor IS 'Tabla que almacena la información de los emprendedores que participan en el bazar y que están asociados a un negocio.';
 COMMENT ON COLUMN GatitaEmprendedora.Emprendedor.RFC IS 'Registro Federal de Contribuyentes (RFC) del emprendedor. Es la llave primaria de la tabla y tiene una longitud fija de 13 caracteres.';
