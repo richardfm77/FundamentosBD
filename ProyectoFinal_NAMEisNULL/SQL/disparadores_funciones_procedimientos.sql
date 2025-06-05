@@ -79,46 +79,53 @@ EXECUTE FUNCTION GatitaEmprendedora.validar_genero_emprendedor();
 
 
 
--- DROP FUNCTION gatitaemprendedora.agenda_negocios();
 
 -- ============================================================================
--- Función: GatitaEmprendedora.negocios_agendados_por_bazar
+-- Función: GatitaEmprendedora.agenda_negocios
 -- Autor: NAMEisNULL
 -- Propósito:
---     Devuelve un cursor con todos los negocios que están agendados para 
+--     Devuelve una tabla con todos los negocios que están agendados para 
 --     asistir durante el tiempo de duración de un bazar específico.
 --
 -- Uso:
---     SELECT GatitaEmprendedora.agenda_negocios(<id_bazar>);
---     FETCH ALL FROM c;
---     CLOSE c;
+--     SELECT * FROM GatitaEmprendedora.agenda_negocios(<id_bazar>);
 --
 -- Parámetros:
---     - p_id_bazar: ID del bazar que se desea consultar.
+--     - p_id_bazar: ID del bazar a consultar.
 --
 -- Lógica:
---     Recorre las tablas Negocio, Agendar y Bazar para obtener los negocios 
---     cuya fecha de asistencia esté dentro del rango de fechas del bazar.
---
--- Notas:
---     - El cursor se llama "c" y se debe cerrar manualmente tras su uso.
+--     Se recorre un cursor con los negocios agendados en el rango de fechas 
+--     del bazar y se devuelve como tabla.
 -- ============================================================================
 CREATE OR REPLACE FUNCTION GatitaEmprendedora.agenda_negocios(p_id_bazar INT)
-RETURNS REFCURSOR AS $$
+RETURNS TABLE (
+    IdNegocio INT,
+    NumeroEstand INT,
+    NombreNegocio VARCHAR,
+    Descripcion TEXT
+) AS $$
 DECLARE
-    c REFCURSOR;
-BEGIN
-    OPEN c FOR
-        SELECT n.*
+    c CURSOR FOR
+        SELECT n.IdNegocio, n.NumeroEstand, n.NombreNegocio, n.Descripcion
         FROM GatitaEmprendedora.Negocio n
         JOIN GatitaEmprendedora.Agendar a ON n.IdNegocio = a.IdNegocio
         JOIN GatitaEmprendedora.Bazar b ON a.IdBazar = b.IdBazar
         WHERE b.IdBazar = p_id_bazar
           AND a.FechaAsistencia BETWEEN b.FechaInicio AND b.FechaFin;
-
-    RETURN c;
+    row_record RECORD;
+BEGIN
+    OPEN c;
+    LOOP
+        FETCH c INTO row_record;
+        EXIT WHEN NOT FOUND;
+        RETURN NEXT row_record;
+    END LOOP;
+    CLOSE c;
 END;
-$$ LANGUAGE plpgsql;;
+$$ LANGUAGE plpgsql;
+
+
+
 
 
 
@@ -126,33 +133,31 @@ $$ LANGUAGE plpgsql;;
 -- Función: GatitaEmprendedora.asistencia_trabajadores
 -- Autor: NAMEisNULL
 -- Propósito:
---     Devuelve un cursor con el listado de trabajadores que asistieron a un 
---     bazar durante su duración, incluyendo su RFC, nombre, fecha de asistencia 
---     y horario(s) registrados.
+--     Devuelve una tabla con la lista de trabajadores que asistieron a un 
+--     bazar durante su duración, incluyendo su RFC, nombre, fecha y horario.
 --
 -- Uso:
---     SELECT GatitaEmprendedora.asistencia_trabajadores(<id_bazar>);
---     FETCH ALL FROM c;
---     CLOSE c;
+--     SELECT * FROM GatitaEmprendedora.asistencia_trabajadores(<id_bazar>);
 --
 -- Parámetros:
---     - p_id_bazar: ID del bazar que se desea consultar.
+--     - p_id_bazar: ID del bazar a consultar.
 --
 -- Lógica:
---     Une las tablas Trabajar, PersonalOrganizador y HorarioPersonalOrganizador 
---     para mostrar la asistencia y los horarios de cada trabajador durante 
---     las fechas del bazar correspondiente.
+--     Se recorre un cursor con la información de asistencia y horarios del 
+--     personal organizador relacionado al bazar.
 --
 -- Notas:
---     - Puede devolver múltiples horarios por trabajador si están registrados.
---     - El cursor se llama "c" y debe ser cerrado tras su uso.
+--     - Internamente usa un cursor para recorrer y devolver resultados como tabla.
 -- ============================================================================
 CREATE OR REPLACE FUNCTION GatitaEmprendedora.asistencia_trabajadores(p_id_bazar INT)
-RETURNS REFCURSOR AS $$
+RETURNS TABLE (
+    FechaAsistencia DATE,
+    RFC CHAR(13),
+    NombrePersonalOrganizador VARCHAR,
+    HorarioPersonalOrganizador VARCHAR
+) AS $$
 DECLARE
-    c REFCURSOR;
-BEGIN
-    OPEN c FOR
+    c CURSOR FOR
         SELECT 
             t.FechaAsistencia,
             t.RFC,
@@ -165,7 +170,15 @@ BEGIN
         WHERE b.IdBazar = p_id_bazar
           AND t.FechaAsistencia BETWEEN b.FechaInicio AND b.FechaFin
         ORDER BY t.FechaAsistencia, t.RFC;
-
-    RETURN c;
+    row_record RECORD;
+BEGIN
+    OPEN c;
+    LOOP
+        FETCH cur INTO row_record;
+        EXIT WHEN NOT FOUND;
+        RETURN NEXT row_record;
+    END LOOP;
+    CLOSE c;
 END;
 $$ LANGUAGE plpgsql;
+
