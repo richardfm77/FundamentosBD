@@ -75,3 +75,94 @@ CREATE TRIGGER trg_validar_genero_emprendedor
 BEFORE INSERT OR UPDATE ON GatitaEmprendedora.Emprendedor
 FOR EACH ROW
 EXECUTE FUNCTION GatitaEmprendedora.validar_genero_emprendedor();
+
+
+
+
+-- ============================================================================
+-- Función: GatitaEmprendedora.negocios_agendados_por_bazar
+-- Autor: NAMEisNULL
+-- Propósito:
+--     Devuelve un cursor con todos los negocios que están agendados para 
+--     asistir durante el tiempo de duración de un bazar específico.
+--
+-- Uso:
+--     SELECT GatitaEmprendedora.agenda_negocios(<id_bazar>);
+--     FETCH ALL FROM c;
+--     CLOSE c;
+--
+-- Parámetros:
+--     - p_id_bazar: ID del bazar que se desea consultar.
+--
+-- Lógica:
+--     Recorre las tablas Negocio, Agendar y Bazar para obtener los negocios 
+--     cuya fecha de asistencia esté dentro del rango de fechas del bazar.
+--
+-- Notas:
+--     - El cursor se llama "c" y se debe cerrar manualmente tras su uso.
+-- ============================================================================
+CREATE OR REPLACE FUNCTION GatitaEmprendedora.agenda_negocios(p_id_bazar INT)
+RETURNS REFCURSOR AS $$
+DECLARE
+    c REFCURSOR;
+BEGIN
+    OPEN cursor FOR
+        SELECT n.*
+        FROM GatitaEmprendedora.Negocio n
+        JOIN GatitaEmprendedora.Agendar a ON n.IdNegocio = a.IdNegocio
+        JOIN GatitaEmprendedora.Bazar b ON a.IdBazar = b.IdBazar
+        WHERE b.IdBazar = p_id_bazar
+          AND a.FechaAsistencia BETWEEN b.FechaInicio AND b.FechaFin;
+
+    RETURN c;
+END;
+$$ LANGUAGE plpgsql;
+
+
+-- ============================================================================
+-- Función: GatitaEmprendedora.asistencia_trabajadores
+-- Autor: NAMEisNULL
+-- Propósito:
+--     Devuelve un cursor con el listado de trabajadores que asistieron a un 
+--     bazar durante su duración, incluyendo su RFC, nombre, fecha de asistencia 
+--     y horario(s) registrados.
+--
+-- Uso:
+--     SELECT GatitaEmprendedora.asistencia_trabajadores(<id_bazar>);
+--     FETCH ALL FROM c;
+--     CLOSE c;
+--
+-- Parámetros:
+--     - p_id_bazar: ID del bazar que se desea consultar.
+--
+-- Lógica:
+--     Une las tablas Trabajar, PersonalOrganizador y HorarioPersonalOrganizador 
+--     para mostrar la asistencia y los horarios de cada trabajador durante 
+--     las fechas del bazar correspondiente.
+--
+-- Notas:
+--     - Puede devolver múltiples horarios por trabajador si están registrados.
+--     - El cursor se llama "c" y debe ser cerrado tras su uso.
+-- ============================================================================
+CREATE OR REPLACE FUNCTION GatitaEmprendedora.asistencia_trabajadores(p_id_bazar INT)
+RETURNS REFCURSOR AS $$
+DECLARE
+    c REFCURSOR;
+BEGIN
+    OPEN c FOR
+        SELECT 
+            t.FechaAsistencia,
+            t.RFC,
+            po.NombrePersonalOrganizador,
+            h.HorarioPersonalOrganizador
+        FROM GatitaEmprendedora.Trabajar t
+        JOIN GatitaEmprendedora.Bazar b ON b.IdBazar = t.IdBazar
+        JOIN GatitaEmprendedora.PersonalOrganizador po ON po.RFC = t.RFC
+        LEFT JOIN GatitaEmprendedora.HorarioPersonalOrganizador h ON h.RFC = t.RFC
+        WHERE b.IdBazar = p_id_bazar
+          AND t.FechaAsistencia BETWEEN b.FechaInicio AND b.FechaFin
+        ORDER BY t.FechaAsistencia, t.RFC;
+
+    RETURN c;
+END;
+$$ LANGUAGE plpgsql;
