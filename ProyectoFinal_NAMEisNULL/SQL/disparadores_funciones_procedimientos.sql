@@ -79,6 +79,8 @@ EXECUTE FUNCTION GatitaEmprendedora.validar_genero_emprendedor();
 
 
 
+-- DROP FUNCTION gatitaemprendedora.agenda_negocios();
+
 -- ============================================================================
 -- Función: GatitaEmprendedora.negocios_agendados_por_bazar
 -- Autor: NAMEisNULL
@@ -106,7 +108,7 @@ RETURNS REFCURSOR AS $$
 DECLARE
     c REFCURSOR;
 BEGIN
-    OPEN cursor FOR
+    OPEN c FOR
         SELECT n.*
         FROM GatitaEmprendedora.Negocio n
         JOIN GatitaEmprendedora.Agendar a ON n.IdNegocio = a.IdNegocio
@@ -116,7 +118,8 @@ BEGIN
 
     RETURN c;
 END;
-$$ LANGUAGE plpgsql;
+$$ LANGUAGE plpgsql;;
+
 
 
 -- ============================================================================
