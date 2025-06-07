@@ -62,6 +62,46 @@ END;
 $$ LANGUAGE plpgsql;
 
 
+-- ============================================================================
+-- Función: GatitaEmprendedora.validar_fechas_trabajar
+-- Autor: NAMEisNULL
+-- Propósito:
+--     Esta función valida que la fecha de asistencia (fechaAsistencia)
+--     esté dentro del rango de fechas permitido (fechaInicio y fechaFin)
+--     del bazar correspondiente, identificado por NEW.idBazar.
+--
+-- Uso:
+--     Se usa como parte de un trigger BEFORE INSERT OR UPDATE en la tabla 
+--     GatitaEmprendedora.Trabajar.
+--
+-- Notas:
+--     - Si la fecha de asistencia está fuera del rango, lanza una excepción
+--       y bloquea la operación.
+-- ============================================================================
+CREATE OR REPLACE FUNCTION GatitaEmprendedora.validar_fechas_trabajar()
+RETURNS TRIGGER AS $$
+DECLARE
+    v_fechaInicio DATE;
+    v_fechaFin DATE;
+BEGIN
+    -- Obtener las fechas de inicio y fin del bazar asociado
+    SELECT fechaInicio, fechaFin
+    INTO v_fechaInicio, v_fechaFin
+    FROM GatitaEmprendedora.Bazar
+    WHERE idBazar = NEW.idBazar;
+
+    -- Validar que la fecha de asistencia esté dentro del rango permitido
+    IF NEW.fechaAsistencia NOT BETWEEN v_fechaInicio AND v_fechaFin THEN
+        RAISE EXCEPTION 'La fecha de asistencia (%) está fuera del rango permitido: % - %', 
+                        NEW.fechaAsistencia, v_fechaInicio, v_fechaFin;
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
 -- Restricción para que al menos uno de EsFisico o EsVirtual sea TRUE
 DROP TRIGGER IF EXISTS trg_validar_tipo_cliente ON GatitaEmprendedora.Cliente;
 CREATE TRIGGER trg_validar_tipo_cliente
@@ -77,6 +117,11 @@ FOR EACH ROW
 EXECUTE FUNCTION GatitaEmprendedora.validar_genero_emprendedor();
 
 
+DROP TRIGGER IF EXISTS trg_validar_fechas_trabajar ON GatitaEmprendedora.Trabajar;
+CREATE TRIGGER trg_validar_fechas_trabajar
+BEFORE INSERT OR UPDATE ON GatitaEmprendedora.Trabajar
+FOR EACH ROW
+EXECUTE FUNCTION GatitaEmprendedora.validar_fechas_trabajar();
 
 
 
