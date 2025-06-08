@@ -1,0 +1,25 @@
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (1, 'Básico');
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (2, 'Premium');
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (3, 'Emprendedor');
+
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (1, 2, '$104.63');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (2, 1, '$201.43');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (3, 1, '$246.99');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (4, 2, '$170.62');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (5, 3, '$274.08');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (6, 2, '$50.04');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (7, 3, '$104.12');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (8, 2, '$122.22');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (9, 2, '$220.67');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (10, 2, '$139.34');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (11, 2, '$70.61');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (12, 3, '$144.17');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (13, 2, '$110.92');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (14, 1, '$106.94');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (15, 3, '$244.53');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (16, 2, '$62.95');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (17, 1, '$281.37');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (18, 1, '$66.03');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (19, 1, '$217.40');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (20, 2, '$147.79');
+
