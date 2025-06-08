@@ -2104,7 +2104,6 @@ insert into GatitaEmprendedora.Bazar (IdBazar, NombreBazar, Calle, NumeroExterio
 insert into GatitaEmprendedora.Bazar (IdBazar, NombreBazar, Calle, NumeroExterior, NumeroInterior, Colonia, Estado, Modalidad, FechaInicio, FechaFin) values (299, 'Farmers Market', 'Rowland', '3', 'PO Box 88259', 'Hillcrest', 'Florida', 'presencial', '10/20/2023', '1/16/2024');
 insert into GatitaEmprendedora.Bazar (IdBazar, NombreBazar, Calle, NumeroExterior, NumeroInterior, Colonia, Estado, Modalidad, FechaInicio, FechaFin) values (300, 'Meadow Market', 'Morrow', '37', 'Room 1618', 'Sunset Heights', 'Michigan', 'presencial', '7/26/2023', '11/25/2024');
 
-
 insert into GatitaEmprendedora.AmenidadBazar (IdBazar, AmenidadBazar) values (52, 'estacionamiento');
 insert into GatitaEmprendedora.AmenidadBazar (IdBazar, AmenidadBazar) values (86, 'toma de corrientes');
 insert into GatitaEmprendedora.AmenidadBazar (IdBazar, AmenidadBazar) values (33, 'estacionamiento');
@@ -2706,3 +2705,4020 @@ insert into GatitaEmprendedora.PersonalOrganizador (RFC, NombrePersonalOrganizad
 insert into GatitaEmprendedora.PersonalOrganizador (RFC, NombrePersonalOrganizador, APaternoPersonalOrganizador, AMaternoPersonalOrganizador, Calle, NumeroExterior, NumeroInterior, Colonia, Estado, Salario) values ('MUND585751OL0', 'Leon', 'Gristhwaite', 'Dymock', 'Butternut', '4', 'Apt 1130', 'Roanoke', 'Virginia', '$335.73');
 insert into GatitaEmprendedora.PersonalOrganizador (RFC, NombrePersonalOrganizador, APaternoPersonalOrganizador, AMaternoPersonalOrganizador, Calle, NumeroExterior, NumeroInterior, Colonia, Estado, Salario) values ('KMDA254191VR1', 'Winni', 'Curtayne', 'Dawltrey', 'Sauthoff', '4', 'Room 11', 'New York City', 'New York', '$82.93');
 insert into GatitaEmprendedora.PersonalOrganizador (RFC, NombrePersonalOrganizador, APaternoPersonalOrganizador, AMaternoPersonalOrganizador, Calle, NumeroExterior, NumeroInterior, Colonia, Estado, Salario) values ('EPRW584492NQ7', 'Lauraine', 'Cornforth', 'Forryan', 'Schlimgen', '5', '13th Floor', 'Lake Worth', 'Florida', '$202.60');
+
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AZTS417408FF1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NSQN171620YQ1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DDEF536599IH9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XORR536930YK4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZSLB860539YS5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YZUU484727ZD8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UCZJ267554JE8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JRIJ789290OE9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WEXH888517WR3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CQOL787311VZ4', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PYZL856515TU5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FWVZ951025MD5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VWKA647135WH0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TLJR739187MS3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XRJP940274VD6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NXZW062779GS6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KTRJ243543PR7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JUAY221950XX4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MVBR495208JX8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HHFR713440GT4', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BKIX686527LQ5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IUFG676981OE8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QUJR692267LP0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WLUI054765FO9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NTIF234742AV1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QYBT556019DC1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JMBL440409DY7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZLAT732164RS9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KHRP912604HJ7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DCVT806224IA2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EQDS022269LR1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XMTU263083RU8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ONCY731679DE4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VXQJ640583OL7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TEJT972506GX0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JWQL490616QE6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YMCR458187QL7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FBWY682949LD9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IUBP371264EQ9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WWFC766803EW0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GYVW272835ZX5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ECKR439719WG9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZOSE534585FV2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VYBB848626LQ7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MYQQ362391LV6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UURZ020707PC6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QIEU752475EU6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DFJY686186DG5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TMNX343647KU0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GWXH992929HR2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KHSX551234OV6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MCAP567613MW6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JNIZ542256FP8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DCBE839423OF5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FDZC271749ZF6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VTDB407834ZQ6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YJOL761143RA9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KJDC256330KK4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SNZN015754BZ0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VYBG511813JW1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AIMU888212VZ5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BFJX346518IV1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VUXT583744ZN6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TQBF651221GY0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XJCZ046954VC3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DLWR541477ZK6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RAOA796368LA5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UZJC838077UU2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XSNW750007JX3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YCSO099434ZH7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PCXI666990WT8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QULD115450VF1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UCYA953025QV4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GGTL714314OQ9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RDUZ298459DK7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RCKM361377IM3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VZJE521448JK8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GIXH891121BZ3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XYMG712247ML3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SLTW816188SG1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FCXM053582ZN0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KVDJ452281IP6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ORTE817295NU1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JNEK111541IV1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VPWY650191WB2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LDLJ735973YE3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QNNZ968158AN5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TLGK199932OT4', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HGSW540280NI3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JSEI180123DN4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HJWD516635CP3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PYJB248080FJ2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WULH743775EX7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AXPF599717DD4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TRVV647557DG4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DMKT169487QB2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WZPV545358ZC2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TLOM599841AN0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZIDL742597TR3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PWLZ970086EB8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LNYM346606AC0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MUEC770752OE1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GBJA585821VR4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PWOB052185PE2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BJDO237970ZP8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CXLR637405AZ5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DTXU207655SX0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RKBG907923OG5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QQXH050684GA6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JEIL387473HG8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ULAC398496AL7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KCXT617732HI8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UVUJ754878KW4', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZLPA349047RF1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XHOV698224RS2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VAEH411485BP1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NWBV210359QR6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LMAG821658SC0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DPPL502774FV6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DCON334408PK9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RQVE271186IE4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LUWX556163CF8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OGJS748873PG2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UIQC636902IB5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HTOT695221UM5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DZRG230022VZ6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CPVE809501LL9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QRUB573644BH7', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XHOD435207YB1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SIWI235560SJ1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BALA034852WD6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XCEV574960MT3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MUWI161613AF4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IHGO584470SZ2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LIBR140063EF2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PCEF178658CI1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PXRH629211PK1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EROZ723397ZO8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ONQA048989JB7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LIFW977199WP0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YAWG608899CY5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QAUV821067QC1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TQXN414895GU6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VCKW541590PB8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XQDC696317OL8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VCGX645411CZ3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TYBP514024JS0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MUJJ908983CT3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YZJP736794MU8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZEEJ337450DJ8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WQNS448308FM7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SVHH110180CG6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QXME959818WV3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('STUR322410RN5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DWQK223734TY8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VSPU962968TT8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('USXN580328IR9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NEQE811683AW3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NSMX152215QJ6', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LGAH953168RK0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ALCV557629FW9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VOZY534412RW2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AYAY447076CR3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LZYU261478AU1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XVVH638264YH6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PGET565252ZL2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HXYF598350YB5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZWLR527567XN3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IZGP048510LH6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LHAD628371BC5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IZKH574324OK8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YWFD611475YH1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GGBP661230MQ3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HYRG815810NV7', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TXAF879022MK8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CWGH486966WL9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DMYT407202XG2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WVEN523436ML5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AEAU357481KS1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OIDH001634DI9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OBPE486922RU5', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CZAW898539AC0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DKUE919882XG0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DSSB604785RT5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BRLX257577LO4', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BVHD153545NC7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZAER843991ZH8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HNRZ775191RB5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MGYB713451IK7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OCEN422514XX7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VJLI446911MJ1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BYMS281268NY1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZUVM994746RX5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PJLZ266065YY3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HYQE162388YG5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HNLA678904RN1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WCPO498742RD9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('XLKO042021NP3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QZVB293388CW0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BGNZ438243JB3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LCCX964438BK8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PZPX774729TF5', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JHWX509775PX7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OFEZ711348WA4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WWEJ956105HK4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HXRB348730QD7', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GIMY222562IS8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MSAJ609823FD8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EYMG039644AK8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EZIG627425GR1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HORQ849477AC4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IQMO244354VK3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QYCV566068HU7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZYUY419014QK8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BJBX018018FI7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZOJX039205AE0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NGVV094802XX2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MECL120696SW6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EMMZ078734MC1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MDTN399839IF9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NIBS126434GX0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IQFK644646QX3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CWAM389403MJ0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('JZHA261561JW9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GUAO869010PM3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VOJV969292MG7', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AQPD647118AL0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MQCI906995PO1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WVVJ597346KO8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AQGA135591UU3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IXFK182507DT6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EYDZ773923EE4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YTWC095366QU0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ARRH126672VS7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FXHA624932RE4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PDJL078496WL2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FAQS899347YL7', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZZDS106980OH0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('GIZP520503IK6', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DQMS228276YR2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EQXP782144WH5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BXPH243227QF8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ROLG249057MH8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OCDR297566AS2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UROD181378RX9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WAKB812310RP8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CGEZ499992SW0', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CLMT143475AH9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('FPHB922296AG4', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NGEG543293RL9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BERL496638RX9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PHPH928730WZ1', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WKBE731931IC3', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NTEY574626SW8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CWVH294429LE2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KPAZ486699LF3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RVNY529997RW4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KBBM858837OB7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('UGOY253418TY1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QASX935948FN3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VNCM007331ZF2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EBHZ211104QQ9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('YFGY701952SP8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('HRYS672567TB0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('QAWP864570MW4', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VTCO288920HO1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CQMU885981AD8', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SYHI381947FF8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CMPP161394UG7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('CYXJ764160OQ1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RKKD496655HF2', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AHPS874691DI3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('DUXO428507CC9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ZLMN039850SP7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EMHO546301ZZ8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NAMG434585QD8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IQVJ254680AK9', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('IAHD639909NE2', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('RUPK118824IU5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WCKW099795IW3', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('OKDB686714RN7', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('LNJD639898ZF2', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PLEL185289CS6', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SSPB754027UQ8', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('PFVB347658JC9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BZEY489816PL8', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('NSGO788580JF0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VGUT580953RH5', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EWHB671134ZR7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('ENOI952607ZE9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TGDO797068WP0', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('AXFY004529PJ1', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('WABB829145BY7', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('BFBR125699GT9', 'vespertino1');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('SLBB556080GV3', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('VUKT158637QN0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('TZMJ008217DX9', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('MUND585751OL0', 'vespertino2');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('KMDA254191VR1', 'matutino');
+insert into GatitaEmprendedora.HorarioPersonalOrganizador (RFC, HorarioPersonalOrganizador) values ('EPRW584492NQ7', 'vespertino1');
+
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AZTS417408FF1', '0093904317');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NSQN171620YQ1', '2399220878');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DDEF536599IH9', '8573051039');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XORR536930YK4', '8045678990');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZSLB860539YS5', '1517476936');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YZUU484727ZD8', '3487068087');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UCZJ267554JE8', '9409592224');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JRIJ789290OE9', '5630050899');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WEXH888517WR3', '8887889516');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CQOL787311VZ4', '6012915830');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PYZL856515TU5', '3987289774');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FWVZ951025MD5', '4746552948');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VWKA647135WH0', '4815376971');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TLJR739187MS3', '5609558297');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XRJP940274VD6', '0335578740');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NXZW062779GS6', '3752542543');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KTRJ243543PR7', '9960799503');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JUAY221950XX4', '8704485929');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MVBR495208JX8', '5858545932');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HHFR713440GT4', '0603875080');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BKIX686527LQ5', '2208156116');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IUFG676981OE8', '7074467484');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QUJR692267LP0', '6740989459');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WLUI054765FO9', '3543236413');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NTIF234742AV1', '3560042381');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QYBT556019DC1', '0186642708');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JMBL440409DY7', '1551107658');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZLAT732164RS9', '3854913683');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KHRP912604HJ7', '8242901306');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DCVT806224IA2', '5422217432');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EQDS022269LR1', '7284316674');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XMTU263083RU8', '8472230909');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ONCY731679DE4', '0450937426');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VXQJ640583OL7', '7466523772');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TEJT972506GX0', '9417788894');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JWQL490616QE6', '3038424006');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YMCR458187QL7', '1401899326');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FBWY682949LD9', '8044992078');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IUBP371264EQ9', '7890649715');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WWFC766803EW0', '2671453539');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GYVW272835ZX5', '7073488237');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ECKR439719WG9', '6809510604');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZOSE534585FV2', '8534498644');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VYBB848626LQ7', '2960378213');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MYQQ362391LV6', '6807825177');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UURZ020707PC6', '5604762720');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QIEU752475EU6', '6697106045');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DFJY686186DG5', '8967932452');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TMNX343647KU0', '7937688102');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GWXH992929HR2', '9155216004');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KHSX551234OV6', '6931821258');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MCAP567613MW6', '3715134037');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JNIZ542256FP8', '1909119925');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DCBE839423OF5', '8470278199');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FDZC271749ZF6', '6636250462');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VTDB407834ZQ6', '0355793519');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YJOL761143RA9', '1706014091');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KJDC256330KK4', '3570434471');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SNZN015754BZ0', '4975098158');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VYBG511813JW1', '1603939977');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AIMU888212VZ5', '0050949072');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BFJX346518IV1', '5143815679');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VUXT583744ZN6', '5261891562');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TQBF651221GY0', '4122558729');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XJCZ046954VC3', '8126685194');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DLWR541477ZK6', '5064426544');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RAOA796368LA5', '1038373684');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UZJC838077UU2', '2671070250');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XSNW750007JX3', '7928161047');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YCSO099434ZH7', '3087095808');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PCXI666990WT8', '3893132059');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QULD115450VF1', '8856168130');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UCYA953025QV4', '4816784826');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GGTL714314OQ9', '7165030118');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RDUZ298459DK7', '0807507178');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RCKM361377IM3', '2582360767');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VZJE521448JK8', '1319266676');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GIXH891121BZ3', '5520761159');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XYMG712247ML3', '0498531259');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SLTW816188SG1', '8523788046');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FCXM053582ZN0', '7685498507');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KVDJ452281IP6', '9626369817');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ORTE817295NU1', '5625762174');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JNEK111541IV1', '8872244561');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VPWY650191WB2', '2905622618');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LDLJ735973YE3', '5159011123');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QNNZ968158AN5', '8928192770');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TLGK199932OT4', '3345689440');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HGSW540280NI3', '1786351786');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JSEI180123DN4', '9621111931');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HJWD516635CP3', '8219421731');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PYJB248080FJ2', '4250591566');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WULH743775EX7', '3566978268');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AXPF599717DD4', '0000644187');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TRVV647557DG4', '9324723716');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DMKT169487QB2', '3306998400');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WZPV545358ZC2', '4346375612');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TLOM599841AN0', '0372456801');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZIDL742597TR3', '2319734415');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PWLZ970086EB8', '8134190654');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LNYM346606AC0', '3339932337');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MUEC770752OE1', '2248077743');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GBJA585821VR4', '4567684457');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PWOB052185PE2', '0822811009');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BJDO237970ZP8', '7553846755');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CXLR637405AZ5', '0138552730');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DTXU207655SX0', '7334320183');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RKBG907923OG5', '9453432292');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QQXH050684GA6', '9902126357');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JEIL387473HG8', '0458120577');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ULAC398496AL7', '1828351258');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KCXT617732HI8', '4483321478');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UVUJ754878KW4', '4065412588');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZLPA349047RF1', '6952524441');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XHOV698224RS2', '7115854414');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VAEH411485BP1', '6574260193');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NWBV210359QR6', '9367506717');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LMAG821658SC0', '9428507569');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DPPL502774FV6', '7856002793');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DCON334408PK9', '7856270230');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RQVE271186IE4', '2550756376');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LUWX556163CF8', '4257349245');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OGJS748873PG2', '4420812273');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UIQC636902IB5', '8001988355');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HTOT695221UM5', '3304291840');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DZRG230022VZ6', '9585059222');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CPVE809501LL9', '3335893316');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QRUB573644BH7', '3455129460');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XHOD435207YB1', '5147162942');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SIWI235560SJ1', '3884241300');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BALA034852WD6', '8028216851');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XCEV574960MT3', '9075303826');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MUWI161613AF4', '5702313136');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IHGO584470SZ2', '3884689757');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LIBR140063EF2', '1332921698');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PCEF178658CI1', '4665485289');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PXRH629211PK1', '1846008990');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EROZ723397ZO8', '2426219285');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ONQA048989JB7', '4730459257');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LIFW977199WP0', '3265352491');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YAWG608899CY5', '9000376893');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QAUV821067QC1', '4373940587');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TQXN414895GU6', '1390624320');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VCKW541590PB8', '7465326047');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XQDC696317OL8', '5952825621');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VCGX645411CZ3', '6163783673');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TYBP514024JS0', '7483420921');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MUJJ908983CT3', '3759627316');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YZJP736794MU8', '1809052946');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZEEJ337450DJ8', '6242628477');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WQNS448308FM7', '2019153808');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SVHH110180CG6', '3787619502');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QXME959818WV3', '2563593387');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('STUR322410RN5', '5772241404');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DWQK223734TY8', '0825038859');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VSPU962968TT8', '5669196246');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('USXN580328IR9', '4553501904');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NEQE811683AW3', '2395857871');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NSMX152215QJ6', '9340689899');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LGAH953168RK0', '5093899492');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ALCV557629FW9', '5575944760');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VOZY534412RW2', '4035594144');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AYAY447076CR3', '8519581480');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LZYU261478AU1', '9028871793');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XVVH638264YH6', '9154162061');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PGET565252ZL2', '2949043940');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HXYF598350YB5', '5511047157');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZWLR527567XN3', '2475956432');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IZGP048510LH6', '8002031318');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LHAD628371BC5', '5150704028');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IZKH574324OK8', '0481307468');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YWFD611475YH1', '9886599244');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GGBP661230MQ3', '4412044488');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HYRG815810NV7', '0507001426');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TXAF879022MK8', '9327849121');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CWGH486966WL9', '4889785297');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DMYT407202XG2', '3875383544');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WVEN523436ML5', '4301487488');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AEAU357481KS1', '7560045615');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OIDH001634DI9', '9128278458');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OBPE486922RU5', '1934416230');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CZAW898539AC0', '5426418489');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DKUE919882XG0', '5428771196');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DSSB604785RT5', '8051771744');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BRLX257577LO4', '6324751055');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BVHD153545NC7', '7786002443');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZAER843991ZH8', '2840987482');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HNRZ775191RB5', '2999624087');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MGYB713451IK7', '8145261052');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OCEN422514XX7', '2802329282');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VJLI446911MJ1', '0153064921');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BYMS281268NY1', '8261814672');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZUVM994746RX5', '5419624318');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PJLZ266065YY3', '9786418069');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HYQE162388YG5', '6950876463');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HNLA678904RN1', '6775176651');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WCPO498742RD9', '3144563117');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('XLKO042021NP3', '3422033175');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QZVB293388CW0', '8980855425');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BGNZ438243JB3', '8272008924');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LCCX964438BK8', '3892116173');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PZPX774729TF5', '2595275860');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JHWX509775PX7', '9598043405');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OFEZ711348WA4', '1064884213');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WWEJ956105HK4', '3979704546');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HXRB348730QD7', '4754439821');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GIMY222562IS8', '9380038183');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MSAJ609823FD8', '5953632637');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EYMG039644AK8', '8573714412');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EZIG627425GR1', '2281036631');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HORQ849477AC4', '4040767666');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IQMO244354VK3', '2910957401');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QYCV566068HU7', '5554666676');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZYUY419014QK8', '5218548846');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BJBX018018FI7', '7955000487');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZOJX039205AE0', '0307372138');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NGVV094802XX2', '7728764652');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MECL120696SW6', '8640896423');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EMMZ078734MC1', '0036858519');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MDTN399839IF9', '1056152651');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NIBS126434GX0', '7208085742');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IQFK644646QX3', '6959420052');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CWAM389403MJ0', '1500588950');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('JZHA261561JW9', '9414524368');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GUAO869010PM3', '3619494147');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VOJV969292MG7', '0734296697');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AQPD647118AL0', '4240431386');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MQCI906995PO1', '5682272955');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WVVJ597346KO8', '9959122475');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AQGA135591UU3', '1369645611');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IXFK182507DT6', '4832621118');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EYDZ773923EE4', '4040426083');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YTWC095366QU0', '2410917113');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ARRH126672VS7', '6951760126');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FXHA624932RE4', '3449512714');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PDJL078496WL2', '7365634946');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FAQS899347YL7', '7191557542');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZZDS106980OH0', '3706937086');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('GIZP520503IK6', '4658777098');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DQMS228276YR2', '9843430704');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EQXP782144WH5', '1572839046');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BXPH243227QF8', '1313533248');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ROLG249057MH8', '5035341282');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OCDR297566AS2', '9148458268');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UROD181378RX9', '0600842878');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WAKB812310RP8', '6791443982');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CGEZ499992SW0', '3973897225');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CLMT143475AH9', '9179528749');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('FPHB922296AG4', '7916069219');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NGEG543293RL9', '7399157054');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BERL496638RX9', '6344902329');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PHPH928730WZ1', '9302691100');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WKBE731931IC3', '9036506618');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NTEY574626SW8', '3258639651');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CWVH294429LE2', '1421386243');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KPAZ486699LF3', '2722270550');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RVNY529997RW4', '5036853741');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KBBM858837OB7', '2173730411');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('UGOY253418TY1', '1105294758');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QASX935948FN3', '4829502334');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VNCM007331ZF2', '7587400902');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EBHZ211104QQ9', '0028477447');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('YFGY701952SP8', '2938602694');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('HRYS672567TB0', '1292430372');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('QAWP864570MW4', '9678173482');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VTCO288920HO1', '3148121933');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CQMU885981AD8', '8934734525');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SYHI381947FF8', '3455223834');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CMPP161394UG7', '4986054226');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('CYXJ764160OQ1', '8718768990');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RKKD496655HF2', '3403370274');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AHPS874691DI3', '9662301699');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('DUXO428507CC9', '7316403023');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ZLMN039850SP7', '1339463034');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EMHO546301ZZ8', '2175075486');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NAMG434585QD8', '7467213306');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IQVJ254680AK9', '3264801556');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('IAHD639909NE2', '4962382342');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('RUPK118824IU5', '5986463527');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WCKW099795IW3', '6487862025');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('OKDB686714RN7', '9608381953');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('LNJD639898ZF2', '6818391862');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PLEL185289CS6', '3151349650');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SSPB754027UQ8', '8265156923');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('PFVB347658JC9', '2312653681');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BZEY489816PL8', '7401670866');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('NSGO788580JF0', '5730425595');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VGUT580953RH5', '0841054438');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EWHB671134ZR7', '2253155430');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('ENOI952607ZE9', '5821627347');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TGDO797068WP0', '4942715271');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('AXFY004529PJ1', '0471675195');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('WABB829145BY7', '1497382674');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('BFBR125699GT9', '7333950053');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('SLBB556080GV3', '5087823761');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('VUKT158637QN0', '7342287536');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('TZMJ008217DX9', '3969757478');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('MUND585751OL0', '6913802985');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('KMDA254191VR1', '8797873608');
+insert into GatitaEmprendedora.TelefonoPersonalOrganizador (RFC, TelefonoPersonalOrganizador) values ('EPRW584492NQ7', '2738970014');
+
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AZTS417408FF1', 'wpatley0@desdev.cn');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NSQN171620YQ1', 'jwallice1@oracle.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DDEF536599IH9', 'kmatis2@xing.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XORR536930YK4', 'bvaux3@moonfruit.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZSLB860539YS5', 'mayars4@e-recht24.de');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YZUU484727ZD8', 'clys5@networkadvertising.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UCZJ267554JE8', 'gpiesold6@yellowpages.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JRIJ789290OE9', 'rdundridge7@arstechnica.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WEXH888517WR3', 'hdouble8@4shared.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CQOL787311VZ4', 'sizakoff9@whitehouse.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PYZL856515TU5', 'geselera@discuz.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FWVZ951025MD5', 'mgiacomellob@scientificamerican.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VWKA647135WH0', 'lmatiasekc@e-recht24.de');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TLJR739187MS3', 'pmacallisterd@wikia.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XRJP940274VD6', 'pfidoee@dedecms.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NXZW062779GS6', 'wtiesmanf@businesswire.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KTRJ243543PR7', 'cpidcockg@360.cn');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JUAY221950XX4', 'twetherilh@scientificamerican.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MVBR495208JX8', 'ngamblei@unesco.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HHFR713440GT4', 'msushamsj@webmd.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BKIX686527LQ5', 'ljakok@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IUFG676981OE8', 'dkeatesl@ameblo.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QUJR692267LP0', 'wankersm@scientificamerican.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WLUI054765FO9', 'cgreatedn@hhs.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NTIF234742AV1', 'hkluliko@army.mil');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QYBT556019DC1', 'beymerp@forbes.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JMBL440409DY7', 'pransonq@51.la');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZLAT732164RS9', 'gsidonr@typepad.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KHRP912604HJ7', 'lwallbuttons@addtoany.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DCVT806224IA2', 'jgritsaevt@amazonaws.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EQDS022269LR1', 'bhuberyu@ovh.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XMTU263083RU8', 'gdrewettv@harvard.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ONCY731679DE4', 'gchastelw@fda.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VXQJ640583OL7', 'edemogeotx@zimbio.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TEJT972506GX0', 'gfransmany@cbslocal.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JWQL490616QE6', 'rwoolmerz@gmpg.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YMCR458187QL7', 'akidwell10@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FBWY682949LD9', 'dvasilyev11@forbes.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IUBP371264EQ9', 'npennino12@psu.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WWFC766803EW0', 'cyitshak13@usnews.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GYVW272835ZX5', 'jmateos14@shutterfly.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ECKR439719WG9', 'flloydwilliams15@livejournal.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZOSE534585FV2', 'bcasterou16@google.es');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VYBB848626LQ7', 'bdurrant17@pinterest.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MYQQ362391LV6', 'vlothean18@techcrunch.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UURZ020707PC6', 'sbrendish19@who.int');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QIEU752475EU6', 'chayley1a@blogs.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DFJY686186DG5', 'cwolfarth1b@cpanel.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TMNX343647KU0', 'hpontefract1c@state.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GWXH992929HR2', 'mbulbrook1d@about.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KHSX551234OV6', 'ljepensen1e@quantcast.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MCAP567613MW6', 'rschimaschke1f@businessweek.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JNIZ542256FP8', 'bdoswell1g@blinklist.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DCBE839423OF5', 'mcarnihan1h@senate.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FDZC271749ZF6', 'bmclaren1i@instagram.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VTDB407834ZQ6', 'byounger1j@hp.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YJOL761143RA9', 'sridwood1k@creativecommons.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KJDC256330KK4', 'aedgeson1l@netscape.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SNZN015754BZ0', 'krothermel1m@google.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VYBG511813JW1', 'kyard1n@auda.org.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AIMU888212VZ5', 'odufton1o@techcrunch.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BFJX346518IV1', 'mreinhard1p@cdc.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VUXT583744ZN6', 'mgowler1q@barnesandnoble.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TQBF651221GY0', 'mluna1r@alibaba.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XJCZ046954VC3', 'clindeman1s@shop-pro.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DLWR541477ZK6', 'wmuir1t@auda.org.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RAOA796368LA5', 'emabee1u@vkontakte.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UZJC838077UU2', 'djoderli1v@smh.com.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XSNW750007JX3', 'apohl1w@blogger.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YCSO099434ZH7', 'acrookshanks1x@com.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PCXI666990WT8', 'mbossom1y@typepad.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QULD115450VF1', 'vmullinder1z@netlog.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UCYA953025QV4', 'chuggins20@istockphoto.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GGTL714314OQ9', 'cgoble21@reuters.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RDUZ298459DK7', 'dfilpi22@discuz.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RCKM361377IM3', 'balbion23@mapy.cz');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VZJE521448JK8', 'svardie24@nifty.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GIXH891121BZ3', 'mramsell25@china.com.cn');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XYMG712247ML3', 'mgolder26@godaddy.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SLTW816188SG1', 'ubillin27@amazonaws.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FCXM053582ZN0', 'alambole28@nytimes.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KVDJ452281IP6', 'bwand29@multiply.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ORTE817295NU1', 'dmassard2a@amazonaws.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JNEK111541IV1', 'bwhitby2b@example.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VPWY650191WB2', 'qcicutto2c@dyndns.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LDLJ735973YE3', 'ddendon2d@google.de');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QNNZ968158AN5', 'ksilbert2e@unicef.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TLGK199932OT4', 'tpawelek2f@si.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HGSW540280NI3', 'jstearn2g@about.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JSEI180123DN4', 'abryce2h@soundcloud.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HJWD516635CP3', 'vcroutear2i@latimes.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PYJB248080FJ2', 'giiannoni2j@ucoz.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WULH743775EX7', 'idaborn2k@ft.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AXPF599717DD4', 'amarchello2l@youtube.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TRVV647557DG4', 'adzenisenka2m@artisteer.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DMKT169487QB2', 'cplampin2n@domainmarket.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WZPV545358ZC2', 'rlevermore2o@ask.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TLOM599841AN0', 'syersin2p@unicef.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZIDL742597TR3', 'tfrancklyn2q@google.com.br');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PWLZ970086EB8', 'ayardley2r@weather.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LNYM346606AC0', 'esoares2s@vkontakte.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MUEC770752OE1', 'tveall2t@jigsy.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GBJA585821VR4', 'wmoyles2u@amazon.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PWOB052185PE2', 'ggomme2v@walmart.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BJDO237970ZP8', 'lburgill2w@imdb.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CXLR637405AZ5', 'tbach2x@bigcartel.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DTXU207655SX0', 'cdudgeon2y@nsw.gov.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RKBG907923OG5', 'mepine2z@springer.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QQXH050684GA6', 'bcauston30@spiegel.de');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JEIL387473HG8', 'afrederick31@unicef.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ULAC398496AL7', 'jwalden32@w3.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KCXT617732HI8', 'ktumini33@reuters.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UVUJ754878KW4', 'rjoret34@adobe.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZLPA349047RF1', 'wklejin35@ftc.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XHOV698224RS2', 'rbescoby36@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VAEH411485BP1', 'mgolbourn37@behance.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NWBV210359QR6', 'rastell38@paginegialle.it');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LMAG821658SC0', 'ldalwood39@gravatar.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DPPL502774FV6', 'hpresshaugh3a@ebay.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DCON334408PK9', 'cbiddles3b@posterous.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RQVE271186IE4', 'bquigg3c@dyndns.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LUWX556163CF8', 'lgarioch3d@goo.ne.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OGJS748873PG2', 'ereilingen3e@ft.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UIQC636902IB5', 'dminithorpe3f@blogs.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HTOT695221UM5', 'pecles3g@engadget.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DZRG230022VZ6', 'ahandy3h@dell.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CPVE809501LL9', 'pbackshell3i@nationalgeographic.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QRUB573644BH7', 'grooksby3j@webeden.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XHOD435207YB1', 'rorford3k@google.nl');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SIWI235560SJ1', 'ipancoast3l@nationalgeographic.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BALA034852WD6', 'aquiddington3m@ebay.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XCEV574960MT3', 'jashcroft3n@admin.ch');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MUWI161613AF4', 'ebarette3o@slashdot.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IHGO584470SZ2', 'nmaunton3p@ed.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LIBR140063EF2', 'gondrich3q@bloglines.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PCEF178658CI1', 'jwheildon3r@cornell.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PXRH629211PK1', 'amatashkin3s@themeforest.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EROZ723397ZO8', 'mkleewein3t@google.es');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ONQA048989JB7', 'egruszecki3u@webmd.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LIFW977199WP0', 'lsangwine3v@umn.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YAWG608899CY5', 'operrin3w@arstechnica.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QAUV821067QC1', 'calessandone3x@yolasite.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TQXN414895GU6', 'enalder3y@imageshack.us');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VCKW541590PB8', 'mfadden3z@mashable.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XQDC696317OL8', 'cnatalie40@disqus.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VCGX645411CZ3', 'efowley41@omniture.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TYBP514024JS0', 'ishawcross42@163.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MUJJ908983CT3', 'scaldecot43@wordpress.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YZJP736794MU8', 'ckean44@walmart.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZEEJ337450DJ8', 'sdove45@technorati.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WQNS448308FM7', 'rpurselowe46@sbwire.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SVHH110180CG6', 'ballain47@ameblo.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QXME959818WV3', 'mmanifold48@msu.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('STUR322410RN5', 'kdelatremoille49@sitemeter.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DWQK223734TY8', 'panthes4a@simplemachines.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VSPU962968TT8', 'khammerstone4b@dailymail.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('USXN580328IR9', 'abohlens4c@godaddy.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NEQE811683AW3', 'cduquesnay4d@nbcnews.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NSMX152215QJ6', 'klynnett4e@ask.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LGAH953168RK0', 'jmckellen4f@ebay.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ALCV557629FW9', 'agarm4g@senate.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VOZY534412RW2', 'ybrise4h@amazon.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AYAY447076CR3', 'yfant4i@sciencedaily.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LZYU261478AU1', 'llowis4j@constantcontact.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XVVH638264YH6', 'mallam4k@blog.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PGET565252ZL2', 'ahatton4l@state.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HXYF598350YB5', 'glamort4m@abc.net.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZWLR527567XN3', 'fstoppe4n@gizmodo.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IZGP048510LH6', 'kglasscott4o@odnoklassniki.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LHAD628371BC5', 'djouanet4p@google.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IZKH574324OK8', 'gallum4q@about.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YWFD611475YH1', 'bmalster4r@boston.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GGBP661230MQ3', 'pcrebo4s@barnesandnoble.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HYRG815810NV7', 'gdavoren4t@dedecms.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TXAF879022MK8', 'nluckcock4u@xing.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CWGH486966WL9', 'aharwick4v@yolasite.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DMYT407202XG2', 'fboshard4w@joomla.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WVEN523436ML5', 'sdanielsen4x@taobao.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AEAU357481KS1', 'kgoosnell4y@godaddy.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OIDH001634DI9', 'pshipton4z@cbc.ca');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OBPE486922RU5', 'nswaby50@slate.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CZAW898539AC0', 'myeudall51@google.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DKUE919882XG0', 'nmelloy52@ox.ac.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DSSB604785RT5', 'jkornacki53@networkadvertising.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BRLX257577LO4', 'tgrise54@surveymonkey.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BVHD153545NC7', 'dwoolfall55@sitemeter.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZAER843991ZH8', 'afilov56@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HNRZ775191RB5', 'ogason57@weebly.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MGYB713451IK7', 'kcater58@google.ca');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OCEN422514XX7', 'mmorch59@cornell.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VJLI446911MJ1', 'gsotham5a@taobao.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BYMS281268NY1', 'amulqueen5b@cloudflare.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZUVM994746RX5', 'owinterson5c@typepad.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PJLZ266065YY3', 'hsparrowe5d@squarespace.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HYQE162388YG5', 'iesterbrook5e@cbc.ca');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HNLA678904RN1', 'fsadry5f@printfriendly.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WCPO498742RD9', 'ibeveredge5g@google.com.hk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('XLKO042021NP3', 'bgiorgiutti5h@nyu.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QZVB293388CW0', 'ckitney5i@fotki.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BGNZ438243JB3', 'emckeighan5j@reference.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LCCX964438BK8', 'rderoos5k@free.fr');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PZPX774729TF5', 'lbrydie5l@meetup.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JHWX509775PX7', 'jrival5m@gmpg.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OFEZ711348WA4', 'cpickaver5n@ox.ac.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WWEJ956105HK4', 'ikibbey5o@tmall.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HXRB348730QD7', 'rbartoszewski5p@odnoklassniki.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GIMY222562IS8', 'dfinnimore5q@utexas.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MSAJ609823FD8', 'hsadat5r@de.vu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EYMG039644AK8', 'openburton5s@theglobeandmail.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EZIG627425GR1', 'tprobet5t@drupal.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HORQ849477AC4', 'mgout5u@ezinearticles.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IQMO244354VK3', 'hfranchyonok5v@cpanel.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QYCV566068HU7', 'jsyalvester5w@house.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZYUY419014QK8', 'mtooting5x@patch.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BJBX018018FI7', 'sadrian5y@addtoany.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZOJX039205AE0', 'churley5z@hubpages.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NGVV094802XX2', 'rshorland60@mozilla.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MECL120696SW6', 'gbodimeade61@opera.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EMMZ078734MC1', 'naubrun62@constantcontact.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MDTN399839IF9', 'gantonopoulos63@sitemeter.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NIBS126434GX0', 'awilkie64@webeden.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IQFK644646QX3', 'npaulazzi65@canalblog.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CWAM389403MJ0', 'bkahan66@biblegateway.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('JZHA261561JW9', 'cpriden67@i2i.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GUAO869010PM3', 'lbernardet68@prnewswire.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VOJV969292MG7', 'cjoincey69@github.io');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AQPD647118AL0', 'rdearell6a@shinystat.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MQCI906995PO1', 'wquinney6b@typepad.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WVVJ597346KO8', 'rpingstone6c@bravesites.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AQGA135591UU3', 'kclemot6d@symantec.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IXFK182507DT6', 'xcalcraft6e@washingtonpost.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EYDZ773923EE4', 'vfasham6f@4shared.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YTWC095366QU0', 'jherrema6g@bing.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ARRH126672VS7', 'fdiego6h@businessweek.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FXHA624932RE4', 'gdallemore6i@reference.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PDJL078496WL2', 'mavann6j@sbwire.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FAQS899347YL7', 'anewcom6k@cam.ac.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZZDS106980OH0', 'smcgiffie6l@nbcnews.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('GIZP520503IK6', 'pgonsalvez6m@google.fr');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DQMS228276YR2', 'mbracci6n@tripod.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EQXP782144WH5', 'aheams6o@slideshare.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BXPH243227QF8', 'btraice6p@ucla.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ROLG249057MH8', 'amcilvoray6q@tripadvisor.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OCDR297566AS2', 'gpooly6r@163.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UROD181378RX9', 'fmacguiness6s@ning.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WAKB812310RP8', 'nogrady6t@hatena.ne.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CGEZ499992SW0', 'ssaiens6u@blogtalkradio.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CLMT143475AH9', 'ccastledine6v@ox.ac.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('FPHB922296AG4', 'mspinello6w@exblog.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NGEG543293RL9', 'abisset6x@washingtonpost.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BERL496638RX9', 'etipperton6y@mysql.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PHPH928730WZ1', 'bbeldum6z@amazon.co.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WKBE731931IC3', 'ctownsend70@bizjournals.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NTEY574626SW8', 'sgillespie71@tripadvisor.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CWVH294429LE2', 'blinning72@wired.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KPAZ486699LF3', 'sbaltzar73@admin.ch');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RVNY529997RW4', 'agreenwood74@yellowbook.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KBBM858837OB7', 'tmeasor75@google.ru');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('UGOY253418TY1', 'mough76@mozilla.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QASX935948FN3', 'kkersley77@ucoz.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VNCM007331ZF2', 'kbend78@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EBHZ211104QQ9', 'zleake79@github.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('YFGY701952SP8', 'agiacomasso7a@businessinsider.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('HRYS672567TB0', 'cpaul7b@icq.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('QAWP864570MW4', 'lleece7c@forbes.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VTCO288920HO1', 'mfentem7d@bloomberg.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CQMU885981AD8', 'avowells7e@163.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SYHI381947FF8', 'edukelow7f@imageshack.us');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CMPP161394UG7', 'dharmon7g@bizjournals.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('CYXJ764160OQ1', 'rwilds7h@nps.gov');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RKKD496655HF2', 'hplayer7i@nhs.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AHPS874691DI3', 'bfairham7j@shop-pro.jp');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('DUXO428507CC9', 'smalia7k@list-manage.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ZLMN039850SP7', 'evogeler7l@symantec.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EMHO546301ZZ8', 'msteggles7m@surveymonkey.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NAMG434585QD8', 'plesurf7n@live.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IQVJ254680AK9', 'jhubback7o@blogtalkradio.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('IAHD639909NE2', 'tpemble7p@samsung.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('RUPK118824IU5', 'labrahams7q@abc.net.au');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WCKW099795IW3', 'jdemicoli7r@soundcloud.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('OKDB686714RN7', 'cbampfield7s@mysql.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('LNJD639898ZF2', 'bbertomieu7t@vinaora.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PLEL185289CS6', 'ainwood7u@opensource.org');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SSPB754027UQ8', 'scullinan7v@princeton.edu');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('PFVB347658JC9', 'kbruckstein7w@google.co.uk');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BZEY489816PL8', 'sacklands7x@gravatar.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('NSGO788580JF0', 'gedgett7y@statcounter.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VGUT580953RH5', 'fbalducci7z@businessinsider.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EWHB671134ZR7', 'dcorragan80@wsj.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('ENOI952607ZE9', 'zsetter81@squarespace.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TGDO797068WP0', 'cbrahm82@twitter.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('AXFY004529PJ1', 'dblackmuir83@tiny.cc');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('WABB829145BY7', 'gcejka84@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('BFBR125699GT9', 'cgodbold85@mac.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('SLBB556080GV3', 'lhastwall86@fc2.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('VUKT158637QN0', 'rbewshea87@comcast.net');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('TZMJ008217DX9', 'lphython88@gravatar.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('MUND585751OL0', 'enunn89@nbcnews.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('KMDA254191VR1', 'gmayling8a@phpbb.com');
+insert into GatitaEmprendedora.CorreoPersonalOrganizador (RFC, CorreoPersonalOrganizador) values ('EPRW584492NQ7', 'ezmitrovich8b@wikia.com');
+
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AZTS417408FF1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NSQN171620YQ1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DDEF536599IH9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XORR536930YK4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZSLB860539YS5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YZUU484727ZD8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UCZJ267554JE8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JRIJ789290OE9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WEXH888517WR3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CQOL787311VZ4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PYZL856515TU5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FWVZ951025MD5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VWKA647135WH0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TLJR739187MS3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XRJP940274VD6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NXZW062779GS6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KTRJ243543PR7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JUAY221950XX4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MVBR495208JX8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HHFR713440GT4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BKIX686527LQ5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IUFG676981OE8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QUJR692267LP0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WLUI054765FO9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NTIF234742AV1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QYBT556019DC1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JMBL440409DY7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZLAT732164RS9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KHRP912604HJ7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DCVT806224IA2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EQDS022269LR1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XMTU263083RU8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ONCY731679DE4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VXQJ640583OL7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TEJT972506GX0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JWQL490616QE6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YMCR458187QL7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FBWY682949LD9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IUBP371264EQ9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WWFC766803EW0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GYVW272835ZX5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ECKR439719WG9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZOSE534585FV2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VYBB848626LQ7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MYQQ362391LV6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UURZ020707PC6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QIEU752475EU6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DFJY686186DG5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TMNX343647KU0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GWXH992929HR2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KHSX551234OV6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MCAP567613MW6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JNIZ542256FP8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DCBE839423OF5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FDZC271749ZF6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VTDB407834ZQ6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YJOL761143RA9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KJDC256330KK4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SNZN015754BZ0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VYBG511813JW1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AIMU888212VZ5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BFJX346518IV1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VUXT583744ZN6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TQBF651221GY0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XJCZ046954VC3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DLWR541477ZK6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RAOA796368LA5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UZJC838077UU2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XSNW750007JX3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YCSO099434ZH7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PCXI666990WT8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QULD115450VF1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UCYA953025QV4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GGTL714314OQ9', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RDUZ298459DK7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RCKM361377IM3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VZJE521448JK8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GIXH891121BZ3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XYMG712247ML3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SLTW816188SG1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FCXM053582ZN0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KVDJ452281IP6', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ORTE817295NU1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JNEK111541IV1', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VPWY650191WB2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LDLJ735973YE3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QNNZ968158AN5', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TLGK199932OT4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HGSW540280NI3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JSEI180123DN4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HJWD516635CP3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PYJB248080FJ2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WULH743775EX7', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AXPF599717DD4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TRVV647557DG4', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DMKT169487QB2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WZPV545358ZC2', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TLOM599841AN0', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZIDL742597TR3', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PWLZ970086EB8', 'médico');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LNYM346606AC0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MUEC770752OE1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GBJA585821VR4', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PWOB052185PE2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BJDO237970ZP8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CXLR637405AZ5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DTXU207655SX0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RKBG907923OG5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QQXH050684GA6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JEIL387473HG8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ULAC398496AL7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KCXT617732HI8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UVUJ754878KW4', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZLPA349047RF1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XHOV698224RS2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VAEH411485BP1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NWBV210359QR6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LMAG821658SC0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DPPL502774FV6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DCON334408PK9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RQVE271186IE4', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LUWX556163CF8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OGJS748873PG2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UIQC636902IB5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HTOT695221UM5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DZRG230022VZ6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CPVE809501LL9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QRUB573644BH7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XHOD435207YB1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SIWI235560SJ1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BALA034852WD6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XCEV574960MT3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MUWI161613AF4', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IHGO584470SZ2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LIBR140063EF2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PCEF178658CI1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PXRH629211PK1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EROZ723397ZO8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ONQA048989JB7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LIFW977199WP0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YAWG608899CY5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QAUV821067QC1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TQXN414895GU6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VCKW541590PB8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XQDC696317OL8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VCGX645411CZ3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TYBP514024JS0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MUJJ908983CT3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YZJP736794MU8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZEEJ337450DJ8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WQNS448308FM7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SVHH110180CG6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QXME959818WV3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('STUR322410RN5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DWQK223734TY8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VSPU962968TT8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('USXN580328IR9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NEQE811683AW3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NSMX152215QJ6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LGAH953168RK0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ALCV557629FW9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VOZY534412RW2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AYAY447076CR3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LZYU261478AU1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XVVH638264YH6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PGET565252ZL2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HXYF598350YB5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZWLR527567XN3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IZGP048510LH6', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LHAD628371BC5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IZKH574324OK8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YWFD611475YH1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GGBP661230MQ3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HYRG815810NV7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TXAF879022MK8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CWGH486966WL9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DMYT407202XG2', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WVEN523436ML5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AEAU357481KS1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OIDH001634DI9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OBPE486922RU5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CZAW898539AC0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DKUE919882XG0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DSSB604785RT5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BRLX257577LO4', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BVHD153545NC7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZAER843991ZH8', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HNRZ775191RB5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MGYB713451IK7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OCEN422514XX7', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VJLI446911MJ1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BYMS281268NY1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZUVM994746RX5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PJLZ266065YY3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HYQE162388YG5', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HNLA678904RN1', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WCPO498742RD9', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('XLKO042021NP3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QZVB293388CW0', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BGNZ438243JB3', 'seguridad');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LCCX964438BK8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PZPX774729TF5', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JHWX509775PX7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OFEZ711348WA4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WWEJ956105HK4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HXRB348730QD7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GIMY222562IS8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MSAJ609823FD8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EYMG039644AK8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EZIG627425GR1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HORQ849477AC4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IQMO244354VK3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QYCV566068HU7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZYUY419014QK8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BJBX018018FI7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZOJX039205AE0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NGVV094802XX2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MECL120696SW6', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EMMZ078734MC1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MDTN399839IF9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NIBS126434GX0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IQFK644646QX3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CWAM389403MJ0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('JZHA261561JW9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GUAO869010PM3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VOJV969292MG7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AQPD647118AL0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MQCI906995PO1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WVVJ597346KO8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AQGA135591UU3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IXFK182507DT6', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EYDZ773923EE4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YTWC095366QU0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ARRH126672VS7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FXHA624932RE4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PDJL078496WL2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FAQS899347YL7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZZDS106980OH0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('GIZP520503IK6', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DQMS228276YR2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EQXP782144WH5', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BXPH243227QF8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ROLG249057MH8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OCDR297566AS2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UROD181378RX9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WAKB812310RP8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CGEZ499992SW0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CLMT143475AH9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('FPHB922296AG4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NGEG543293RL9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BERL496638RX9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PHPH928730WZ1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WKBE731931IC3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NTEY574626SW8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CWVH294429LE2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KPAZ486699LF3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RVNY529997RW4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KBBM858837OB7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('UGOY253418TY1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QASX935948FN3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VNCM007331ZF2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EBHZ211104QQ9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('YFGY701952SP8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('HRYS672567TB0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('QAWP864570MW4', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VTCO288920HO1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CQMU885981AD8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SYHI381947FF8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CMPP161394UG7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('CYXJ764160OQ1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RKKD496655HF2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AHPS874691DI3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('DUXO428507CC9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ZLMN039850SP7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EMHO546301ZZ8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NAMG434585QD8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IQVJ254680AK9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('IAHD639909NE2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('RUPK118824IU5', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WCKW099795IW3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('OKDB686714RN7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('LNJD639898ZF2', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PLEL185289CS6', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SSPB754027UQ8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('PFVB347658JC9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BZEY489816PL8', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('NSGO788580JF0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VGUT580953RH5', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EWHB671134ZR7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('ENOI952607ZE9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TGDO797068WP0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('AXFY004529PJ1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('WABB829145BY7', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('BFBR125699GT9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('SLBB556080GV3', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('VUKT158637QN0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('TZMJ008217DX9', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('MUND585751OL0', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('KMDA254191VR1', 'limpieza');
+insert into GatitaEmprendedora.RolPersonalOrganizador (RFC, Rol) values ('EPRW584492NQ7', 'limpieza');
+
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (1, 1, 'AZTS417408FF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (2, 2, 'NSQN171620YQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (3, 3, 'DDEF536599IH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (4, 4, 'XORR536930YK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (5, 5, 'ZSLB860539YS5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (6, 6, 'YZUU484727ZD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (7, 7, 'UCZJ267554JE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (8, 8, 'JRIJ789290OE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (9, 9, 'WEXH888517WR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (10, 10, 'CQOL787311VZ4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (11, 11, 'PYZL856515TU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (12, 12, 'FWVZ951025MD5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (13, 13, 'VWKA647135WH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (14, 14, 'TLJR739187MS3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (15, 15, 'XRJP940274VD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (16, 16, 'NXZW062779GS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (17, 17, 'KTRJ243543PR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (18, 18, 'JUAY221950XX4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (19, 19, 'MVBR495208JX8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (20, 20, 'HHFR713440GT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (21, 21, 'BKIX686527LQ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (22, 22, 'IUFG676981OE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (23, 23, 'QUJR692267LP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (24, 24, 'WLUI054765FO9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (25, 25, 'NTIF234742AV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (26, 26, 'QYBT556019DC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (27, 27, 'JMBL440409DY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (28, 28, 'ZLAT732164RS9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (29, 29, 'KHRP912604HJ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (30, 30, 'DCVT806224IA2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (31, 31, 'EQDS022269LR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (32, 32, 'XMTU263083RU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (33, 33, 'ONCY731679DE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (34, 34, 'VXQJ640583OL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (35, 35, 'TEJT972506GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (36, 36, 'JWQL490616QE6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (37, 37, 'YMCR458187QL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (38, 38, 'FBWY682949LD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (39, 39, 'IUBP371264EQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (40, 40, 'WWFC766803EW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (41, 41, 'GYVW272835ZX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (42, 42, 'ECKR439719WG9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (43, 43, 'ZOSE534585FV2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (44, 44, 'VYBB848626LQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (45, 45, 'MYQQ362391LV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (46, 46, 'UURZ020707PC6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (47, 47, 'QIEU752475EU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (48, 48, 'DFJY686186DG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (49, 49, 'TMNX343647KU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (50, 50, 'GWXH992929HR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (51, 51, 'KHSX551234OV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (52, 52, 'MCAP567613MW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (53, 53, 'JNIZ542256FP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (54, 54, 'DCBE839423OF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (55, 55, 'FDZC271749ZF6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (56, 56, 'VTDB407834ZQ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (57, 57, 'YJOL761143RA9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (58, 58, 'KJDC256330KK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (59, 59, 'SNZN015754BZ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (60, 60, 'VYBG511813JW1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (61, 61, 'AIMU888212VZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (62, 62, 'BFJX346518IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (63, 63, 'VUXT583744ZN6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (64, 64, 'TQBF651221GY0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (65, 65, 'XJCZ046954VC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (66, 66, 'DLWR541477ZK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (67, 67, 'RAOA796368LA5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (68, 68, 'UZJC838077UU2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (69, 69, 'XSNW750007JX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (70, 70, 'YCSO099434ZH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (71, 71, 'PCXI666990WT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (72, 72, 'QULD115450VF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (73, 73, 'UCYA953025QV4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (74, 74, 'GGTL714314OQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (75, 75, 'RDUZ298459DK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (76, 76, 'RCKM361377IM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (77, 77, 'VZJE521448JK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (78, 78, 'GIXH891121BZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (79, 79, 'XYMG712247ML3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (80, 80, 'SLTW816188SG1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (81, 81, 'FCXM053582ZN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (82, 82, 'KVDJ452281IP6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (83, 83, 'ORTE817295NU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (84, 84, 'JNEK111541IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (85, 85, 'VPWY650191WB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (86, 86, 'LDLJ735973YE3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (87, 87, 'QNNZ968158AN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (88, 88, 'TLGK199932OT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (89, 89, 'HGSW540280NI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (90, 90, 'JSEI180123DN4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (91, 91, 'HJWD516635CP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (92, 92, 'PYJB248080FJ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (93, 93, 'WULH743775EX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (94, 94, 'AXPF599717DD4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (95, 95, 'TRVV647557DG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (96, 96, 'DMKT169487QB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (97, 97, 'WZPV545358ZC2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (98, 98, 'TLOM599841AN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (99, 99, 'ZIDL742597TR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (100, 100, 'PWLZ970086EB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (101, 101, 'AZTS417408FF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (102, 102, 'NSQN171620YQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (103, 103, 'DDEF536599IH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (104, 104, 'XORR536930YK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (105, 105, 'ZSLB860539YS5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (106, 106, 'YZUU484727ZD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (107, 107, 'UCZJ267554JE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (108, 108, 'JRIJ789290OE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (109, 109, 'WEXH888517WR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (110, 110, 'CQOL787311VZ4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (111, 111, 'PYZL856515TU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (112, 112, 'FWVZ951025MD5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (113, 113, 'VWKA647135WH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (114, 114, 'TLJR739187MS3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (115, 115, 'XRJP940274VD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (116, 116, 'NXZW062779GS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (117, 117, 'KTRJ243543PR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (118, 118, 'JUAY221950XX4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (119, 119, 'MVBR495208JX8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (120, 120, 'HHFR713440GT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (121, 121, 'BKIX686527LQ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (122, 122, 'IUFG676981OE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (123, 123, 'QUJR692267LP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (124, 124, 'WLUI054765FO9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (125, 125, 'NTIF234742AV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (126, 126, 'QYBT556019DC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (127, 127, 'JMBL440409DY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (128, 128, 'ZLAT732164RS9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (129, 129, 'KHRP912604HJ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (130, 130, 'DCVT806224IA2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (131, 131, 'EQDS022269LR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (132, 132, 'XMTU263083RU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (133, 133, 'ONCY731679DE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (134, 134, 'VXQJ640583OL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (135, 135, 'TEJT972506GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (136, 136, 'JWQL490616QE6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (137, 137, 'YMCR458187QL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (138, 138, 'FBWY682949LD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (139, 139, 'IUBP371264EQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (140, 140, 'WWFC766803EW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (141, 141, 'GYVW272835ZX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (142, 142, 'ECKR439719WG9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (143, 143, 'ZOSE534585FV2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (144, 144, 'VYBB848626LQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (145, 145, 'MYQQ362391LV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (146, 146, 'UURZ020707PC6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (147, 147, 'QIEU752475EU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (148, 148, 'DFJY686186DG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (149, 149, 'TMNX343647KU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (150, 150, 'GWXH992929HR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (151, 151, 'KHSX551234OV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (152, 152, 'MCAP567613MW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (153, 153, 'JNIZ542256FP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (154, 154, 'DCBE839423OF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (155, 155, 'FDZC271749ZF6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (156, 156, 'VTDB407834ZQ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (157, 157, 'YJOL761143RA9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (158, 158, 'KJDC256330KK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (159, 159, 'SNZN015754BZ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (160, 160, 'VYBG511813JW1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (161, 161, 'AIMU888212VZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (162, 162, 'BFJX346518IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (163, 163, 'VUXT583744ZN6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (164, 164, 'TQBF651221GY0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (165, 165, 'XJCZ046954VC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (166, 166, 'DLWR541477ZK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (167, 167, 'RAOA796368LA5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (168, 168, 'UZJC838077UU2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (169, 169, 'XSNW750007JX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (170, 170, 'YCSO099434ZH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (171, 171, 'PCXI666990WT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (172, 172, 'QULD115450VF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (173, 173, 'UCYA953025QV4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (174, 174, 'GGTL714314OQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (175, 175, 'RDUZ298459DK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (176, 176, 'RCKM361377IM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (177, 177, 'VZJE521448JK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (178, 178, 'GIXH891121BZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (179, 179, 'XYMG712247ML3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (180, 180, 'SLTW816188SG1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (181, 181, 'FCXM053582ZN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (182, 182, 'KVDJ452281IP6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (183, 183, 'ORTE817295NU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (184, 184, 'JNEK111541IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (185, 185, 'VPWY650191WB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (186, 186, 'LDLJ735973YE3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (187, 187, 'QNNZ968158AN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (188, 188, 'TLGK199932OT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (189, 189, 'HGSW540280NI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (190, 190, 'JSEI180123DN4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (191, 191, 'HJWD516635CP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (192, 192, 'PYJB248080FJ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (193, 193, 'WULH743775EX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (194, 194, 'AXPF599717DD4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (195, 195, 'TRVV647557DG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (196, 196, 'DMKT169487QB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (197, 197, 'WZPV545358ZC2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (198, 198, 'TLOM599841AN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (199, 199, 'ZIDL742597TR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (200, 200, 'PWLZ970086EB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (201, 201, 'AZTS417408FF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (202, 202, 'NSQN171620YQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (203, 203, 'DDEF536599IH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (204, 204, 'XORR536930YK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (205, 205, 'ZSLB860539YS5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (206, 206, 'YZUU484727ZD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (207, 207, 'UCZJ267554JE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (208, 208, 'JRIJ789290OE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (209, 209, 'WEXH888517WR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (210, 210, 'CQOL787311VZ4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (211, 211, 'PYZL856515TU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (212, 212, 'FWVZ951025MD5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (213, 213, 'VWKA647135WH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (214, 214, 'TLJR739187MS3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (215, 215, 'XRJP940274VD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (216, 216, 'NXZW062779GS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (217, 217, 'KTRJ243543PR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (218, 218, 'JUAY221950XX4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (219, 219, 'MVBR495208JX8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (220, 220, 'HHFR713440GT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (221, 221, 'BKIX686527LQ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (222, 222, 'IUFG676981OE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (223, 223, 'QUJR692267LP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (224, 224, 'WLUI054765FO9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (225, 225, 'NTIF234742AV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (226, 226, 'QYBT556019DC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (227, 227, 'JMBL440409DY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (228, 228, 'ZLAT732164RS9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (229, 229, 'KHRP912604HJ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (230, 230, 'DCVT806224IA2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (231, 231, 'EQDS022269LR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (232, 232, 'XMTU263083RU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (233, 233, 'ONCY731679DE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (234, 234, 'VXQJ640583OL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (235, 235, 'TEJT972506GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (236, 236, 'JWQL490616QE6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (237, 237, 'YMCR458187QL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (238, 238, 'FBWY682949LD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (239, 239, 'IUBP371264EQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (240, 240, 'WWFC766803EW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (241, 241, 'GYVW272835ZX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (242, 242, 'ECKR439719WG9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (243, 243, 'ZOSE534585FV2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (244, 244, 'VYBB848626LQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (245, 245, 'MYQQ362391LV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (246, 246, 'UURZ020707PC6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (247, 247, 'QIEU752475EU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (248, 248, 'DFJY686186DG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (249, 249, 'TMNX343647KU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (250, 250, 'GWXH992929HR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (251, 251, 'KHSX551234OV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (252, 252, 'MCAP567613MW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (253, 253, 'JNIZ542256FP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (254, 254, 'DCBE839423OF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (255, 255, 'FDZC271749ZF6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (256, 256, 'VTDB407834ZQ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (257, 257, 'YJOL761143RA9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (258, 258, 'KJDC256330KK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (259, 259, 'SNZN015754BZ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (260, 260, 'VYBG511813JW1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (261, 261, 'AIMU888212VZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (262, 262, 'BFJX346518IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (263, 263, 'VUXT583744ZN6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (264, 264, 'TQBF651221GY0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (265, 265, 'XJCZ046954VC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (266, 266, 'DLWR541477ZK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (267, 267, 'RAOA796368LA5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (268, 268, 'UZJC838077UU2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (269, 269, 'XSNW750007JX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (270, 270, 'YCSO099434ZH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (271, 271, 'PCXI666990WT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (272, 272, 'QULD115450VF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (273, 273, 'UCYA953025QV4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (274, 274, 'GGTL714314OQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (275, 275, 'RDUZ298459DK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (276, 276, 'RCKM361377IM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (277, 277, 'VZJE521448JK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (278, 278, 'GIXH891121BZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (279, 279, 'XYMG712247ML3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (280, 280, 'SLTW816188SG1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (281, 281, 'FCXM053582ZN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (282, 282, 'KVDJ452281IP6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (283, 283, 'ORTE817295NU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (284, 284, 'JNEK111541IV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (285, 285, 'VPWY650191WB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (286, 286, 'LDLJ735973YE3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (287, 287, 'QNNZ968158AN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (288, 288, 'TLGK199932OT4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (289, 289, 'HGSW540280NI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (290, 290, 'JSEI180123DN4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (291, 291, 'HJWD516635CP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (292, 292, 'PYJB248080FJ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (293, 293, 'WULH743775EX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (294, 294, 'AXPF599717DD4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (295, 295, 'TRVV647557DG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (296, 296, 'DMKT169487QB2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (297, 297, 'WZPV545358ZC2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (298, 298, 'TLOM599841AN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (299, 299, 'ZIDL742597TR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (300, 300, 'PWLZ970086EB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300))))::int)::date AS fecha_aleatoria));
+
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (301, 1, 'LNYM346606AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (302, 2, 'MUEC770752OE1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (303, 3, 'GBJA585821VR4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (304, 4, 'PWOB052185PE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (305, 5, 'BJDO237970ZP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (306, 6, 'CXLR637405AZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (307, 7, 'DTXU207655SX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (308, 8, 'RKBG907923OG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (309, 9, 'QQXH050684GA6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (310, 10, 'JEIL387473HG8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (311, 11, 'ULAC398496AL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (312, 12, 'KCXT617732HI8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (313, 13, 'UVUJ754878KW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (314, 14, 'ZLPA349047RF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (315, 15, 'XHOV698224RS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (316, 16, 'VAEH411485BP1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (317, 17, 'NWBV210359QR6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (318, 18, 'LMAG821658SC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (319, 19, 'DPPL502774FV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (320, 20, 'DCON334408PK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (321, 21, 'RQVE271186IE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (322, 22, 'LUWX556163CF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (323, 23, 'OGJS748873PG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (324, 24, 'UIQC636902IB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (325, 25, 'HTOT695221UM5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (326, 26, 'DZRG230022VZ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (327, 27, 'CPVE809501LL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (328, 28, 'QRUB573644BH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (329, 29, 'XHOD435207YB1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (330, 30, 'SIWI235560SJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (331, 31, 'BALA034852WD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (332, 32, 'XCEV574960MT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (333, 33, 'MUWI161613AF4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (334, 34, 'IHGO584470SZ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (335, 35, 'LIBR140063EF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (336, 36, 'PCEF178658CI1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (337, 37, 'PXRH629211PK1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (338, 38, 'EROZ723397ZO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (339, 39, 'ONQA048989JB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (340, 40, 'LIFW977199WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (341, 41, 'YAWG608899CY5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (342, 42, 'QAUV821067QC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (343, 43, 'TQXN414895GU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (344, 44, 'VCKW541590PB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (345, 45, 'XQDC696317OL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (346, 46, 'VCGX645411CZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (347, 47, 'TYBP514024JS0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (348, 48, 'MUJJ908983CT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (349, 49, 'YZJP736794MU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (350, 50, 'ZEEJ337450DJ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (351, 51, 'WQNS448308FM7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (352, 52, 'SVHH110180CG6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (353, 53, 'QXME959818WV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (354, 54, 'STUR322410RN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (355, 55, 'DWQK223734TY8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (356, 56, 'VSPU962968TT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (357, 57, 'USXN580328IR9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (358, 58, 'NEQE811683AW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (359, 59, 'NSMX152215QJ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (360, 60, 'LGAH953168RK0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (361, 61, 'ALCV557629FW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (362, 62, 'VOZY534412RW2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (363, 63, 'AYAY447076CR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (364, 64, 'LZYU261478AU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (365, 65, 'XVVH638264YH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (366, 66, 'PGET565252ZL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (367, 67, 'HXYF598350YB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (368, 68, 'ZWLR527567XN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (369, 69, 'IZGP048510LH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (370, 70, 'LHAD628371BC5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (371, 71, 'IZKH574324OK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (372, 72, 'YWFD611475YH1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (373, 73, 'GGBP661230MQ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (374, 74, 'HYRG815810NV7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (375, 75, 'TXAF879022MK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (376, 76, 'CWGH486966WL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (377, 77, 'DMYT407202XG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (378, 78, 'WVEN523436ML5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (379, 79, 'AEAU357481KS1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (380, 80, 'OIDH001634DI9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (381, 81, 'OBPE486922RU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (382, 82, 'CZAW898539AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (383, 83, 'DKUE919882XG0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (384, 84, 'DSSB604785RT5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (385, 85, 'BRLX257577LO4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (386, 86, 'BVHD153545NC7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (387, 87, 'ZAER843991ZH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (388, 88, 'HNRZ775191RB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (389, 89, 'MGYB713451IK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (390, 90, 'OCEN422514XX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (391, 91, 'VJLI446911MJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (392, 92, 'BYMS281268NY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (393, 93, 'ZUVM994746RX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (394, 94, 'PJLZ266065YY3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (395, 95, 'HYQE162388YG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (396, 96, 'HNLA678904RN1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (397, 97, 'WCPO498742RD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (398, 98, 'XLKO042021NP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (399, 99, 'QZVB293388CW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (400, 100, 'BGNZ438243JB3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (401, 101, 'LNYM346606AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (402, 102, 'MUEC770752OE1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (403, 103, 'GBJA585821VR4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (404, 104, 'PWOB052185PE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (405, 105, 'BJDO237970ZP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (406, 106, 'CXLR637405AZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (407, 107, 'DTXU207655SX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (408, 108, 'RKBG907923OG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (409, 109, 'QQXH050684GA6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (410, 110, 'JEIL387473HG8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (411, 111, 'ULAC398496AL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (412, 112, 'KCXT617732HI8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (413, 113, 'UVUJ754878KW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (414, 114, 'ZLPA349047RF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (415, 115, 'XHOV698224RS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (416, 116, 'VAEH411485BP1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (417, 117, 'NWBV210359QR6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (418, 118, 'LMAG821658SC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (419, 119, 'DPPL502774FV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (420, 120, 'DCON334408PK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (421, 121, 'RQVE271186IE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (422, 122, 'LUWX556163CF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (423, 123, 'OGJS748873PG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (424, 124, 'UIQC636902IB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (425, 125, 'HTOT695221UM5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (426, 126, 'DZRG230022VZ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (427, 127, 'CPVE809501LL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (428, 128, 'QRUB573644BH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (429, 129, 'XHOD435207YB1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (430, 130, 'SIWI235560SJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (431, 131, 'BALA034852WD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (432, 132, 'XCEV574960MT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (433, 133, 'MUWI161613AF4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (434, 134, 'IHGO584470SZ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (435, 135, 'LIBR140063EF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (436, 136, 'PCEF178658CI1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (437, 137, 'PXRH629211PK1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (438, 138, 'EROZ723397ZO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (439, 139, 'ONQA048989JB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (440, 140, 'LIFW977199WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (441, 141, 'YAWG608899CY5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (442, 142, 'QAUV821067QC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (443, 143, 'TQXN414895GU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (444, 144, 'VCKW541590PB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (445, 145, 'XQDC696317OL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (446, 146, 'VCGX645411CZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (447, 147, 'TYBP514024JS0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (448, 148, 'MUJJ908983CT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (449, 149, 'YZJP736794MU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (450, 150, 'ZEEJ337450DJ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (451, 151, 'WQNS448308FM7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (452, 152, 'SVHH110180CG6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (453, 153, 'QXME959818WV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (454, 154, 'STUR322410RN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (455, 155, 'DWQK223734TY8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (456, 156, 'VSPU962968TT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (457, 157, 'USXN580328IR9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (458, 158, 'NEQE811683AW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (459, 159, 'NSMX152215QJ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (460, 160, 'LGAH953168RK0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (461, 161, 'ALCV557629FW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (462, 162, 'VOZY534412RW2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (463, 163, 'AYAY447076CR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (464, 164, 'LZYU261478AU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (465, 165, 'XVVH638264YH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (466, 166, 'PGET565252ZL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (467, 167, 'HXYF598350YB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (468, 168, 'ZWLR527567XN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (469, 169, 'IZGP048510LH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (470, 170, 'LHAD628371BC5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (471, 171, 'IZKH574324OK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (472, 172, 'YWFD611475YH1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (473, 173, 'GGBP661230MQ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (474, 174, 'HYRG815810NV7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (475, 175, 'TXAF879022MK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (476, 176, 'CWGH486966WL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (477, 177, 'DMYT407202XG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (478, 178, 'WVEN523436ML5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (479, 179, 'AEAU357481KS1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (480, 180, 'OIDH001634DI9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (481, 181, 'OBPE486922RU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (482, 182, 'CZAW898539AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (483, 183, 'DKUE919882XG0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (484, 184, 'DSSB604785RT5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (485, 185, 'BRLX257577LO4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (486, 186, 'BVHD153545NC7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (487, 187, 'ZAER843991ZH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (488, 188, 'HNRZ775191RB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (489, 189, 'MGYB713451IK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (490, 190, 'OCEN422514XX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (491, 191, 'VJLI446911MJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (492, 192, 'BYMS281268NY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (493, 193, 'ZUVM994746RX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (494, 194, 'PJLZ266065YY3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (495, 195, 'HYQE162388YG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (496, 196, 'HNLA678904RN1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (497, 197, 'WCPO498742RD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (498, 198, 'XLKO042021NP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (499, 199, 'QZVB293388CW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (500, 200, 'BGNZ438243JB3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (501, 201, 'LNYM346606AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (502, 202, 'MUEC770752OE1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (503, 203, 'GBJA585821VR4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (504, 204, 'PWOB052185PE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (505, 205, 'BJDO237970ZP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (506, 206, 'CXLR637405AZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (507, 207, 'DTXU207655SX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (508, 208, 'RKBG907923OG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (509, 209, 'QQXH050684GA6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (510, 210, 'JEIL387473HG8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (511, 211, 'ULAC398496AL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (512, 212, 'KCXT617732HI8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (513, 213, 'UVUJ754878KW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (514, 214, 'ZLPA349047RF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (515, 215, 'XHOV698224RS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (516, 216, 'VAEH411485BP1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (517, 217, 'NWBV210359QR6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (518, 218, 'LMAG821658SC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (519, 219, 'DPPL502774FV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (520, 220, 'DCON334408PK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (521, 221, 'RQVE271186IE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (522, 222, 'LUWX556163CF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (523, 223, 'OGJS748873PG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (524, 224, 'UIQC636902IB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (525, 225, 'HTOT695221UM5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (526, 226, 'DZRG230022VZ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (527, 227, 'CPVE809501LL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (528, 228, 'QRUB573644BH7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (529, 229, 'XHOD435207YB1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (530, 230, 'SIWI235560SJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (531, 231, 'BALA034852WD6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (532, 232, 'XCEV574960MT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (533, 233, 'MUWI161613AF4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (534, 234, 'IHGO584470SZ2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (535, 235, 'LIBR140063EF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (536, 236, 'PCEF178658CI1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (537, 237, 'PXRH629211PK1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (538, 238, 'EROZ723397ZO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (539, 239, 'ONQA048989JB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (540, 240, 'LIFW977199WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (541, 241, 'YAWG608899CY5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (542, 242, 'QAUV821067QC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (543, 243, 'TQXN414895GU6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (544, 244, 'VCKW541590PB8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (545, 245, 'XQDC696317OL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (546, 246, 'VCGX645411CZ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (547, 247, 'TYBP514024JS0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (548, 248, 'MUJJ908983CT3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (549, 249, 'YZJP736794MU8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (550, 250, 'ZEEJ337450DJ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (551, 251, 'WQNS448308FM7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (552, 252, 'SVHH110180CG6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (553, 253, 'QXME959818WV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (554, 254, 'STUR322410RN5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (555, 255, 'DWQK223734TY8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (556, 256, 'VSPU962968TT8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (557, 257, 'USXN580328IR9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (558, 258, 'NEQE811683AW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (559, 259, 'NSMX152215QJ6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (560, 260, 'LGAH953168RK0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (561, 261, 'ALCV557629FW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (562, 262, 'VOZY534412RW2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (563, 263, 'AYAY447076CR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (564, 264, 'LZYU261478AU1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (565, 265, 'XVVH638264YH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (566, 266, 'PGET565252ZL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (567, 267, 'HXYF598350YB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (568, 268, 'ZWLR527567XN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (569, 269, 'IZGP048510LH6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (570, 270, 'LHAD628371BC5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (571, 271, 'IZKH574324OK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (572, 272, 'YWFD611475YH1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (573, 273, 'GGBP661230MQ3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (574, 274, 'HYRG815810NV7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (575, 275, 'TXAF879022MK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (576, 276, 'CWGH486966WL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (577, 277, 'DMYT407202XG2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (578, 278, 'WVEN523436ML5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (579, 279, 'AEAU357481KS1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (580, 280, 'OIDH001634DI9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (581, 281, 'OBPE486922RU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (582, 282, 'CZAW898539AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (583, 283, 'DKUE919882XG0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (584, 284, 'DSSB604785RT5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (585, 285, 'BRLX257577LO4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (586, 286, 'BVHD153545NC7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (587, 287, 'ZAER843991ZH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (588, 288, 'HNRZ775191RB5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (589, 289, 'MGYB713451IK7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (590, 290, 'OCEN422514XX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (591, 291, 'VJLI446911MJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (592, 292, 'BYMS281268NY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (593, 293, 'ZUVM994746RX5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (594, 294, 'PJLZ266065YY3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (595, 295, 'HYQE162388YG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (596, 296, 'HNLA678904RN1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (597, 297, 'WCPO498742RD9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (598, 298, 'XLKO042021NP3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (599, 299, 'QZVB293388CW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (600, 300, 'BGNZ438243JB3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300))))::int)::date AS fecha_aleatoria));
+
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (601, 1, 'LCCX964438BK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (602, 2, 'PZPX774729TF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (603, 3, 'JHWX509775PX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (604, 4, 'OFEZ711348WA4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (605, 5, 'WWEJ956105HK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (606, 6, 'HXRB348730QD7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (607, 7, 'GIMY222562IS8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (608, 8, 'MSAJ609823FD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (609, 9, 'EYMG039644AK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (610, 10, 'EZIG627425GR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (611, 11, 'HORQ849477AC4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (612, 12, 'IQMO244354VK3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (613, 13, 'QYCV566068HU7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (614, 14, 'ZYUY419014QK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (615, 15, 'BJBX018018FI7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (616, 16, 'ZOJX039205AE0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (617, 17, 'NGVV094802XX2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (618, 18, 'MECL120696SW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (619, 19, 'EMMZ078734MC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (620, 20, 'MDTN399839IF9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (621, 21, 'NIBS126434GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (622, 22, 'IQFK644646QX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (623, 23, 'CWAM389403MJ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (624, 24, 'JZHA261561JW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (625, 25, 'GUAO869010PM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (626, 26, 'VOJV969292MG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (627, 27, 'AQPD647118AL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (628, 28, 'MQCI906995PO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (629, 29, 'WVVJ597346KO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (630, 30, 'AQGA135591UU3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (631, 31, 'IXFK182507DT6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (632, 32, 'EYDZ773923EE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (633, 33, 'YTWC095366QU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (634, 34, 'ARRH126672VS7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (635, 35, 'FXHA624932RE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (636, 36, 'PDJL078496WL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (637, 37, 'FAQS899347YL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (638, 38, 'ZZDS106980OH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (639, 39, 'GIZP520503IK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (640, 40, 'DQMS228276YR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (641, 41, 'EQXP782144WH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (642, 42, 'BXPH243227QF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (643, 43, 'ROLG249057MH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (644, 44, 'OCDR297566AS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (645, 45, 'UROD181378RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (646, 46, 'WAKB812310RP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (647, 47, 'CGEZ499992SW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (648, 48, 'CLMT143475AH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (649, 49, 'FPHB922296AG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (650, 50, 'NGEG543293RL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (651, 51, 'BERL496638RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (652, 52, 'PHPH928730WZ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (653, 53, 'WKBE731931IC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (654, 54, 'NTEY574626SW8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (655, 55, 'CWVH294429LE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (656, 56, 'KPAZ486699LF3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (657, 57, 'RVNY529997RW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (658, 58, 'KBBM858837OB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (659, 59, 'UGOY253418TY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (660, 60, 'QASX935948FN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (661, 61, 'VNCM007331ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 61))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (662, 62, 'EBHZ211104QQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 62))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (663, 63, 'YFGY701952SP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 63))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (664, 64, 'HRYS672567TB0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 64))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (665, 65, 'QAWP864570MW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 65))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (666, 66, 'VTCO288920HO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 66))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (667, 67, 'CQMU885981AD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 67))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (668, 68, 'SYHI381947FF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 68))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (669, 69, 'CMPP161394UG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 69))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (670, 70, 'CYXJ764160OQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 70))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (671, 71, 'RKKD496655HF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 71))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (672, 72, 'AHPS874691DI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 72))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (673, 73, 'DUXO428507CC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 73))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (674, 74, 'ZLMN039850SP7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 74))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (675, 75, 'EMHO546301ZZ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 75))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (676, 76, 'NAMG434585QD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 76))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (677, 77, 'IQVJ254680AK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 77))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (678, 78, 'IAHD639909NE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 78))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (679, 79, 'RUPK118824IU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 79))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (680, 80, 'WCKW099795IW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 80))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (681, 81, 'OKDB686714RN7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 81))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (682, 82, 'LNJD639898ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 82))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (683, 83, 'PLEL185289CS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 83))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (684, 84, 'SSPB754027UQ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 84))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (685, 85, 'PFVB347658JC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 85))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (686, 86, 'BZEY489816PL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 86))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (687, 87, 'NSGO788580JF0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 87))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (688, 88, 'VGUT580953RH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 88))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (689, 89, 'EWHB671134ZR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 89))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (690, 90, 'ENOI952607ZE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 90))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (691, 91, 'TGDO797068WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 91))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (692, 92, 'AXFY004529PJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 92))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (693, 93, 'WABB829145BY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 93))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (694, 94, 'BFBR125699GT9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 94))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (695, 95, 'SLBB556080GV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 95))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (696, 96, 'VUKT158637QN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 96))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (697, 97, 'TZMJ008217DX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 97))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (698, 98, 'MUND585751OL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 98))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (699, 99, 'KMDA254191VR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 99))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (700, 100, 'EPRW584492NQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 100))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (701, 101, 'LCCX964438BK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 101))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (702, 102, 'PZPX774729TF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 102))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (703, 103, 'JHWX509775PX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 103))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (704, 104, 'OFEZ711348WA4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 104))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (705, 105, 'WWEJ956105HK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 105))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (706, 106, 'HXRB348730QD7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 106))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (707, 107, 'GIMY222562IS8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 107))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (708, 108, 'MSAJ609823FD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 108))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (709, 109, 'EYMG039644AK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 109))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (710, 110, 'EZIG627425GR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 110))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (711, 111, 'HORQ849477AC4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 111))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (712, 112, 'IQMO244354VK3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 112))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (713, 113, 'QYCV566068HU7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 113))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (714, 114, 'ZYUY419014QK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 114))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (715, 115, 'BJBX018018FI7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 115))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (716, 116, 'ZOJX039205AE0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 116))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (717, 117, 'NGVV094802XX2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 117))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (718, 118, 'MECL120696SW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 118))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (719, 119, 'EMMZ078734MC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 119))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (720, 120, 'MDTN399839IF9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 120))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (721, 121, 'NIBS126434GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 121))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (722, 122, 'IQFK644646QX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 122))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (723, 123, 'CWAM389403MJ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 123))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (724, 124, 'JZHA261561JW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 124))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (725, 125, 'GUAO869010PM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 125))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (726, 126, 'VOJV969292MG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 126))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (727, 127, 'AQPD647118AL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 127))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (728, 128, 'MQCI906995PO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 128))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (729, 129, 'WVVJ597346KO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 129))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (730, 130, 'AQGA135591UU3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 130))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (731, 131, 'IXFK182507DT6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 131))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (732, 132, 'EYDZ773923EE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 132))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (733, 133, 'YTWC095366QU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 133))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (734, 134, 'ARRH126672VS7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 134))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (735, 135, 'FXHA624932RE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 135))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (736, 136, 'PDJL078496WL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 136))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (737, 137, 'FAQS899347YL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 137))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (738, 138, 'ZZDS106980OH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 138))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (739, 139, 'GIZP520503IK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 139))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (740, 140, 'DQMS228276YR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 140))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (741, 141, 'EQXP782144WH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 141))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (742, 142, 'BXPH243227QF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 142))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (743, 143, 'ROLG249057MH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 143))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (744, 144, 'OCDR297566AS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 144))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (745, 145, 'UROD181378RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 145))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (746, 146, 'WAKB812310RP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 146))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (747, 147, 'CGEZ499992SW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 147))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (748, 148, 'CLMT143475AH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 148))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (749, 149, 'FPHB922296AG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 149))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (750, 150, 'NGEG543293RL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 150))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (751, 151, 'BERL496638RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 151))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (752, 152, 'PHPH928730WZ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 152))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (753, 153, 'WKBE731931IC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 153))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (754, 154, 'NTEY574626SW8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 154))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (755, 155, 'CWVH294429LE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 155))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (756, 156, 'KPAZ486699LF3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 156))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (757, 157, 'RVNY529997RW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 157))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (758, 158, 'KBBM858837OB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 158))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (759, 159, 'UGOY253418TY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 159))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (760, 160, 'QASX935948FN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 160))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (761, 161, 'VNCM007331ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 161))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (762, 162, 'EBHZ211104QQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 162))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (763, 163, 'YFGY701952SP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 163))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (764, 164, 'HRYS672567TB0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 164))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (765, 165, 'QAWP864570MW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 165))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (766, 166, 'VTCO288920HO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 166))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (767, 167, 'CQMU885981AD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 167))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (768, 168, 'SYHI381947FF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 168))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (769, 169, 'CMPP161394UG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 169))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (770, 170, 'CYXJ764160OQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 170))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (771, 171, 'RKKD496655HF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 171))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (772, 172, 'AHPS874691DI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 172))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (773, 173, 'DUXO428507CC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 173))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (774, 174, 'ZLMN039850SP7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 174))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (775, 175, 'EMHO546301ZZ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 175))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (776, 176, 'NAMG434585QD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 176))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (777, 177, 'IQVJ254680AK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 177))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (778, 178, 'IAHD639909NE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 178))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (779, 179, 'RUPK118824IU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 179))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (780, 180, 'WCKW099795IW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 180))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (781, 181, 'OKDB686714RN7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 181))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (782, 182, 'LNJD639898ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 182))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (783, 183, 'PLEL185289CS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 183))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (784, 184, 'SSPB754027UQ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 184))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (785, 185, 'PFVB347658JC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 185))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (786, 186, 'BZEY489816PL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 186))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (787, 187, 'NSGO788580JF0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 187))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (788, 188, 'VGUT580953RH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 188))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (789, 189, 'EWHB671134ZR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 189))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (790, 190, 'ENOI952607ZE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 190))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (791, 191, 'TGDO797068WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 191))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (792, 192, 'AXFY004529PJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 192))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (793, 193, 'WABB829145BY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 193))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (794, 194, 'BFBR125699GT9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 194))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (795, 195, 'SLBB556080GV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 195))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (796, 196, 'VUKT158637QN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 196))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (797, 197, 'TZMJ008217DX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 197))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (798, 198, 'MUND585751OL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 198))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (799, 199, 'KMDA254191VR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 199))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (800, 200, 'EPRW584492NQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 200))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (801, 201, 'LCCX964438BK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 201))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (802, 202, 'PZPX774729TF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 202))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (803, 203, 'JHWX509775PX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 203))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (804, 204, 'OFEZ711348WA4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 204))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (805, 205, 'WWEJ956105HK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 205))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (806, 206, 'HXRB348730QD7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 206))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (807, 207, 'GIMY222562IS8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 207))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (808, 208, 'MSAJ609823FD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 208))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (809, 209, 'EYMG039644AK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 209))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (810, 210, 'EZIG627425GR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 210))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (811, 211, 'HORQ849477AC4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 211))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (812, 212, 'IQMO244354VK3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 212))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (813, 213, 'QYCV566068HU7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 213))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (814, 214, 'ZYUY419014QK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 214))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (815, 215, 'BJBX018018FI7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 215))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (816, 216, 'ZOJX039205AE0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 216))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (817, 217, 'NGVV094802XX2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 217))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (818, 218, 'MECL120696SW6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 218))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (819, 219, 'EMMZ078734MC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 219))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (820, 220, 'MDTN399839IF9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 220))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (821, 221, 'NIBS126434GX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 221))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (822, 222, 'IQFK644646QX3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 222))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (823, 223, 'CWAM389403MJ0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 223))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (824, 224, 'JZHA261561JW9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 224))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (825, 225, 'GUAO869010PM3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 225))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (826, 226, 'VOJV969292MG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 226))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (827, 227, 'AQPD647118AL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 227))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (828, 228, 'MQCI906995PO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 228))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (829, 229, 'WVVJ597346KO8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 229))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (830, 230, 'AQGA135591UU3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 230))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (831, 231, 'IXFK182507DT6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 231))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (832, 232, 'EYDZ773923EE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 232))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (833, 233, 'YTWC095366QU0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 233))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (834, 234, 'ARRH126672VS7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 234))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (835, 235, 'FXHA624932RE4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 235))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (836, 236, 'PDJL078496WL2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 236))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (837, 237, 'FAQS899347YL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 237))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (838, 238, 'ZZDS106980OH0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 238))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (839, 239, 'GIZP520503IK6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 239))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (840, 240, 'DQMS228276YR2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 240))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (841, 241, 'EQXP782144WH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 241))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (842, 242, 'BXPH243227QF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 242))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (843, 243, 'ROLG249057MH8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 243))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (844, 244, 'OCDR297566AS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 244))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (845, 245, 'UROD181378RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 245))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (846, 246, 'WAKB812310RP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 246))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (847, 247, 'CGEZ499992SW0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 247))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (848, 248, 'CLMT143475AH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 248))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (849, 249, 'FPHB922296AG4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 249))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (850, 250, 'NGEG543293RL9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 250))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (851, 251, 'BERL496638RX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 251))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (852, 252, 'PHPH928730WZ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 252))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (853, 253, 'WKBE731931IC3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 253))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (854, 254, 'NTEY574626SW8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 254))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (855, 255, 'CWVH294429LE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 255))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (856, 256, 'KPAZ486699LF3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 256))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (857, 257, 'RVNY529997RW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 257))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (858, 258, 'KBBM858837OB7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 258))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (859, 259, 'UGOY253418TY1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 259))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (860, 260, 'QASX935948FN3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 260))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (861, 261, 'VNCM007331ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 261))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (862, 262, 'EBHZ211104QQ9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 262))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (863, 263, 'YFGY701952SP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 263))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (864, 264, 'HRYS672567TB0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 264))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (865, 265, 'QAWP864570MW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 265))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (866, 266, 'VTCO288920HO1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 266))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (867, 267, 'CQMU885981AD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 267))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (868, 268, 'SYHI381947FF8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 268))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (869, 269, 'CMPP161394UG7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 269))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (870, 270, 'CYXJ764160OQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 270))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (871, 271, 'RKKD496655HF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 271))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (872, 272, 'AHPS874691DI3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 272))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (873, 273, 'DUXO428507CC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 273))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (874, 274, 'ZLMN039850SP7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 274))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (875, 275, 'EMHO546301ZZ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 275))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (876, 276, 'NAMG434585QD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 276))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (877, 277, 'IQVJ254680AK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 277))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (878, 278, 'IAHD639909NE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 278))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (879, 279, 'RUPK118824IU5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 279))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (880, 280, 'WCKW099795IW3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 280))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (881, 281, 'OKDB686714RN7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 281))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (882, 282, 'LNJD639898ZF2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 282))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (883, 283, 'PLEL185289CS6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 283))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (884, 284, 'SSPB754027UQ8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 284))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (885, 285, 'PFVB347658JC9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 285))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (886, 286, 'BZEY489816PL8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 286))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (887, 287, 'NSGO788580JF0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 287))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (888, 288, 'VGUT580953RH5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 288))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (889, 289, 'EWHB671134ZR7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 289))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (890, 290, 'ENOI952607ZE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 290))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (891, 291, 'TGDO797068WP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 291))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (892, 292, 'AXFY004529PJ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 292))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (893, 293, 'WABB829145BY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 293))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (894, 294, 'BFBR125699GT9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 294))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (895, 295, 'SLBB556080GV3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 295))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (896, 296, 'VUKT158637QN0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 296))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (897, 297, 'TZMJ008217DX9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 297))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (898, 298, 'MUND585751OL0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 298))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (899, 299, 'KMDA254191VR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 299))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (900, 300, 'EPRW584492NQ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 300))))::int)::date AS fecha_aleatoria));
+
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (901, 1, 'LCCX964438BK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 1))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (902, 2, 'PZPX774729TF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 2))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (903, 3, 'JHWX509775PX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 3))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (904, 4, 'OFEZ711348WA4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 4))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (905, 5, 'WWEJ956105HK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 5))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (906, 6, 'HXRB348730QD7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 6))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (907, 7, 'GIMY222562IS8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 7))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (908, 8, 'MSAJ609823FD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 8))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (909, 9, 'EYMG039644AK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 9))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (910, 10, 'EZIG627425GR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 10))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (911, 11, 'ULAC398496AL7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 11))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (912, 12, 'KCXT617732HI8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 12))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (913, 13, 'UVUJ754878KW4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 13))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (914, 14, 'ZLPA349047RF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 14))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (915, 15, 'XHOV698224RS2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 15))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (916, 16, 'VAEH411485BP1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 16))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (917, 17, 'NWBV210359QR6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 17))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (918, 18, 'LMAG821658SC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 18))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (919, 19, 'DPPL502774FV6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 19))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (920, 20, 'DCON334408PK9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 20))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (921, 21, 'BKIX686527LQ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 21))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (922, 22, 'IUFG676981OE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 22))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (923, 23, 'QUJR692267LP0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 23))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (924, 24, 'WLUI054765FO9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 24))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (925, 25, 'NTIF234742AV1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 25))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (926, 26, 'QYBT556019DC1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 26))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (927, 27, 'JMBL440409DY7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 27))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (928, 28, 'ZLAT732164RS9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 28))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (929, 29, 'KHRP912604HJ7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 29))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (930, 30, 'DCVT806224IA2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 30))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (931, 31, 'LCCX964438BK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 31))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (932, 32, 'PZPX774729TF5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 32))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (933, 33, 'JHWX509775PX7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 33))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (934, 34, 'OFEZ711348WA4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 34))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (935, 35, 'WWEJ956105HK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 35))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (936, 36, 'HXRB348730QD7', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 36))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (937, 37, 'GIMY222562IS8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 37))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (938, 38, 'MSAJ609823FD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 38))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (939, 39, 'EYMG039644AK8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 39))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (940, 40, 'EZIG627425GR1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 40))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (941, 41, 'LNYM346606AC0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 41))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (942, 42, 'MUEC770752OE1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 42))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (943, 43, 'GBJA585821VR4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 43))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (944, 44, 'PWOB052185PE2', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 44))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (945, 45, 'BJDO237970ZP8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 45))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (946, 46, 'CXLR637405AZ5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 46))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (947, 47, 'DTXU207655SX0', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 47))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (948, 48, 'RKBG907923OG5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 48))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (949, 49, 'QQXH050684GA6', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 49))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (950, 50, 'JEIL387473HG8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 50))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (951, 51, 'AZTS417408FF1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 51))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (952, 52, 'NSQN171620YQ1', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 52))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (953, 53, 'DDEF536599IH9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 53))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (954, 54, 'XORR536930YK4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 54))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (955, 55, 'ZSLB860539YS5', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 55))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (956, 56, 'YZUU484727ZD8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 56))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (957, 57, 'UCZJ267554JE8', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 57))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (958, 58, 'JRIJ789290OE9', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 58))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (959, 59, 'WEXH888517WR3', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 59))))::int)::date AS fecha_aleatoria));
+insert into GatitaEmprendedora.Trabajar (IdTrabajar, IdBazar, RFC, FechaAsistencia) values (960, 60, 'CQOL787311VZ4', (SELECT ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) + (random() * ((SELECT fechafin FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60) - ((SELECT fechainicio FROM GATITAEMPRENDEDORA.BAZAR WHERE idbazar = 60))))::int)::date AS fecha_aleatoria));
+
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (1, 'Básico');
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (2, 'Premium');
+insert into GatitaEmprendedora.Paquete (IdPaquete, Paquete) values (3, 'Emprendedor');
+
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (1, 2, '$104.63');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (2, 1, '$201.43');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (3, 1, '$246.99');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (4, 2, '$170.62');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (5, 3, '$274.08');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (6, 2, '$50.04');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (7, 3, '$104.12');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (8, 2, '$122.22');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (9, 2, '$220.67');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (10, 2, '$139.34');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (11, 2, '$70.61');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (12, 3, '$144.17');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (13, 2, '$110.92');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (14, 1, '$106.94');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (15, 3, '$244.53');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (16, 2, '$62.95');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (17, 1, '$281.37');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (18, 1, '$66.03');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (19, 1, '$217.40');
+insert into GatitaEmprendedora.Estand (NumeroEstand, IdPaquete, PrecioBase) values (20, 2, '$147.79');
+
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (1, '1 mesa');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (1, '2 sillas');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (2, '2 mesas');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (2, '4 sillas');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (3, '3 mesas');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (3, '6 sillas');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (3, 'Pantalla táctil');
+insert into GatitaEmprendedora.PaqueteAmenidad  (IdPaquete, Amenidad) values (3, 'Toma de corriente');
+
+
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (1, 2, 'Heller-Watsica', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (2, 8, 'Spencer and Sons', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (3, 19, 'D''Amore Group', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (4, 19, 'Will, Hills and Jerde', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (5, 8, 'Kihn-Nienow', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (6, 7, 'Conroy, VonRueden and Cassin', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (7, 1, 'Brekke Inc', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (8, 16, 'Zulauf-Schneider', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (9, 19, 'Walter Inc', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (10, 12, 'Marquardt, Little and Bernier', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (11, 9, 'Waelchi-Walter', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (12, 17, 'Keebler Inc', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (13, 20, 'Lebsack-Aufderhar', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (14, 12, 'Mayer, Dooley and Ledner', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (15, 9, 'Wintheiser-DuBuque', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (16, 15, 'Nienow Inc', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (17, 5, 'Lehner-Hirthe', 'In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (18, 6, 'Erdman and Sons', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (19, 11, 'Cruickshank-Wisoky', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (20, 5, 'Paucek, Herman and Cummerata', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (21, 8, 'Nitzsche-Lubowitz', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (22, 15, 'Kreiger Group', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (23, 17, 'Legros-Fisher', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (24, 19, 'Bailey-Hudson', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (25, 7, 'Dibbert Group', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (26, 13, 'Shields LLC', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (27, 5, 'Reilly-Oberbrunner', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (28, 19, 'Feest, Rogahn and Conroy', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (29, 14, 'Bergnaum, Bechtelar and Hudson', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (30, 9, 'Fahey, Parisian and Schowalter', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (31, 14, 'Mosciski-Doyle', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (32, null, 'Schulist Group', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (33, 4, 'Haley, Collier and Carter', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (34, 16, 'Kuhn, McClure and Gleichner', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (35, 12, 'Jaskolski-O''Kon', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (36, 13, 'Yundt, Jerde and Wilderman', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (37, 16, 'O''Kon and Sons', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (38, 3, 'Christiansen-Rau', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (39, 16, 'Hermiston and Sons', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (40, 20, 'Deckow-Hessel', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (41, 15, 'Monahan-Hackett', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (42, 10, 'McLaughlin Group', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (43, null, 'Ferry, Murazik and Ward', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (44, 19, 'Adams Group', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (45, 13, 'Greenfelder, Nitzsche and Farrell', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (46, 15, 'Sanford LLC', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (47, 19, 'Connelly LLC', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (48, 6, 'Jaskolski, Becker and Leffler', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (49, 10, 'Reilly, Kertzmann and Schoen', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (50, 16, 'Nader, Hermann and Tremblay', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (51, 6, 'Okuneva and Sons', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (52, 4, 'Carroll, Langworth and Stoltenberg', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (53, null, 'Thiel, Berge and Boehm', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (54, 19, 'Brakus-Robel', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (55, 11, 'Collins, Gottlieb and Klocko', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (56, null, 'Tromp-Jakubowski', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (57, 2, 'Torp, Cassin and Russel', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (58, 7, 'Bradtke, Nader and Bahringer', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (59, null, 'Towne-Lubowitz', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (60, 18, 'O''Reilly-Ernser', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (61, 19, 'Walter-Stroman', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (62, 11, 'Lakin, Roberts and Kozey', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (63, 19, 'Hagenes Inc', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (64, 14, 'Schowalter, Reichert and Hintz', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (65, 17, 'Crona, Kozey and Runte', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (66, 12, 'Murray-Jacobson', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (67, 10, 'Stark Group', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (68, 5, 'Leannon LLC', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (69, null, 'Quigley-Shields', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (70, 13, 'Prohaska, Beer and Davis', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (71, 15, 'Rutherford Inc', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (72, 15, 'Cummings LLC', 'Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (73, 2, 'Langosh Group', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (74, 11, 'Nikolaus-Conroy', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (75, 4, 'Stokes-Ledner', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (76, 5, 'Bauch-Harvey', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (77, null, 'Bogan-Huel', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (78, 3, 'Considine, Wolff and Bayer', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (79, 1, 'Watsica-Halvorson', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (80, 19, 'Torphy-Abernathy', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (81, null, 'Langosh, Lang and Walker', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (82, 9, 'Howe, Hermiston and Kutch', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (83, 2, 'Harris and Sons', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (84, 3, 'Emard-Cremin', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (85, 13, 'Kris LLC', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (86, 18, 'Swaniawski-Cassin', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (87, 7, 'Willms, Leannon and Dibbert', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (88, 14, 'Crist, Donnelly and Corkery', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (89, null, 'Anderson, Predovic and Rutherford', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (90, 1, 'Bashirian-Nolan', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (91, 9, 'Ward-Bartoletti', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (92, 8, 'Braun-Reilly', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (93, 18, 'Zboncak LLC', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (94, 13, 'Spinka, Kirlin and Hessel', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (95, 16, 'MacGyver, Beer and Feest', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (96, 10, 'Larkin-D''Amore', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (97, 16, 'Nitzsche, Berge and Grant', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (98, 7, 'Sanford and Sons', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (99, 14, 'Krajcik, Rath and Franecki', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (100, 20, 'Corkery-McCullough', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (101, 4, 'Walsh-Schmidt', 'In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (102, 6, 'Dickinson, Shanahan and Gottlieb', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (103, 5, 'Bins-Schulist', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (104, 7, 'Sawayn-Torp', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (105, 14, 'Schimmel, Spencer and Kirlin', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (106, 6, 'Ankunding, Hartmann and Wiegand', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (107, 10, 'Dicki-Lebsack', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (108, 2, 'Sporer-Becker', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (109, 5, 'Bosco, Schneider and Lueilwitz', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (110, 14, 'Daniel-Strosin', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (111, 12, 'Dickens, Schowalter and Hoppe', 'In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (112, 9, 'Rau-Rodriguez', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (113, 13, 'Koepp-Morar', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (114, 14, 'Hilpert Inc', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (115, 10, 'Murray-Collins', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (116, 6, 'Krajcik-Fisher', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (117, 4, 'Deckow-Murphy', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (118, 17, 'Wiza, Dibbert and Schmidt', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (119, 5, 'Doyle, Runolfsson and Sporer', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (120, 17, 'Schuppe, Mraz and Goodwin', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (121, null, 'Moore Group', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (122, 4, 'Shanahan, Leannon and Rau', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (123, 13, 'Goyette Inc', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (124, 3, 'Ullrich, Toy and Lindgren', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (125, 2, 'Leffler Inc', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (126, 20, 'Effertz and Sons', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (127, null, 'Kirlin, Ullrich and Feeney', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (128, 17, 'Rath-Kuhlman', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (129, 3, 'D''Amore-Quigley', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (130, 12, 'King-Hahn', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (131, 5, 'Hills, Feest and Sanford', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (132, 18, 'Daugherty-Kuhlman', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (133, 3, 'Dietrich-Stroman', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (134, 3, 'Frami Group', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (135, 16, 'Altenwerth LLC', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (136, 15, 'Upton-Glover', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (137, 6, 'Koch Group', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (138, 14, 'Grady LLC', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (139, 6, 'Schumm-Ondricka', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (140, 3, 'Buckridge-Stokes', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (141, 18, 'VonRueden-Gottlieb', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (142, 11, 'Carter, Nitzsche and Rolfson', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (143, 13, 'Leffler-Swaniawski', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (144, 13, 'Lemke LLC', 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (145, 12, 'Baumbach and Sons', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (146, 10, 'Lindgren-Torphy', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (147, 19, 'Ledner, Hessel and Conroy', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (148, 8, 'Sawayn-Ritchie', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (149, 1, 'Kertzmann LLC', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (150, 20, 'Larson-Ledner', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (151, null, 'Dare Inc', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (152, 17, 'Nolan, Harvey and Cruickshank', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (153, null, 'Herzog and Sons', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (154, 18, 'Trantow, Hermann and Kub', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (155, 7, 'Hickle, Gorczany and Hilpert', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (156, 15, 'Will-Dickinson', 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (157, 2, 'Konopelski and Sons', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+
+Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (158, 9, 'Heathcote-Kirlin', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (159, 12, 'Keeling-Jast', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (160, 12, 'Gleason-Reichel', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (161, 18, 'Gibson, Friesen and Hudson', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (162, 9, 'Sanford-Hammes', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (163, 10, 'Ondricka Inc', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (164, 7, 'Dickens-Hauck', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (165, 18, 'Mueller, O''Connell and Haley', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (166, 16, 'Wilderman-Little', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (167, 10, 'Deckow, Wehner and Huels', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (168, 16, 'Cormier Inc', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (169, 2, 'Graham, Larkin and Bradtke', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (170, 9, 'Douglas Group', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (171, 13, 'Harber and Sons', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (172, 10, 'Connelly, Kunde and Keebler', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (173, 15, 'Johns, Willms and Reichert', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (174, 2, 'Buckridge Inc', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (175, 19, 'Hahn LLC', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (176, null, 'Windler-Fay', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (177, 19, 'O''Conner, Douglas and Considine', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (178, 6, 'Lakin and Sons', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (179, 2, 'Orn-Hauck', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (180, 3, 'Littel and Sons', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (181, 19, 'Littel, Borer and Haag', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (182, 16, 'Lebsack-Grady', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (183, 7, 'Bernier-Towne', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (184, 15, 'Hoppe, Simonis and Braun', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (185, 3, 'Schimmel and Sons', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (186, 19, 'Koelpin, Gleason and Hills', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (187, null, 'Marquardt, Muller and Boyle', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (188, null, 'Douglas and Sons', 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (189, 7, 'Corwin LLC', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (190, null, 'Rau LLC', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (191, 4, 'Kiehn, Kuhic and O''Connell', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (192, 10, 'Waelchi-Kunze', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (193, 9, 'Dickens-Kautzer', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (194, 20, 'Moen, Pouros and Parisian', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (195, 12, 'Kovacek, Flatley and Collier', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (196, 6, 'Jacobson, Hyatt and Kutch', 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (197, 7, 'Powlowski-Senger', 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (198, 19, 'Gutmann-Vandervort', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (199, 3, 'Legros LLC', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (200, 9, 'Jacobson, Sauer and Schiller', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (201, 12, 'Yundt-Fahey', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (202, 2, 'Lemke, McCullough and Cassin', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (203, 19, 'Hoppe, Wehner and Borer', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (204, 8, 'Jenkins, Ritchie and Ondricka', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (205, null, 'Gorczany, Hirthe and Moore', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (206, 15, 'Bergnaum LLC', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (207, 1, 'Kilback-Beer', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (208, 18, 'Wunsch-Kuhic', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (209, 18, 'Fisher, Casper and Willms', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (210, 20, 'Labadie Inc', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (211, 14, 'Beahan-Hessel', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (212, 11, 'Stark LLC', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (213, 6, 'Turcotte-Kihn', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (214, 6, 'Stokes, Quigley and Bechtelar', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (215, 14, 'Skiles LLC', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (216, 12, 'Lueilwitz Group', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (217, 5, 'Moore, Donnelly and Borer', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (218, 12, 'Rolfson and Sons', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (219, 20, 'Bogan-Bartoletti', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (220, 18, 'Schamberger LLC', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (221, null, 'Veum and Sons', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (222, 1, 'Gleason, Collins and Gorczany', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (223, 2, 'Cummings, Emard and Braun', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (224, 2, 'Kautzer LLC', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (225, 5, 'Bartell-Cole', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (226, 13, 'Morar LLC', 'In congue. Etiam justo. Etiam pretium iaculis justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (227, 20, 'Hettinger, Wiza and Fritsch', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (228, 19, 'Schultz, Rodriguez and Wehner', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (229, 15, 'Hettinger LLC', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (230, 16, 'Lehner and Sons', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (231, null, 'Zulauf-Schuppe', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (232, 3, 'Bailey-Metz', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (233, 11, 'Armstrong-Huels', 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (234, 17, 'Kassulke-Funk', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (235, null, 'Batz Group', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (236, 4, 'Jerde, Wilkinson and Haley', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (237, 17, 'Kuhn and Sons', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (238, null, 'Nikolaus, Volkman and Weimann', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (239, 4, 'Satterfield and Sons', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (240, 9, 'Kertzmann, Jaskolski and Stiedemann', 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (241, 8, 'Jacobi, VonRueden and Aufderhar', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (242, 9, 'Schuppe-Koss', 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (243, 10, 'Parker-Halvorson', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (244, 4, 'Schiller-Adams', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (245, 4, 'Jast-Goodwin', 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (246, 10, 'Schoen Inc', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
+
+Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (247, 17, 'Wiza, Prohaska and Prosacco', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (248, 18, 'Rolfson, Mosciski and Douglas', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (249, 10, 'Orn, Breitenberg and Labadie', 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (250, 20, 'Zboncak-Renner', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (251, 14, 'Schuster and Sons', 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (252, 14, 'Murphy, Fisher and Thiel', 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (253, 10, 'Purdy Inc', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (254, 13, 'Romaguera-Heaney', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (255, 7, 'Rohan, Greenfelder and Roberts', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (256, 13, 'Murphy LLC', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (257, 3, 'Heidenreich-Kohler', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (258, 2, 'Bogan LLC', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (259, 12, 'Schneider Group', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (260, 16, 'Fay LLC', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (261, 13, 'Waters, Schmidt and Schuppe', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (262, 8, 'Brekke, Pfannerstill and Schamberger', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (263, 16, 'Ebert-Herzog', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.
+
+Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (264, 18, 'Harvey LLC', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+
+Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (265, 11, 'Funk, Mayert and Homenick', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (266, 19, 'Reilly, Carter and Hegmann', 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+
+Phasellus in felis. Donec semper sapien a libero. Nam dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (267, 19, 'Connelly LLC', 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (268, 8, 'Keebler LLC', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (269, 16, 'Boyle, Hahn and Hodkiewicz', 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (270, null, 'Senger Inc', 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (271, 4, 'Goodwin, Wisoky and Larson', 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (272, 18, 'Cruickshank Inc', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (273, 13, 'Langosh, Sauer and Howe', 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (274, 11, 'Koch, Dooley and Hand', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (275, 14, 'Koss-Padberg', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (276, 4, 'Schiller-Kovacek', 'Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+
+Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.
+
+Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (277, 1, 'Rodriguez-Parker', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (278, 2, 'Kuhlman, Oberbrunner and Yundt', 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (279, null, 'Buckridge, Reilly and Reilly', 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (280, 14, 'Doyle Group', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (281, 19, 'Mohr Group', 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (282, 13, 'Rutherford-Ankunding', 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+
+Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (283, 6, 'Koch Group', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (284, 12, 'Mayer-Kilback', 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+
+Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+
+Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (285, null, 'Kshlerin and Sons', 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (286, 7, 'Anderson-Williamson', 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (287, 12, 'Mayert Group', 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+
+Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (288, 10, 'Langosh LLC', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (289, 7, 'Ondricka-Tillman', 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (290, 2, 'Mante, Stehr and Howe', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (291, 3, 'West, Stanton and Jacobson', 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+
+Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (292, 10, 'Hane, Reichel and Schultz', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+
+Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (293, 18, 'Mitchell-Murray', 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (294, 19, 'Nikolaus Inc', 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (295, null, 'Ortiz Inc', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (296, 12, 'Spencer, Kub and Franecki', 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (297, 14, 'Rempel-Medhurst', 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (298, 9, 'Sawayn-Abshire', 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (299, 14, 'Schamberger-Gulgowski', 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (300, 8, 'Wuckert-Larson', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+
+Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
+
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (1, 37, 1510);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (2, 95, 828);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (3, 78, 1406);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (4, 40, 2754);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (5, 59, 1236);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (6, 50, 987);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (7, 51, 2831);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (8, 27, 3662);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (9, 60, 4605);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (10, 14, 2679);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (11, 10, 925);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (12, 56, 3655);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (13, 49, 4696);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (14, 45, 2605);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (15, 17, 169);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (16, 92, 3715);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (17, 83, 3618);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (18, 42, 1354);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (19, 15, 4895);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (20, 46, 987);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (21, 84, 2510);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (22, 17, 2180);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (23, 14, 2825);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (24, 37, 3438);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (25, 17, 660);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (26, 67, 904);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (27, 33, 1071);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (28, 13, 309);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (29, 72, 150);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (30, 49, 130);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (31, 78, 3930);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (32, 27, 3246);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (33, 99, 3467);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (34, 66, 4523);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (35, 30, 1961);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (36, 77, 2481);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (37, 11, 3082);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (38, 29, 2787);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (39, 92, 1149);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (40, 73, 3900);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (41, 70, 671);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (42, 75, 516);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (43, 82, 1444);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (44, 54, 1504);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (45, 52, 3677);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (46, 86, 1491);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (47, 49, 115);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (48, 14, 594);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (49, 53, 4439);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (50, 46, 2879);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (51, 80, 692);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (52, 77, 3052);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (53, 38, 4846);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (54, 14, 2222);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (55, 80, 2643);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (56, 54, 2236);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (57, 82, 747);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (58, 38, 2498);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (59, 88, 2595);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (60, 61, 688);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (61, 84, 3003);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (62, 38, 581);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (63, 76, 1247);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (64, 84, 208);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (65, 42, 4767);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (66, 50, 3385);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (67, 38, 3790);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (68, 21, 609);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (69, 86, 2900);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (70, 68, 1950);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (71, 88, 1101);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (72, 22, 4799);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (73, 89, 1017);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (74, 94, 527);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (75, 76, 2778);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (76, 77, 844);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (77, 12, 1170);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (78, 68, 3179);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (79, 30, 4535);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (80, 55, 2879);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (81, 64, 3216);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (82, 35, 3155);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (83, 51, 589);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (84, 44, 1489);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (85, 18, 4425);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (86, 58, 1805);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (87, 71, 3964);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (88, 26, 1145);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (89, 82, 2953);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (90, 68, 1446);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (91, 78, 2074);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (92, 39, 3598);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (93, 67, 3905);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (94, 28, 4395);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (95, 11, 2558);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (96, 85, 4090);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (97, 78, 3373);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (98, 88, 3384);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (99, 72, 3281);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (100, 46, 3676);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (101, 11, 187);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (102, 58, 2246);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (103, 18, 528);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (104, 31, 4732);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (105, 66, 1232);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (106, 21, 4878);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (107, 60, 4635);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (108, 68, 2720);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (109, 38, 1836);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (110, 93, 1190);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (111, 35, 4079);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (112, 44, 4889);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (113, 37, 2457);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (114, 50, 3316);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (115, 32, 4360);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (116, 72, 1199);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (117, 47, 677);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (118, 57, 566);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (119, 34, 372);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (120, 10, 4366);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (121, 90, 3022);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (122, 72, 2391);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (123, 69, 2705);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (124, 53, 559);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (125, 76, 3301);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (126, 62, 4145);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (127, 90, 4968);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (128, 42, 2962);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (129, 55, 2120);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (130, 10, 573);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (131, 38, 1422);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (132, 53, 1377);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (133, 37, 1708);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (134, 49, 1575);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (135, 81, 640);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (136, 52, 2237);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (137, 26, 3161);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (138, 78, 2776);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (139, 80, 1177);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (140, 92, 3019);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (141, 56, 2244);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (142, 25, 3695);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (143, 63, 674);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (144, 29, 320);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (145, 24, 4703);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (146, 52, 482);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (147, 24, 1745);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (148, 79, 152);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (149, 38, 1124);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (150, 11, 419);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (151, 88, 4230);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (152, 27, 3876);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (153, 78, 1535);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (154, 33, 850);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (155, 66, 3938);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (156, 71, 3683);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (157, 31, 1773);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (158, 15, 1891);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (159, 37, 4367);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (160, 93, 4529);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (161, 79, 1141);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (162, 76, 2545);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (163, 90, 532);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (164, 39, 624);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (165, 56, 3996);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (166, 14, 745);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (167, 31, 3304);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (168, 93, 3117);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (169, 18, 2232);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (170, 55, 4659);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (171, 21, 4383);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (172, 94, 4093);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (173, 91, 2870);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (174, 20, 1858);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (175, 82, 1502);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (176, 16, 484);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (177, 57, 2437);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (178, 79, 4377);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (179, 33, 4970);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (180, 79, 416);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (181, 47, 3713);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (182, 72, 3289);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (183, 18, 3098);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (184, 71, 818);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (185, 13, 1735);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (186, 57, 2435);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (187, 25, 3059);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (188, 36, 3584);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (189, 72, 735);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (190, 42, 2681);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (191, 76, 1205);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (192, 75, 280);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (193, 55, 2752);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (194, 21, 744);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (195, 58, 1310);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (196, 30, 4388);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (197, 91, 3402);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (198, 63, 832);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (199, 99, 3583);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (200, 88, 3869);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (201, 23, 136);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (202, 87, 1432);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (203, 33, 1182);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (204, 77, 576);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (205, 12, 613);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (206, 36, 3174);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (207, 63, 4805);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (208, 84, 1262);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (209, 30, 4220);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (210, 94, 2468);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (211, 76, 207);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (212, 21, 4784);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (213, 26, 652);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (214, 59, 213);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (215, 50, 2606);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (216, 76, 192);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (217, 96, 4607);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (218, 21, 4783);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (219, 75, 4243);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (220, 19, 2311);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (221, 68, 3652);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (222, 80, 3834);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (223, 49, 1109);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (224, 27, 2988);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (225, 56, 3389);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (226, 57, 3244);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (227, 90, 3568);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (228, 95, 2365);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (229, 54, 3010);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (230, 46, 2531);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (231, 88, 1425);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (232, 32, 2044);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (233, 19, 1220);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (234, 61, 1534);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (235, 97, 4210);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (236, 23, 1391);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (237, 50, 4877);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (238, 99, 2503);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (239, 85, 2453);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (240, 80, 3245);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (241, 91, 341);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (242, 19, 3012);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (243, 59, 4876);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (244, 21, 1447);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (245, 54, 479);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (246, 77, 3626);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (247, 30, 4622);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (248, 95, 864);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (249, 25, 2224);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (250, 60, 205);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (251, 52, 767);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (252, 60, 384);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (253, 70, 963);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (254, 93, 3574);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (255, 60, 1653);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (256, 83, 353);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (257, 48, 4373);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (258, 93, 2604);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (259, 16, 3795);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (260, 21, 1167);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (261, 68, 1087);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (262, 44, 4233);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (263, 49, 470);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (264, 43, 1828);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (265, 96, 1351);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (266, 48, 910);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (267, 64, 4162);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (268, 73, 2210);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (269, 40, 3757);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (270, 58, 815);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (271, 57, 552);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (272, 86, 448);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (273, 51, 1982);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (274, 30, 1771);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (275, 58, 1897);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (276, 74, 2318);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (277, 33, 3402);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (278, 18, 291);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (279, 70, 1617);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (280, 70, 1299);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (281, 42, 4977);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (282, 29, 1843);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (283, 73, 3402);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (284, 42, 742);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (285, 73, 3104);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (286, 44, 3038);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (287, 33, 2563);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (288, 51, 3582);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (289, 51, 2806);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (290, 12, 954);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (291, 66, 2603);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (292, 19, 730);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (293, 88, 2152);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (294, 13, 4631);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (295, 95, 2447);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (296, 79, 4477);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (297, 99, 313);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (298, 10, 1937);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (299, 61, 4847);
+insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (300, 26, 3572);
+
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (1, '6412432070');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (2, '0457383265');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (3, '4657831938');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (4, '2894564740');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (5, '5959558054');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (6, '6492155330');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (7, '9529200447');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (8, '3538048539');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (9, '9057139295');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (10, '6952705193');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (11, '6724494610');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (12, '2712387165');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (13, '0475024038');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (14, '8154731694');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (15, '0107655526');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (16, '0556150980');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (17, '5709961930');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (18, '6713630579');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (19, '0294541684');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (20, '1115961638');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (21, '5272057432');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (22, '2822367126');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (23, '5336778559');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (24, '6230986764');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (25, '5796522453');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (26, '5015776905');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (27, '5210431105');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (28, '0392287003');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (29, '5845948575');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (30, '8409587194');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (31, '5838489046');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (32, '5206493376');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (33, '4922821601');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (34, '5292791125');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (35, '7537465075');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (36, '6291576817');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (37, '6333895886');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (38, '4092640014');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (39, '8630832537');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (40, '0070217905');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (41, '0737971418');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (42, '4636307668');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (43, '9301305242');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (44, '5696115953');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (45, '2618501410');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (46, '3739721551');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (47, '7294823056');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (48, '5639098648');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (49, '1070146964');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (50, '9601715796');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (51, '2773672077');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (52, '9974662912');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (53, '0687171388');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (54, '1709565944');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (55, '6812931474');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (56, '9351985843');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (57, '9517712339');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (58, '9074605708');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (59, '5044005029');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (60, '9822666068');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (61, '5286466907');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (62, '3759473156');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (63, '0002406868');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (64, '8137829824');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (65, '3638009527');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (66, '0728335404');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (67, '4244249977');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (68, '9547623497');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (69, '8550107837');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (70, '1585700780');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (71, '7691971106');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (72, '0348189477');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (73, '4001698190');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (74, '3094736514');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (75, '3113693028');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (76, '6206398234');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (77, '0588841467');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (78, '7427269585');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (79, '8604848588');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (80, '7057218558');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (81, '9322447358');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (82, '8472632937');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (83, '5911008775');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (84, '9874415601');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (85, '2538511253');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (86, '5620478339');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (87, '5930586984');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (88, '9834113982');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (89, '1015041102');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (90, '0081237737');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (91, '6334858525');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (92, '6793886420');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (93, '3078361311');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (94, '5479904602');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (95, '7932442764');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (96, '9511760360');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (97, '8614023982');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (98, '9567141786');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (99, '4510599075');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (100, '1422539081');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (101, '7683403153');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (102, '4411818525');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (103, '6619821485');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (104, '2541095964');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (105, '2313881916');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (106, '5398476036');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (107, '9313444275');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (108, '4482104538');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (109, '5596815602');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (110, '9147127840');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (111, '5142821482');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (112, '8111787699');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (113, '9558286946');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (114, '8065748587');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (115, '8547466336');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (116, '7020511707');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (117, '0352812818');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (118, '5484775004');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (119, '8624909854');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (120, '4432793050');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (121, '8744857957');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (122, '6837832694');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (123, '9873062666');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (124, '1000045168');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (125, '5512937056');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (126, '9433451787');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (127, '0350151018');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (128, '8605076674');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (129, '5854150292');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (130, '8875957535');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (131, '4816113011');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (132, '6657126417');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (133, '5771319348');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (134, '0170205927');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (135, '6247136983');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (136, '4162613502');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (137, '7956042736');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (138, '9881953410');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (139, '3126295532');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (140, '1288914813');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (141, '4774673325');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (142, '9928863643');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (143, '5423603404');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (144, '0154655654');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (145, '2274837556');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (146, '0168452797');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (147, '3188622266');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (148, '8727520531');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (149, '3511939696');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (150, '5958114932');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (151, '8703852223');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (152, '7570662856');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (153, '4961612923');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (154, '5381445482');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (155, '7951455478');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (156, '4976044474');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (157, '6753819825');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (158, '4548137134');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (159, '0234054384');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (160, '0476950576');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (161, '9614871584');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (162, '9354756435');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (163, '2864565190');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (164, '6000187503');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (165, '8836330187');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (166, '4931913592');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (167, '5105189863');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (168, '5261269631');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (169, '0162734237');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (170, '7923933792');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (171, '5112949893');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (172, '6368316288');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (173, '5872432803');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (174, '3880254334');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (175, '8767543915');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (176, '6943109145');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (177, '3529850773');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (178, '9489615517');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (179, '4984722470');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (180, '7173425337');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (181, '8854781217');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (182, '0558769432');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (183, '3241308402');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (184, '0130760248');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (185, '7668516539');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (186, '1735693745');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (187, '7513611730');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (188, '1387053550');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (189, '1772980187');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (190, '3670647125');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (191, '1373429918');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (192, '4066662782');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (193, '1571906333');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (194, '3851086070');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (195, '0593832455');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (196, '2749141497');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (197, '9084124880');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (198, '9885364437');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (199, '5077437645');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (200, '8806999883');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (201, '3981912337');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (202, '5881659060');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (203, '9598803471');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (204, '9020079341');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (205, '7873615425');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (206, '7670960650');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (207, '2347708584');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (208, '8705403683');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (209, '0761689162');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (210, '7571768159');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (211, '6574124063');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (212, '5806414106');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (213, '6621438795');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (214, '2462756869');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (215, '5167561306');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (216, '2631073567');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (217, '8723292457');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (218, '5212308992');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (219, '4721605394');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (220, '8581948626');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (221, '8089656713');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (222, '5646414909');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (223, '0062634171');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (224, '2673444702');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (225, '1020952621');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (226, '7075811322');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (227, '7639703964');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (228, '0625460497');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (229, '6273506892');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (230, '7614968062');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (231, '7563386385');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (232, '5831481073');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (233, '2306887353');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (234, '5361195421');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (235, '8006397103');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (236, '2364175007');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (237, '8658290990');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (238, '6756033443');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (239, '0726906584');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (240, '7408656513');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (241, '0649265535');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (242, '3101735023');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (243, '6648897049');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (244, '9582317122');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (245, '2017820660');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (246, '8735245617');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (247, '1521763566');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (248, '8238761872');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (249, '0638832196');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (250, '1090685028');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (251, '0038225338');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (252, '9457644174');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (253, '9053175769');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (254, '3747957010');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (255, '6760223009');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (256, '7431341864');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (257, '3938022307');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (258, '0095944238');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (259, '2100836390');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (260, '5229765399');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (261, '3949894085');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (262, '3164519727');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (263, '6893501095');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (264, '9175238673');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (265, '7288789279');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (266, '2642426882');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (267, '5346973948');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (268, '0922556598');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (269, '0505744459');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (270, '4066219313');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (271, '1486829642');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (272, '9305414180');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (273, '6097204146');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (274, '4777902027');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (275, '6136543752');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (276, '8421592431');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (277, '4668579709');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (278, '2023902132');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (279, '2824235988');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (280, '9482528474');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (281, '4238483270');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (282, '0382561151');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (283, '5430815935');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (284, '6377020336');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (285, '3904692279');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (286, '8077360317');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (287, '2515095736');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (288, '9370291298');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (289, '9872940948');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (290, '9173810546');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (291, '7170553216');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (292, '0807999790');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (293, '9111091991');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (294, '3697942966');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (295, '4785887315');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (296, '6295796750');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (297, '5319700073');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (298, '4509776588');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (299, '0281103095');
+insert into GatitaEmprendedora.TelefonoNegocio (IdNegocio, Telefono) values (300, '8350564922');
+
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (1, 'fsnewin0@hexun.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (2, 'cmuro1@state.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (3, 'lsisneros2@toplist.cz');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (4, 'lchildren3@constantcontact.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (5, 'lstabbins4@techcrunch.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (6, 'tpigott5@tripod.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (7, 'rklaussen6@webnode.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (8, 'jlampert7@liveinternet.ru');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (9, 'cmaccafferky8@4shared.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (10, 'gdanovich9@alibaba.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (11, 'dthunnerclefa@ameblo.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (12, 'jmcgarelb@ustream.tv');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (13, 'ccuseckc@t-online.de');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (14, 'acasarinod@icq.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (15, 'hblakeye@tripadvisor.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (16, 'ppresleyf@cargocollective.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (17, 'plyosikg@netlog.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (18, 'nbowdidgeh@goo.gl');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (19, 'ndanzelmani@google.com.au');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (20, 'mcratesj@vkontakte.ru');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (21, 'dmatiewek@ebay.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (22, 'hcogdonl@zimbio.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (23, 'nbrendm@barnesandnoble.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (24, 'rbrongern@cnet.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (25, 'gberkao@lycos.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (26, 'yedgecumbep@fotki.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (27, 'mmottershawq@admin.ch');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (28, 'gveallr@google.co.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (29, 'csattefords@goodreads.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (30, 'ctornt@sitemeter.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (31, 'cmccrearyu@smugmug.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (32, 'dpawlowiczv@nba.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (33, 'lbartolomeuw@skype.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (34, 'fblebyx@boston.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (35, 'vpeedelly@4shared.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (36, 'bcourtesz@shop-pro.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (37, 'cgrishechkin10@archive.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (38, 'cpadgett11@nifty.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (39, 'mscrigmour12@springer.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (40, 'bwyldes13@bizjournals.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (41, 'atitterrell14@google.es');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (42, 'mgodley15@over-blog.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (43, 'zcordes16@jigsy.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (44, 'cheisler17@businessinsider.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (45, 'ptullett18@freewebs.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (46, 'mstubbington19@google.es');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (47, 'hzupo1a@wikipedia.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (48, 'efarries1b@twitpic.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (49, 'ewarlock1c@ted.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (50, 'joxshott1d@skype.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (51, 'myurtsev1e@google.com.br');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (52, 'dhawarden1f@va.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (53, 'kburris1g@webeden.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (54, 'sdorwood1h@bloglines.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (55, 'bardy1i@salon.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (56, 'pmell1j@gravatar.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (57, 'kkibbey1k@ifeng.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (58, 'mdaulton1l@i2i.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (59, 'rmasselin1m@addtoany.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (60, 'jtissier1n@archive.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (61, 'bsnoddy1o@alexa.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (62, 'rmetschke1p@gizmodo.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (63, 'baleevy1q@hostgator.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (64, 'acrotch1r@biglobe.ne.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (65, 'aklazenga1s@nifty.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (66, 'sbessent1t@google.co.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (67, 'whanhart1u@diigo.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (68, 'tdifrancecshi1v@vinaora.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (69, 'gsailes1w@usatoday.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (70, 'ebeevor1x@amazon.de');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (71, 'ashalloo1y@deliciousdays.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (72, 'mchevolleau1z@ebay.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (73, 'cmenendes20@1und1.de');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (74, 'lvaughan21@instagram.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (75, 'tdurnill22@reddit.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (76, 'dguenther23@senate.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (77, 'slillicrap24@digg.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (78, 'cperkins25@icq.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (79, 'aascough26@sogou.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (80, 'kdonnersberg27@surveymonkey.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (81, 'rpuddefoot28@google.es');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (82, 'ntullett29@dailymail.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (83, 'jpalliser2a@photobucket.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (84, 'mlattimer2b@google.co.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (85, 'lrudderham2c@intel.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (86, 'dmacilhargy2d@joomla.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (87, 'fsemeradova2e@hatena.ne.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (88, 'kmatusov2f@hao123.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (89, 'ythalmann2g@stanford.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (90, 'kcrowthe2h@mashable.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (91, 'speyton2i@naver.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (92, 'dstive2j@umich.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (93, 'kbragginton2k@fotki.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (94, 'cpeasee2l@house.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (95, 'bborchardt2m@bizjournals.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (96, 'kpickaver2n@mlb.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (97, 'jjeckells2o@drupal.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (98, 'iserrell2p@acquirethisname.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (99, 'srendbaek2q@columbia.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (100, 'imelland2r@patch.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (101, 'bneeve2s@ocn.ne.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (102, 'fmcnuff2t@baidu.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (103, 'broadknight2u@paypal.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (104, 'raizic2v@parallels.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (105, 'clamey2w@samsung.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (106, 'koxberry2x@freewebs.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (107, 'hpinkstone2y@privacy.gov.au');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (108, 'mpryer2z@google.it');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (109, 'adeclerk30@amazon.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (110, 'pcroxall31@ihg.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (111, 'rswyndley32@behance.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (112, 'oantonopoulos33@deliciousdays.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (113, 'fbartelot34@yellowpages.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (114, 'lkarlicek35@wisc.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (115, 'nisley36@msu.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (116, 'bmcneely37@archive.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (117, 'byarrow38@cpanel.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (118, 'hgass39@example.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (119, 'cglanfield3a@auda.org.au');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (120, 'acockhill3b@nature.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (121, 'ddevenish3c@prweb.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (122, 'jattack3d@etsy.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (123, 'ftothacot3e@weather.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (124, 'hlapere3f@japanpost.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (125, 'aneild3g@prnewswire.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (126, 'lpeet3h@cdc.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (127, 'cjervois3i@wikimedia.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (128, 'rwarrillow3j@jigsy.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (129, 'achristopherson3k@google.de');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (130, 'rsprasen3l@umn.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (131, 'hblague3m@hao123.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (132, 'jdunguy3n@weebly.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (133, 'gtomasini3o@odnoklassniki.ru');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (134, 'aarchibald3p@deviantart.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (135, 'rgilbeart3q@businesswire.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (136, 'lscourfield3r@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (137, 'areith3s@weebly.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (138, 'bkinsman3t@rediff.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (139, 'askinner3u@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (140, 'rshory3v@bbc.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (141, 'mguerreau3w@cloudflare.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (142, 'ishimwall3x@opera.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (143, 'hdobbison3y@addtoany.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (144, 'jschettini3z@istockphoto.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (145, 'dgarry40@tripadvisor.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (146, 'ssmitton41@forbes.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (147, 'mkigelman42@trellian.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (148, 'aalderson43@flavors.me');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (149, 'dchiles44@fotki.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (150, 'bgosnold45@shop-pro.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (151, 'jhegg46@mozilla.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (152, 'gcail47@topsy.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (153, 'arassell48@buzzfeed.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (154, 'browe49@ifeng.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (155, 'gbrockie4a@statcounter.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (156, 'adixon4b@rambler.ru');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (157, 'ciddon4c@wunderground.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (158, 'dbleackly4d@seesaa.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (159, 'vscade4e@chron.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (160, 'kbackshell4f@prnewswire.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (161, 'arearden4g@house.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (162, 'omorshead4h@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (163, 'lchecketts4i@lulu.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (164, 'bhehl4j@mit.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (165, 'jmcaw4k@nytimes.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (166, 'tayllett4l@xing.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (167, 'hhothersall4m@vk.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (168, 'anewstead4n@army.mil');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (169, 'jaires4o@list-manage.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (170, 'wtruin4p@typepad.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (171, 'gnickols4q@alexa.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (172, 'ueaglesham4r@parallels.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (173, 'jtrench4s@tinypic.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (174, 'econachy4t@independent.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (175, 'dwile4u@facebook.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (176, 'emustard4v@engadget.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (177, 'etilt4w@google.pl');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (178, 'adenerley4x@usa.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (179, 'gleafe4y@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (180, 'phue4z@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (181, 'zdavidou50@google.com.hk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (182, 'dgoldspink51@nationalgeographic.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (183, 'fwitty52@usda.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (184, 'gbunyard53@simplemachines.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (185, 'rrebillard54@clickbank.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (186, 'mdalbey55@xing.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (187, 'ediwell56@spotify.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (188, 'ncarluccio57@ameblo.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (189, 'mdelchecolo58@berkeley.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (190, 'ispellar59@google.it');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (191, 'dheinreich5a@theguardian.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (192, 'ilockhead5b@pbs.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (193, 'kvirgoe5c@cpanel.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (194, 'emillson5d@constantcontact.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (195, 'eortas5e@slideshare.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (196, 'idashkov5f@barnesandnoble.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (197, 'scosby5g@cbsnews.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (198, 'ltroup5h@auda.org.au');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (199, 'abeddon5i@de.vu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (200, 'salen5j@behance.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (201, 'mmedlar5k@google.es');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (202, 'sdanielsky5l@com.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (203, 'aguilaem5m@t-online.de');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (204, 'sbrennen5n@google.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (205, 'npaolinelli5o@xinhuanet.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (206, 'svauls5p@vinaora.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (207, 'mblanckley5q@mozilla.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (208, 'ifitzmaurice5r@multiply.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (209, 'cmatijevic5s@bigcartel.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (210, 'rpietesch5t@icio.us');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (211, 'lseifenmacher5u@a8.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (212, 'labramovici5v@hhs.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (213, 'elejeune5w@about.me');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (214, 'hkellen5x@163.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (215, 'gferon5y@dmoz.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (216, 'arogans5z@elpais.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (217, 'sowen60@nsw.gov.au');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (218, 'abewsy61@skyrock.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (219, 'isyers62@cam.ac.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (220, 'imilverton63@va.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (221, 'bkielty64@qq.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (222, 'gpicford65@sitemeter.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (223, 'ndaviddi66@dagondesign.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (224, 'colenchikov67@howstuffworks.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (225, 'dbodd68@webeden.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (226, 'mdonson69@ucla.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (227, 'dbarlace6a@alexa.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (228, 'ptuohy6b@icq.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (229, 'lfeldman6c@webnode.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (230, 'rpidgley6d@desdev.cn');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (231, 'bhulls6e@drupal.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (232, 'ckamen6f@dot.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (233, 'cgrinsdale6g@storify.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (234, 'ssharpin6h@baidu.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (235, 'rniles6i@twitpic.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (236, 'sgrinaway6j@usa.gov');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (237, 'lhaggus6k@cnbc.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (238, 'hpattillo6l@jiathis.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (239, 'nborghese6m@shareasale.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (240, 'jreichartz6n@bloglines.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (241, 'acousens6o@a8.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (242, 'apessolt6p@g.co');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (243, 'ehyndes6q@psu.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (244, 'mcotterel6r@tamu.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (245, 'bimlaw6s@vinaora.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (246, 'mhugli6t@cam.ac.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (247, 'jmacelholm6u@kickstarter.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (248, 'sruilton6v@mediafire.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (249, 'kchristmas6w@mashable.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (250, 'ymcnamee6x@issuu.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (251, 'cbontine6y@de.vu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (252, 'wmichelotti6z@unesco.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (253, 'swhodcoat70@comcast.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (254, 'hstiebler71@google.com.br');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (255, 'ohalfhide72@webs.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (256, 'bmenlow73@newyorker.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (257, 'epunshon74@aol.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (258, 'sbraine75@spotify.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (259, 'cwooland76@de.vu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (260, 'ainglesent77@zimbio.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (261, 'mnutter78@telegraph.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (262, 'jandrei79@vimeo.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (263, 'amarcoolyn7a@hugedomains.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (264, 'lpeople7b@kickstarter.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (265, 'tsijmons7c@princeton.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (266, 'vweighell7d@addtoany.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (267, 'zstennes7e@bizjournals.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (268, 'wredwin7f@liveinternet.ru');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (269, 'pmeins7g@intel.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (270, 'ahogbourne7h@networksolutions.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (271, 'mrickell7i@tuttocitta.it');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (272, 'gtollett7j@china.com.cn');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (273, 'nbecarra7k@ebay.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (274, 'mkynastone7l@soundcloud.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (275, 'rmair7m@patch.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (276, 'bbanting7n@meetup.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (277, 'mhaggarth7o@harvard.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (278, 'vmcdonell7p@feedburner.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (279, 'jkroon7q@unicef.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (280, 'nmoulin7r@ft.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (281, 'amatveyev7s@icq.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (282, 'rlyston7t@earthlink.net');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (283, 'wpenvarden7u@japanpost.jp');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (284, 'rcubitt7v@g.co');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (285, 'aluebbert7w@hostgator.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (286, 'cocaine7x@trellian.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (287, 'vgarrould7y@ft.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (288, 'bsilverthorn7z@si.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (289, 'ajarred80@storify.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (290, 'dpharaoh81@pbs.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (291, 'aleupold82@prnewswire.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (292, 'jlundbeck83@gmpg.org');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (293, 'tsertin84@arizona.edu');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (294, 'knorcott85@hostgator.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (295, 'hparrett86@cyberchimps.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (296, 'mtemlett87@dailymail.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (297, 'tdecaze88@51.la');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (298, 'hreaveley89@ycombinator.com');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (299, 'aseres8a@independent.co.uk');
+insert into GatitaEmprendedora.CorreoNegocio (IdNegocio, Correo) values (300, 'fkivelle8b@amazonaws.com');
