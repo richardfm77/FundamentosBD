@@ -2,7 +2,7 @@
 -- Filtra los bazares para mostrar únicamente los eventos presenciales.
 SELECT NombreBazar, Calle, Colonia, Estado, FechaInicio, FechaFin
 FROM GatitaEmprendedora.Bazar
-WHERE Modalidad = 'Físico';
+WHERE Modalidad = 'Presencial';
 
 -- Consulta 2: Obtener los tickets donde la comisión para el bazar fue mayor a $180.00.
 -- Filtra las ventas más significativas en términos de comisión generada.
