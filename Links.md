@@ -34,3 +34,4 @@
  # Proyecto 
 
 * overleaf: [https://www.overleaf.com/9145299595zcjcknwmhspg#764708](https://www.overleaf.com/9145299595zcjcknwmhspg#764708)
+* reporte ejecutivo: [https://www.overleaf.com/8335174843ndfqtqwnwghk#c8e70a](https://www.overleaf.com/8335174843ndfqtqwnwghk#c8e70a)
