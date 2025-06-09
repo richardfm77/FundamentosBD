@@ -72,7 +72,7 @@ SELECT
     n.NombreNegocio,
     SUM(v.Cantidad) AS CantidadTotalVendida
 FROM
-    GatitaEmprendedora.Vende AS v
+    GatitaEmprendedora.Vender AS v
 JOIN
     GatitaEmprendedora.Producto AS p ON v.IdProducto = p.IdProducto
 JOIN
