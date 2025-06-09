@@ -5819,204 +5819,212 @@ insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, 
 insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (300, 8, 'Wuckert-Larson', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
 Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (301, null, 2, 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (302, 8, 2, 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (301, 5, 18, 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (302, 15, 9, 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
 Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
 
 Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (303, 14, 17, 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (303, 13, 17, 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (304, 20, 10, 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (304, null, 10, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (305, 18, 16, 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
 
 Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
 
 Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (305, 7, 8, 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (306, 6, 20, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (307, 13, 8, 'Fusce consequat. Nulla nisl. Nunc nisl.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (308, 11, 7, 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
-
-Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (309, 4, 9, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (310, 10, 16, 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (311, null, 9, 'Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
-
-Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (312, 4, 5, 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
-
-Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (313, 20, 11, 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
-
-Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
-
-Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (314, 11, 15, 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
-
-Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (315, 18, 15, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (316, 13, 17, 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (317, 17, 10, 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
-
-Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
-
-Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (318, 3, 13, 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
-
-In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (319, 18, 2, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (320, 13, 2, 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (321, 6, 6, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
-
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (322, 10, 16, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
-
-Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (323, 20, 4, 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (324, 8, 4, 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (325, 11, 11, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
-
-Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (326, null, 5, 'Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
-
-Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (327, 4, 7, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (328, 3, 7, 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (329, 7, 14, 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (330, 13, 7, 'Fusce consequat. Nulla nisl. Nunc nisl.
-
-Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (331, 11, 9, 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
-
-In congue. Etiam justo. Etiam pretium iaculis justo.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (332, 7, 16, 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (333, 19, 11, 'Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (334, 19, 4, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
-
-Sed ante. Vivamus tortor. Duis mattis egestas metus.
-
-Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (335, 10, 2, 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
-
-Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (306, 15, 14, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
 
 Sed ante. Vivamus tortor. Duis mattis egestas metus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (336, 12, 7, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
-
-In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (337, 13, 10, 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (338, 12, 2, 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (307, 10, 2, 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
 
 Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
 In congue. Etiam justo. Etiam pretium iaculis justo.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (339, 17, 14, 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (308, 20, 16, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (340, 15, 6, 'Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (309, 7, 17, 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
 
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (341, 13, 3, 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
-
-Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.
-
-Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (342, 5, 19, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
-
-Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (343, 11, 6, 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
-
-Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (344, 15, 12, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (310, null, 9, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
 Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
 Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (345, 13, 11, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (311, 1, 16, 'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
 
 Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (346, 10, 20, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (312, 17, 8, 'Sed ante. Vivamus tortor. Duis mattis egestas metus.
 
-Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (313, 7, 6, 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
 
-In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (347, 9, 5, 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
 
-Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (348, 10, 3, 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (349, 10, null, 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (350, 2, 17, 'Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (314, 8, 12, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
 
-Phasellus in felis. Donec semper sapien a libero. Nam dui.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (351, 19, 1, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (352, 18, 18, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
 
-Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (353, 8, null, 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (315, 20, 5, 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (316, 5, 10, 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (317, 18, 10, 'In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (318, 9, 9, 'Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
+
+In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (319, 2, 12, 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (320, 3, 9, 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.
+
+Fusce consequat. Nulla nisl. Nunc nisl.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (321, 20, 20, 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+
+Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (322, 11, 16, 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (323, 18, 3, 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (324, 5, 3, 'Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (325, 1, 15, 'Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (326, 11, 14, 'Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
 
 Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (354, 7, 4, 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (355, 19, 14, 'Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (356, 2, 2, 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (327, 6, 6, 'Fusce consequat. Nulla nisl. Nunc nisl.
+
+Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (328, 19, 13, 'Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+
+Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.
+
+Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (329, null, 3, 'Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (330, null, 15, 'Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (331, 12, 5, 'In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (332, 15, 10, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (333, 15, 17, 'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (334, 2, 7, 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.
+
+In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (335, 2, 15, 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
 
 Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
 
 Phasellus in felis. Donec semper sapien a libero. Nam dui.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (357, 15, 11, 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (336, 20, 9, 'In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
 
-Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (337, 19, 20, 'In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
 
-Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (358, 18, 14, 'Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
-
-Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
-
-Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (359, 15, 6, 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.');
-insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (360, 7, 9, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (338, 12, 4, 'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (339, 2, 11, 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
 
 Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.
 
 Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (340, 17, 9, 'Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+
+Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (341, 7, 14, 'Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+
+In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+
+Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (342, 17, 17, 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.
+
+Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (343, null, 14, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (344, 14, 3, 'Phasellus in felis. Donec semper sapien a libero. Nam dui.
+
+Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+
+Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (345, 13, 3, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (346, null, 3, 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (347, 19, 18, 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (348, 12, 1, 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (349, null, 3, 'Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+
+Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (350, 14, 7, 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+
+Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (351, 10, 4, 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.
+
+In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+
+Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (352, 17, 6, 'Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+
+Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (353, 12, 13, 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+
+Sed ante. Vivamus tortor. Duis mattis egestas metus.
+
+Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (354, 14, 2, 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (355, null, 15, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (356, 10, 7, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.
+
+Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (357, 1, 5, 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (358, 5, 20, 'Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.
+
+Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (359, 12, 6, 'Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.');
+insert into GatitaEmprendedora.Negocio (IdNegocio, NumeroEstand, NombreNegocio, Descripcion) values (360, 4, 12, 'Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.
+
+Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+
+Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.');
 
 
 insert into GatitaEmprendedora.RangoPrecioNegocio (IdNegocio, PrecioMinimo, PrecioMaximo) values (1, 37, 1510);
