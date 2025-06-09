@@ -1472,36 +1472,6 @@ insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket,
 insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (268, 268, 268, 268, '3:38');
 insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (269, 269, 269, 269, '8:08');
 insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (270, 270, 270, 270, '9:01');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (271, 271, 271, 271, '6:39');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (272, 272, 272, 272, '7:50');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (273, 273, 273, 273, '3:48');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (274, 274, 274, 274, '1:16');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (275, 275, 275, 275, '4:21');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (276, 276, 276, 276, '4:19');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (277, 277, 277, 277, '6:37');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (278, 278, 278, 278, '11:30');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (279, 279, 279, 279, '11:24');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (280, 280, 280, 280, '0:05');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (281, 281, 281, 281, '2:31');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (282, 282, 282, 282, '2:53');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (283, 283, 283, 283, '1:44');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (284, 284, 284, 284, '0:07');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (285, 285, 285, 285, '1:23');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (286, 286, 286, 286, '11:00');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (287, 287, 287, 287, '6:37');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (288, 288, 288, 288, '0:48');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (289, 289, 289, 289, '11:33');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (290, 290, 290, 290, '3:16');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (291, 291, 291, 291, '9:53');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (292, 292, 292, 292, '10:46');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (293, 293, 293, 293, '5:28');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (294, 294, 294, 294, '8:20');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (295, 295, 295, 295, '8:09');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (296, 296, 296, 296, '4:37');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (297, 297, 297, 297, '9:44');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (298, 298, 298, 298, '11:04');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (299, 299, 299, 299, '7:00');
-insert into GatitaEmprendedora.RegistrarServicio (IdRegistrarServicio, IdTicket, IdServicio, IdNegocio, Duracion) values (300, 300, 300, 300, '3:27');
 
 
 insert into GatitaEmprendedora.Perecedero (IdNegocio, IdProducto, FechaPreparacion, FechaCaducidad) values (1, 1, '4/8/2024', '2/15/2025');
@@ -1804,3 +1774,4 @@ insert into GatitaEmprendedora.Perecedero (IdNegocio, IdProducto, FechaPreparaci
 insert into GatitaEmprendedora.Perecedero (IdNegocio, IdProducto, FechaPreparacion, FechaCaducidad) values (298, 298, '1/3/2024', '2/1/2025');
 insert into GatitaEmprendedora.Perecedero (IdNegocio, IdProducto, FechaPreparacion, FechaCaducidad) values (299, 299, '12/2/2024', '6/2/2025');
 insert into GatitaEmprendedora.Perecedero (IdNegocio, IdProducto, FechaPreparacion, FechaCaducidad) values (300, 300, '5/20/2024', '3/7/2025');
+
