@@ -1,69 +1,4 @@
--- Consulata 1:
---Negocios que tienen productos agotados
-SELECT 
-    n.IdNegocio,
-    n.NombreNegocio,
-    p.NombreProducto,
-    p.Stock
-FROM GatitaEmprendedora.Negocio n
-JOIN GatitaEmprendedora.Producto p ON p.IdNegocio = n.IdNegocio
-WHERE p.Stock = 0;
-
-
--- Consulta 2:
---Servicios que no han sido contratados
-SELECT 
-    s.IdNegocio,
-    s.IdServicio,
-    s.NombreServicio
-FROM GatitaEmprendedora.Servicio s
-LEFT JOIN GatitaEmprendedora.RegistrarServicio rs 
-    ON rs.IdNegocio = s.IdNegocio AND rs.IdServicio = s.IdServicio
-WHERE rs.IdServicio IS NULL;
-
-
--- Consulta 3:
---Productos que ya esten caducados
-SELECT 
-    p.IdProducto,
-    p.NombreProducto,
-    pr.FechaCaducidad
-FROM GatitaEmprendedora.Producto p
-JOIN GatitaEmprendedora.Perecedero pr ON p.IdNegocio = pr.IdNegocio AND p.IdProducto = pr.IdProducto
-WHERE pr.FechaCaducidad < CURRENT_DATE;
-
-
--- Consulta 4:
---Clientes que han comprado en mas de un negocio
-SELECT 
-    c.IdCliente,
-    c.NombreCliente || ' ' || c.APaternoCliente || ' ' || c.AMaternoCliente AS Cliente,
-    COUNT(DISTINCT t.IdNegocio) AS NegociosDistintos
-FROM GatitaEmprendedora.Cliente c
-JOIN GatitaEmprendedora.Ticket t ON t.IdCliente = c.IdCliente
-GROUP BY c.IdCliente, Cliente
-HAVING COUNT(DISTINCT t.IdNegocio) > 1
-ORDER BY NegociosDistintos DESC;
-
-
--- Consulta 5:
---Productos por stock y que negocio lo vende
-SELECT 
-    p.IdProducto,
-    p.NombreProducto,
-    p.Tipo,
-    p.Stock,
-    n.NombreNegocio
-FROM GatitaEmprendedora.Producto p
-JOIN GatitaEmprendedora.Negocio n ON p.IdNegocio = n.IdNegocio
-ORDER BY p.NombreProducto;
-
-
-
-
-
-
---Consula 6:  Clientes recurrentes que han asistido a mas de un bazar y su actividad de compra
+--Consula 1:  Clientes recurrentes que han asistido a mas de un bazar y su actividad de compra
 SELECT 
 --Obtenemos la infrimacion de cliente 
     c.idcliente,
@@ -92,8 +27,7 @@ HAVING COUNT(DISTINCT t.idbazar) > 1
 -- Ordenamos por el numero de compras realizadas 
 ORDER BY total_tickets DESC;
 
-
---- Consulta 7 total de participantes por bazar.
+--- Consulta 2 total de participantes por bazar.
 SELECT 
 --Obtenemos la informacion que queremos de bazar
     b.idbazar,
@@ -138,7 +72,7 @@ ORDER BY total_personas DESC;
 
 
 
--- Consulta 8: Resumen de ventas por bazar
+-- Consulta 3: Resumen de ventas por bazar
 select
 --Obtenemos los datos mas importante de bazar
     b.idbazar,
@@ -165,7 +99,7 @@ ORDER BY total_vendidos DESC;
 
 
 
---- Consulta 9: Resumen de participaciones y ventas por negocio  
+--- Consulta 4: Resumen de participaciones y ventas por negocio  
 SELECT 
 --- Obtenemos la infromacion relevante de negocio
     n.idnegocio,
@@ -186,7 +120,7 @@ GROUP BY n.idnegocio, n.nombrenegocio
 ORDER BY total_agendas DESC;
 
 
---Consulta 10 Producto mas vendido
+--Consulta 5 Producto mas vendido
 WITH VentasPorProductoBazar AS (
 -- Calculamos cuantos productos se han vendido y el bazar en que lo venden
     SELECT
@@ -227,23 +161,68 @@ ORDER BY CantidadVendida DESC;
 
 
 
--- Consulta 11: Los clientes fisicos que paguen en efectivo
-SELECT DISTINCT
-    c.IdCliente,
-    c.NombreCliente,
-    c.APaternoCliente,
-    c.AMaternoCliente
-FROM
-    GatitaEmprendedora.Cliente AS c
-JOIN
-    GatitaEmprendedora.MetodoPago AS mp ON c.IdCliente = mp.IdCliente
-WHERE
-    c.EsFisico IS TRUE
-    AND mp.MetodoPago = 'Efectivo'
-ORDER BY
-    c.APaternoCliente, c.NombreCliente;
+-- Consulata 6:
+--Negocios que tienen productos agotados
+SELECT 
+    n.IdNegocio,
+    n.NombreNegocio,
+    p.NombreProducto,
+    p.Stock
+FROM GatitaEmprendedora.Negocio n
+JOIN GatitaEmprendedora.Producto p ON p.IdNegocio = n.IdNegocio
+WHERE p.Stock = 0;
 
--- Consulta 12: Obtener los tickets donde la comisión para el bazar fue mayor a $180.00.
+
+-- Consulta 7:
+--Servicios que no han sido contratados
+SELECT 
+    s.IdNegocio,
+    s.IdServicio,
+    s.NombreServicio
+FROM GatitaEmprendedora.Servicio s
+LEFT JOIN GatitaEmprendedora.RegistrarServicio rs 
+    ON rs.IdNegocio = s.IdNegocio AND rs.IdServicio = s.IdServicio
+WHERE rs.IdServicio IS NULL;
+
+
+-- Consulta 8:
+--Productos que ya esten caducados
+SELECT 
+    p.IdProducto,
+    p.NombreProducto,
+    pr.FechaCaducidad
+FROM GatitaEmprendedora.Producto p
+JOIN GatitaEmprendedora.Perecedero pr ON p.IdNegocio = pr.IdNegocio AND p.IdProducto = pr.IdProducto
+WHERE pr.FechaCaducidad < CURRENT_DATE;
+
+
+-- Consulta 9:
+--Clientes que han comprado en mas de un negocio
+SELECT 
+    c.IdCliente,
+    c.NombreCliente || ' ' || c.APaternoCliente || ' ' || c.AMaternoCliente AS Cliente,
+    COUNT(DISTINCT t.IdNegocio) AS NegociosDistintos
+FROM GatitaEmprendedora.Cliente c
+JOIN GatitaEmprendedora.Ticket t ON t.IdCliente = c.IdCliente
+GROUP BY c.IdCliente, Cliente
+HAVING COUNT(DISTINCT t.IdNegocio) > 1
+ORDER BY NegociosDistintos DESC;
+
+
+-- Consulta 10:
+--Productos por stock y que negocio lo vende
+SELECT 
+    p.IdProducto,
+    p.NombreProducto,
+    p.Tipo,
+    p.Stock,
+    n.NombreNegocio
+FROM GatitaEmprendedora.Producto p
+JOIN GatitaEmprendedora.Negocio n ON p.IdNegocio = n.IdNegocio
+ORDER BY p.NombreProducto;
+
+
+-- Consulta 11: Obtener los tickets donde la comisión para el bazar fue mayor a $180.00.
 -- Filtra las ventas más significativas en términos de comisión generada.
 SELECT
     t.IdTicket,
@@ -262,7 +241,7 @@ ORDER BY
     t.ComisionBazar DESC;
 
 
--- Consulta 13: Análisis de rendimiento por bazar
+-- Consulta 12: Análisis de rendimiento por bazar
 -- Calcula para cada bazar el número de ventas, la comisión total generada y la comisión promedio por venta.
 SELECT
     b.NombreBazar,
@@ -282,6 +261,22 @@ HAVING
 ORDER BY
     ComisionPromedio DESC;
 
+-- Consulta 13: Los clientes fisicos que paguen en efectivo
+SELECT DISTINCT
+    c.IdCliente,
+    c.NombreCliente,
+    c.APaternoCliente,
+    c.AMaternoCliente
+FROM
+    GatitaEmprendedora.Cliente AS c
+JOIN
+    GatitaEmprendedora.MetodoPago AS mp ON c.IdCliente = mp.IdCliente
+WHERE
+    c.EsFisico IS TRUE
+    AND mp.MetodoPago = 'Efectivo'
+ORDER BY
+    c.APaternoCliente, c.NombreCliente;
+
 
 -- Consulta 14: Clientes fisicos y virtuales
 SELECT
@@ -296,6 +291,7 @@ WHERE
     AND EsVirtual IS TRUE
 ORDER BY
     APaternoCliente, NombreCliente;
+
 
 -- Consulta 15: Los servicios con una duracion menor a una hora y precio menor a 10
 SELECT
