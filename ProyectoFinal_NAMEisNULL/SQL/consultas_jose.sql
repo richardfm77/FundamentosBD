@@ -52,6 +52,7 @@ SELECT
     n.NombreNegocio
 FROM GatitaEmprendedora.Producto p
 JOIN GatitaEmprendedora.Negocio n ON p.IdNegocio = n.IdNegocio
+WHERE p.Stock > 0
 ORDER BY p.NombreProducto;
 
 
