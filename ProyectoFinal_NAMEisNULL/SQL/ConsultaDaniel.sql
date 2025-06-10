@@ -91,8 +91,8 @@ SELECT
 FROM
     GatitaEmprendedora.Servicio AS s
 WHERE
-    s.PrecioServicio < 10.00
-    AND s.Duracion < '01:00:00'
+    s.PrecioServicio::NUMERIC < 10.00 -- Se convierte MONEY a NUMERIC para la comparación
+    AND s.Duracion < '01:00:00'::TIME -- Se compara el tipo TIME directamente
 ORDER BY
     s.PrecioServicio DESC, s.Duracion ASC;
     
@@ -124,6 +124,6 @@ JOIN
     GatitaEmprendedora.HorarioPersonalOrganizador AS hpo ON po.RFC = hpo.RFC
 WHERE
     hpo.HorarioPersonalOrganizador = 'matutino'
-    AND CAST(REPLACE(po.Salario, '$', '') AS NUMERIC) < 500.00
+    AND po.Salario < '$500.00'::MONEY -- Se compara directamente MONEY con un literal de tipo MONEY
 ORDER BY
-    CAST(REPLACE(po.Salario, '$', '') AS NUMERIC) DESC, po.APaternoPersonalOrganizador;
+    po.Salario DESC, po.APaternoPersonalOrganizador;
