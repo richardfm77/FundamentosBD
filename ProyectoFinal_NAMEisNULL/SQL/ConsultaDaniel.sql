@@ -1,8 +1,18 @@
--- Consulta 1: Listar los bazares que tienen modalidad 'Físico'.
--- Filtra los bazares para mostrar únicamente los eventos presenciales.
-SELECT NombreBazar, Calle, Colonia, Estado, FechaInicio, FechaFin
-FROM GatitaEmprendedora.Bazar
-WHERE Modalidad = 'presencial';
+-- Consulta 1: Los clientes fisicos que paguen en efectivo
+SELECT DISTINCT
+    c.IdCliente,
+    c.NombreCliente,
+    c.APaternoCliente,
+    c.AMaternoCliente
+FROM
+    GatitaEmprendedora.Cliente AS c
+JOIN
+    GatitaEmprendedora.MetodoPago AS mp ON c.IdCliente = mp.IdCliente
+WHERE
+    c.EsFisico IS TRUE
+    AND mp.MetodoPago = 'Efectivo'
+ORDER BY
+    c.APaternoCliente, c.NombreCliente;
 
 -- Consulta 2: Obtener los tickets donde la comisión para el bazar fue mayor a $180.00.
 -- Filtra las ventas más significativas en términos de comisión generada.
@@ -22,30 +32,21 @@ WHERE
 ORDER BY
     t.ComisionBazar DESC;
 
--- Consulta 3: Clientes que han comprado en más de 2 categorías.
--- Esta consulta identifica a los clientes con los intereses de compra más diversos.
-SELECT
+-- Consulta 3: Los clientes virtuales que paguen con tarjeta
+SELECT DISTINCT
     c.IdCliente,
-    c.NombreCliente || ' ' || c.APaternoCliente || ' ' || c.AMaternoCliente AS NombreCompleto,
-    COUNT(DISTINCT cat.IdCategoria) AS NumeroDeCategoriasDistintas
+    c.NombreCliente,
+    c.APaternoCliente,
+    c.AMaternoCliente
 FROM
     GatitaEmprendedora.Cliente AS c
 JOIN
-    GatitaEmprendedora.Ticket AS t ON c.IdCliente = t.IdCliente
-JOIN
-    GatitaEmprendedora.Vender AS v ON t.IdTicket = v.IdTicket
-JOIN
-    GatitaEmprendedora.Producto AS p ON v.IdProducto = p.IdProducto
-JOIN
-    GatitaEmprendedora.CategoriaProducto AS cp ON p.IdProducto = cp.IdProducto
-JOIN
-    GatitaEmprendedora.Categoria AS cat ON cp.IdCategoria = cat.IdCategoria
-GROUP BY
-    c.IdCliente, c.NombreCliente, c.APaternoCliente, c.AMaternoCliente
-HAVING
-    COUNT(DISTINCT cat.IdCategoria) > 1
+    GatitaEmprendedora.MetodoPago AS mp ON c.IdCliente = mp.IdCliente
+WHERE
+    c.EsVirtual IS TRUE
+    AND mp.MetodoPago = 'Tarjeta'
 ORDER BY
-    NumeroDeCategoriasDistintas DESC, NombreCompleto ASC;
+    c.APaternoCliente, c.NombreCliente;
 
 -- Consulta 4: Análisis de rendimiento por bazar
 -- Calcula para cada bazar el número de ventas, la comisión total generada y la comisión promedio por venta.
@@ -67,69 +68,62 @@ HAVING
 ORDER BY
     ComisionPromedio DESC;
 
--- Consulta 5: Listar productos por popularidad
--- Identifica los productos más populares en todas las ventas, sumando las cantidades registradas en cada ticket.
+-- Consulta 5: Clientes fisicos y virtuales
 SELECT
-    p.NombreProducto,
-    n.NombreNegocio,
-    SUM(v.Cantidad) AS CantidadTotalVendida
+    IdCliente,
+    NombreCliente,
+    APaternoCliente,
+    AMaternoCliente
 FROM
-    GatitaEmprendedora.Vender AS v
-JOIN
-    GatitaEmprendedora.Producto AS p ON v.IdProducto = p.IdProducto
-JOIN
-    GatitaEmprendedora.Negocio AS n ON p.IdNegocio = n.IdNegocio
-GROUP BY
-    p.NombreProducto, n.NombreNegocio
-ORDER BY
-    CantidadTotalVendida DESC;
-
--- Consulta 6: Emprendedores que nacieron entre cierto tiempo
---
-
-SELECT
-    NombreEmprendedor,
-    APaternoEmprendedor,
-    AMaternoEmprendedor,
-    FechaNacimiento
-FROM
-    GatitaEmprendedora.Emprendedor
+    GatitaEmprendedora.Cliente
 WHERE
-    EXTRACT(YEAR FROM FechaNacimiento) >= 1997
-    AND EXTRACT(YEAR FROM FechaNacimiento) <= 2003;
-    
---Consulta 7:Lista todos los productos que han sido vendidos al menos una vez.
--- Muestra cada producto que ha tenido alguna venta, sin sumar cantidades, para asegurar un mayor número de registros.
-SELECT DISTINCT
-    p.NombreProducto,
-    n.NombreNegocio
-FROM
-    GatitaEmprendedora.Vender AS v
-JOIN
-    GatitaEmprendedora.Producto AS p ON v.IdProducto = p.IdProducto
-JOIN
-    GatitaEmprendedora.Negocio AS n ON p.IdNegocio = n.IdNegocio
+    EsFisico IS TRUE
+    AND EsVirtual IS TRUE
 ORDER BY
-    p.NombreProducto, n.NombreNegocio;
+    APaternoCliente, NombreCliente;
+
+-- Consulta 6: Los servicios con una duracion menor a una hora y precio menor a 10
+SELECT
+    s.IdServicio,
+    s.NombreServicio,
+    s.PrecioServicio,
+    s.Duracion
+FROM
+    GatitaEmprendedora.Servicio AS s
+WHERE
+    s.PrecioServicio < 10.00
+    AND s.Duracion < '01:00:00'
+ORDER BY
+    s.PrecioServicio DESC, s.Duracion ASC;
     
--- Consulta 8: Negocios que han participado en bazares Híbridos o Virtuales
--- Identifica negocios que han tenido presencia en modalidades de bazar específicas (Híbrido o Virtual)
+--Consulta 7: Todos los negocios que su precio minimo sea menor a 80
 SELECT
     n.IdNegocio,
     n.NombreNegocio,
-    n.RFC,
-    COUNT(DISTINCT b.IdBazar) AS TotalBazaresHibridosVirtuales
+    rpn.PrecioMinimo,
+    rpn.PrecioMaximo
 FROM
     GatitaEmprendedora.Negocio AS n
 JOIN
-    GatitaEmprendedora.Agendar AS a ON n.IdNegocio = a.IdNegocio
-JOIN
-    GatitaEmprendedora.Bazar AS b ON a.IdBazar = b.IdBazar
+    GatitaEmprendedora.RangoPrecioNegocio AS rpn ON n.IdNegocio = rpn.IdNegocio
 WHERE
-    b.Modalidad IN ('Híbrido', 'Virtual')
-GROUP BY
-    n.IdNegocio, n.NombreNegocio, n.RFC
-HAVING
-    COUNT(DISTINCT b.IdBazar) > 0 -- Asegura que solo se muestren negocios que realmente han participado en estos tipos de bazares
+    rpn.PrecioMinimo < 80
 ORDER BY
-    TotalBazaresHibridosVirtuales DESC, n.NombreNegocio ASC;
+    rpn.PrecioMinimo ASC, n.NombreNegocio;
+    
+-- Consulta 8: Todos el personal organizador que trabaje en el turno matutino y gane menos de $500
+SELECT
+    po.RFC,
+    po.NombrePersonalOrganizador,
+    po.APaternoPersonalOrganizador,
+    po.Salario,
+    hpo.HorarioPersonalOrganizador
+FROM
+    GatitaEmprendedora.PersonalOrganizador AS po
+JOIN
+    GatitaEmprendedora.HorarioPersonalOrganizador AS hpo ON po.RFC = hpo.RFC
+WHERE
+    hpo.HorarioPersonalOrganizador = 'matutino'
+    AND CAST(REPLACE(po.Salario, '$', '') AS NUMERIC) < 500.00
+ORDER BY
+    CAST(REPLACE(po.Salario, '$', '') AS NUMERIC) DESC, po.APaternoPersonalOrganizador;
